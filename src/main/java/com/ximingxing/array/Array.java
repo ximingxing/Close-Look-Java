@@ -186,7 +186,7 @@ public class Array<E> {
     public E removeLast() {
         return remove(size - 1);
     }
-gi
+
     public boolean removeELement(E e) {
         int index = find(e);
         if (index != -1) {
