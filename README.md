@@ -6,7 +6,11 @@ Project language level is 8 , build by Maven.
 
 ## data struct
 
-* DynamicArray
+* Linear list
+
+    * DynamicArray
+
+    * LinkedList
 
 * Stack
 
@@ -18,15 +22,13 @@ Project language level is 8 , build by Maven.
     
     * LoopQueue
 
-* LinkedList
-
 * Tree
 
 # Contributing
 
 The issue tracker is the preferred channel for bug reports, features requests and submitting pull requests.
 
-By the way,join me!
+By the way , join me!
 
 # License
 
