@@ -1,6 +1,7 @@
 package com.ximingxing.queue;
 
-import datastruct.array.Array;
+
+import com.ximingxing.array.Array;
 
 /**
  * Description: Queue bases on Array.

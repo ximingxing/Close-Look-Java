@@ -1,10 +1,16 @@
 # Data-Structure-Implemented-By-Java
 
-About computer language Java.
+A series of data structures implemented using the Java language.
 
 Project language level is 8 , build by Maven.
 
+## How to use
+
+I put the source code in the 'java' directory and the test code in the 'test' directory.
+
 ## Data Structure
+
+I put 
 
 * Linear list
     * DynamicArray
