@@ -29,13 +29,15 @@ public class BSTTest {
         bst.preOrder();
         System.out.println();
 
-        bst.inOrder();
-        System.out.println();
+        bst.preOrderNR();
 
-        bst.postOrder();
-        System.out.println();
+//        bst.inOrder();
+//        System.out.println();
+//
+//        bst.postOrder();
+//        System.out.println();
 
-        System.out.println(bst); // toString
+//        System.out.println(bst); // toString
     }
 
 }

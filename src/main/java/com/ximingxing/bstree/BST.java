@@ -1,5 +1,8 @@
 package com.ximingxing.bstree;
 
+import com.ximingxing.stack.LinkedListStack;
+import com.ximingxing.stack.Stack;
+
 /**
  * Description: Binary Search Tree
  * Created By xxm
@@ -106,6 +109,24 @@ public class BST<E extends Comparable<E>> {
     }
 
     /**
+     * PreOrder traversal without recursion algorithm.
+     */
+    public void preOrderNR() {
+        Stack<Node> stack = new LinkedListStack<>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            Node cur = stack.pop();
+            System.out.println(cur.e);
+
+            if (cur.right != null)
+                stack.push(cur.right);
+            if (cur.left != null)
+                stack.push(cur.left);
+        }
+    }
+
+    /**
      * InOrder traversal.
      */
     public void inOrder() {
@@ -137,6 +158,7 @@ public class BST<E extends Comparable<E>> {
     }
 
     /**
+     * Print the shape of the tree.
      * toString method based on preOrder travel.
      */
     @Override
@@ -147,6 +169,7 @@ public class BST<E extends Comparable<E>> {
     }
 
     private void generateBSTString(Node node, int depth, StringBuilder res) {
+
         if (node == null) {
             res.append(generateDepthString(depth)).append("NULL").append("\n");
             return;
