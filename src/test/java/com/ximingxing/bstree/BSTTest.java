@@ -26,10 +26,12 @@ public class BSTTest {
         //   2   4     8   //
         /////////////////////
 
-        bst.preOrder();
-        System.out.println();
+//        bst.preOrder();
+//        System.out.println();
 
-        bst.preOrderNR();
+//        bst.preOrderNR();
+
+        bst.levelOrder();
 
 //        bst.inOrder();
 //        System.out.println();

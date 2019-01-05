@@ -1,5 +1,7 @@
 package com.ximingxing.bstree;
 
+import com.ximingxing.queue.LinkedListQueue;
+import com.ximingxing.queue.Queue;
 import com.ximingxing.stack.LinkedListStack;
 import com.ximingxing.stack.Stack;
 
@@ -94,6 +96,7 @@ public class BST<E extends Comparable<E>> {
 
     /**
      * PreOrder traversal.
+     * using recursive algorithm.
      */
     public void preOrder() {
         preOrder(root);
@@ -123,6 +126,24 @@ public class BST<E extends Comparable<E>> {
                 stack.push(cur.right);
             if (cur.left != null)
                 stack.push(cur.left);
+        }
+    }
+
+    /**
+     * The Sequence traversal algorithm of bst.
+     */
+    public void levelOrder() {
+        Queue<Node> queue = new LinkedListQueue<>();
+        queue.enqueue(root);
+
+        while (!queue.isEmpty()) {
+            Node cur = queue.dequeue();
+            System.out.println(cur.e);
+
+            if (cur.left != null)
+                queue.enqueue(cur.left);
+            if (cur.right != null)
+                queue.enqueue(cur.right);
         }
     }
 
