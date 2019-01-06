@@ -287,6 +287,68 @@ public class BST<E extends Comparable<E>> {
 
 
     /**
+     * Remove the special element in the bst.
+     *
+     * @param e
+     */
+    public void remove(E e) {
+        root = remove(root, e);
+    }
+
+    /**
+     * Remove an element in bst using recursive algorithm.
+     * which node is the root of the tree.
+     *
+     * @return the root of the new bst.
+     */
+    private Node remove(Node node, E e) {
+
+        if (node == null)
+            return null;
+
+        if (e.compareTo(node.e) < 0) {
+            node.left = remove(node.left, e);
+            return node;
+        } else if (e.compareTo(node.e) > 0) {
+            node.right = remove(node.right, e);
+            return node;
+        } else { // e == node.e
+
+            // left tree is empty
+            if (node.left == null) {
+                Node rightNode = node.right;
+                node.right = null;
+                size--;
+                return rightNode;
+            }
+
+            // right tree is empty
+            if (node.right == null) {
+                Node leftNode = node.left;
+                node.left = null;
+                size--;
+                return leftNode;
+            }
+
+            /*
+             * left or right tree both aren't empty
+             */
+            // the smallest node larger than the node to be deleted (smallest node in right tree which belongs to delete node)
+            Node successor = minimum(node.right);
+
+            // use successor replaced node to be delete
+            successor.right = removeMin(node.right);
+            successor.left = node.left;
+
+            // free node
+            node.left = node.right = null;
+
+            return successor;
+        }
+    }
+
+
+    /**
      * Print the shape of the tree.
      * toString method based on preOrder travel.
      */

@@ -40,9 +40,6 @@ public class BSTTest {
 //        System.out.println();
 
 //        System.out.println(bst); // toString
-
-        System.out.println(bst.removeMin());
-        System.out.println(bst.removeMax());
     }
 
 }
