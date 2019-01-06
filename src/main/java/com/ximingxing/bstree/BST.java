@@ -68,6 +68,7 @@ public class BST<E extends Comparable<E>> {
         return node;
     }
 
+
     /**
      * Returns {@code true} if this tree contains the specified element.
      *
@@ -94,6 +95,7 @@ public class BST<E extends Comparable<E>> {
             return contains(node.right, e);
     }
 
+
     /**
      * PreOrder traversal.
      * using recursive algorithm.
@@ -110,6 +112,7 @@ public class BST<E extends Comparable<E>> {
         preOrder(node.left);
         preOrder(node.right);
     }
+
 
     /**
      * PreOrder traversal without recursion algorithm.
@@ -162,6 +165,7 @@ public class BST<E extends Comparable<E>> {
         inOrder(node.right);
     }
 
+
     /**
      * PostOrder traversal.
      * Example:free the memory for bst.
@@ -177,6 +181,110 @@ public class BST<E extends Comparable<E>> {
         postOrder(node.right);
         System.out.println(node.e);
     }
+
+
+    /**
+     * Find the smallest element in a binary search tree.
+     *
+     * @return e
+     */
+    public E minimum() {
+        if (root == null)
+            throw new IllegalArgumentException("BST is empty");
+
+        return minimum(root).e;
+    }
+
+    private Node minimum(Node node) {
+        if (node.left == null)
+            return node;
+
+        return minimum(node.left);
+    }
+
+
+    /**
+     * Find the biggest element in a binary search tree.
+     *
+     * @return e
+     */
+    public E maximum() {
+        if (root == null)
+            throw new IllegalArgumentException("BST is empty");
+
+        return maximum(root).e;
+    }
+
+    private Node maximum(Node node) {
+        if (node.right == null)
+            return node;
+
+        return maximum(node.right);
+    }
+
+
+    /**
+     * Remove the smallest element in a binary search tree.
+     *
+     * @return e
+     */
+    public E removeMin() {
+
+        E ret = minimum();
+
+        root = removeMin(root);
+
+        return ret;
+    }
+
+    /**
+     * @return the root of bst which has removed the smallest element.
+     */
+    private Node removeMin(Node node) {
+
+        if (node.left == null) { // end condition.
+            Node rightNode = node.right;
+            node.left = null;
+            size--;
+            return rightNode;
+        }
+
+        node.left = removeMin(node.left);
+
+        return node;
+    }
+
+
+    /**
+     * Remove the biggest element in a binary tree.
+     *
+     * @return e
+     */
+    public E removeMax() {
+
+        E ret = maximum();
+        root = removeMax(root);
+
+        return ret;
+    }
+
+    /**
+     * @return the root of bst which has removed the biggest element.
+     */
+    private Node removeMax(Node node) {
+
+        if (node.right == null) { // end condition.
+            Node leftNode = node.left;
+            node.left = null;
+            size--;
+            return leftNode;
+        }
+
+        node.right = removeMin(node.right);
+
+        return node;
+    }
+
 
     /**
      * Print the shape of the tree.

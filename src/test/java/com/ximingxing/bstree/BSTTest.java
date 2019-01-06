@@ -31,7 +31,7 @@ public class BSTTest {
 
 //        bst.preOrderNR();
 
-        bst.levelOrder();
+//        bst.levelOrder();
 
 //        bst.inOrder();
 //        System.out.println();
@@ -40,6 +40,9 @@ public class BSTTest {
 //        System.out.println();
 
 //        System.out.println(bst); // toString
+
+        System.out.println(bst.removeMin());
+        System.out.println(bst.removeMax());
     }
 
 }
