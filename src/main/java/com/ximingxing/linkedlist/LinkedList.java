@@ -47,7 +47,7 @@ public class LinkedList<E> {
 
 
     /**
-     * add an element in special position
+     * Add an element in special position
      * not a usual method
      *
      * @param index
@@ -73,7 +73,7 @@ public class LinkedList<E> {
     }
 
     /**
-     * add an element in front of linked list.
+     * Add an element in front of linked list.
      *
      * @param e an element
      */
@@ -82,7 +82,7 @@ public class LinkedList<E> {
     }
 
     /**
-     * add an element in the end of linked list.
+     * Add an element in the end of linked list.
      *
      * @param e
      */
@@ -91,7 +91,7 @@ public class LinkedList<E> {
     }
 
     /**
-     * get an element in special position.
+     * Get an element in special position.
      *
      * @param index
      * @return
@@ -117,7 +117,7 @@ public class LinkedList<E> {
     }
 
     /**
-     * set e in special position of linked list.
+     * Set e in special position of linked list.
      *
      * @param index
      * @param e
@@ -135,7 +135,7 @@ public class LinkedList<E> {
     }
 
     /**
-     * search an element in linked list
+     * Search an element in linked list
      *
      * @param e
      * @return
@@ -152,7 +152,7 @@ public class LinkedList<E> {
     }
 
     /**
-     * remove an element from linked list.
+     * Remove an element from linked list.
      *
      * @param index
      * @return
@@ -181,6 +181,28 @@ public class LinkedList<E> {
 
     public E removeLast() {
         return remove(size - 1);
+    }
+
+    /**
+     * Remove the specified element in linkedList
+     *
+     * @param e
+     */
+    public void removeElement(E e) {
+
+        Node prev = dummyHead;
+        Node cur = dummyHead.next;
+
+        while (cur != null) {
+            if (prev.next.e.equals(e)) {
+                prev.next = cur.next;
+                cur.next = null;
+            }
+
+            prev = prev.next;
+            cur = cur.next;
+        }
+
     }
 
     @Override
