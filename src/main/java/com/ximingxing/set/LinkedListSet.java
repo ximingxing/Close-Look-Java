@@ -3,7 +3,7 @@ package com.ximingxing.set;
 import com.ximingxing.linkedlist.LinkedList;
 
 /**
- * Description:
+ * Description: Set implement by linkedList.
  * Created By xxm
  */
 public class LinkedListSet<E> implements Set<E> {
@@ -16,13 +16,15 @@ public class LinkedListSet<E> implements Set<E> {
 
     @Override
     public void add(E e) {
-        if (!list.contains(e))
+
+        if (!list.contains(e)) // not contains same element.
             list.addFirst(e);
+
     }
 
     @Override
     public void remove(E e) {
-        
+        list.removeElement(e);
     }
 
     @Override
