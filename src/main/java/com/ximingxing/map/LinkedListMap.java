@@ -1,7 +1,7 @@
 package com.ximingxing.map;
 
 /**
- * Description:
+ * Description: map implement by linkedList
  * Created By xxm
  */
 public class LinkedListMap<K, V> implements Map<K, V> {
@@ -68,11 +68,23 @@ public class LinkedListMap<K, V> implements Map<K, V> {
 
     @Override
     public void set(K key, V newValue) {
+        Node node = getNode(key);
+        if (node == null)
+            throw new IllegalArgumentException(key + "doesn't exist!");
 
+        node.value = newValue;
     }
 
     @Override
     public V remove(K key) {
+        Node prev = dummyHead;
+        while (prev.next != null) {
+            Node cur = prev.next;
+            if (cur.key.equals(key)) {
+                return cur.value;
+            }
+            prev.next = cur.next;
+        }
         return null;
     }
 
