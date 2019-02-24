@@ -30,7 +30,7 @@ public class LinkedListMapTest {
             }
 
             System.out.println("Total different words: " + map.getSize());
-            System.out.println("'Pride' wordCount: " + map.get("Pride")); // Poor performance
+            System.out.println("'Pride' wordCount: " + map.get("Pride")); // poor performance
 
         }
 
