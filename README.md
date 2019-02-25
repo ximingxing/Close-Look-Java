@@ -31,6 +31,7 @@ I put the source code in the `java` directory and the test code in the `test` di
     
 * Map
     * LinkedListMap
+    * BSTMap
 
 ## Contributing
 

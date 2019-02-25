@@ -149,8 +149,35 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
             return node;
         } else { // key == node.key
 
-        }
+            /* left subtree is empty,right subtree not empty */
+            if (node.left == null) {
+                Node rightNode = node.right;
+                node.right = null;
+                size--;
+                return rightNode;
+            }
 
+            /* right subtree is empty,left subtree not empty */
+            if (node.right == null) {
+                Node leftNode = node.left;
+                node.left = null;
+                size--;
+                return leftNode;
+            }
+
+            /* left and right subtree both aren't empty */
+            Node successor = minimum(node.right);
+
+            successor.left = node.left;
+            successor.right = removeMin(node.right);
+
+            // free node
+            node.left = node.right = null;
+            node.key = null;
+            node.value = null;
+
+            return successor;
+        }
     }
 
 
