@@ -314,15 +314,16 @@ public class BST<E extends Comparable<E>> {
             return node;
         } else { // e == node.e
 
-            // left tree is empty
+            /* left tree is empty (minimum node)*/
             if (node.left == null) {
+                // right node of this node is going to be minimum node (can be null)
                 Node rightNode = node.right;
                 node.right = null;
                 size--;
                 return rightNode;
             }
 
-            // right tree is empty
+            /* right tree is empty (maximum node)*/
             if (node.right == null) {
                 Node leftNode = node.left;
                 node.left = null;

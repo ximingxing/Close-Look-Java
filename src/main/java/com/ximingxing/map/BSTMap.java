@@ -42,28 +42,94 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
             node.left = add(node.left, key, value);
         else if (key.compareTo(node.key) > 0)
             node.right = add(node.right, key, value);
+        else node.value = value;
 
         return node;
     }
 
     @Override
-    public V remove(K key) {
-        return null;
-    }
-
-    @Override
     public boolean contains(K key) {
-        return false;
+        return getNode(root, key) != null;
     }
 
     @Override
     public V get(K key) {
-        return null;
+        Node node = getNode(root, key);
+        return node != null ? node.value : null;
     }
 
     @Override
     public void set(K key, V newValue) {
+        Node node = getNode(root, key);
+        if (node == null)
+            throw new IllegalArgumentException(key + "isn`t exist!");
 
+        node.value = newValue;
+    }
+
+    private Node getNode(Node node, K key) {
+        if (key.compareTo(node.key) == 0)
+            return node;
+
+        if (key.compareTo(node.key) < 0)
+            getNode(node.left, key);
+        else // (key.compareTo(node.key) > 0)
+            getNode(node.right, key);
+
+        return null;
+    }
+
+    /**
+     * @param node
+     * @return minimum node in the bst which root of node.
+     */
+    private Node minimum(Node node) {
+        if (node.left == null)
+            return node;
+        return minimum(node.left);
+    }
+
+    /**
+     * Delete the minimum node of bst.
+     *
+     * @param node current node.
+     * @return root of new bst after removing the minimum node.
+     */
+    private Node removeMin(Node node) {
+        // if node has right tree then it will be new minimum node.
+        if (node.left == null) {
+            Node rightNode = node.right;
+            node.right = null;
+            size--;
+            return rightNode;
+        }
+
+        node.left = removeMin(node.left);
+        return node;
+    }
+
+    private Node maximum(Node node) {
+        if (node.right == null)
+            return node;
+        return maximum(node.right);
+    }
+
+    private Node removeMax(Node node) {
+        if (node.right == null) {
+            Node leftNode = node.left;
+            node.left = null;
+            size--;
+            return leftNode;
+        }
+
+        node.right = removeMax(node.right);
+        return node;
+    }
+
+    @Override
+    public V remove(K key) {
+
+        return null;
     }
 
     @Override
