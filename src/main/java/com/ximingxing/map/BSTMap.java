@@ -128,9 +128,31 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
 
     @Override
     public V remove(K key) {
-
+        Node node = getNode(root, key);
+        if (node != null) {
+            root = remove(key, root);
+            return node.value;
+        }
         return null;
     }
+
+    private Node remove(K key, Node node) {
+
+        if (node == null)
+            return null;
+
+        if (key.compareTo(node.key) < 0) {
+            node.left = remove(key, node.left);
+            return node;
+        } else if (key.compareTo(node.key) > 0) {
+            node.right = remove(key, node.right);
+            return node;
+        } else { // key == node.key
+
+        }
+
+    }
+
 
     @Override
     public int getSize() {

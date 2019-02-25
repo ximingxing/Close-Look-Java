@@ -314,7 +314,7 @@ public class BST<E extends Comparable<E>> {
             return node;
         } else { // e == node.e
 
-            /* left tree is empty (minimum node)*/
+            /* left tree is empty,right tree not empty */
             if (node.left == null) {
                 // right node of this node is going to be minimum node (can be null)
                 Node rightNode = node.right;
@@ -323,7 +323,7 @@ public class BST<E extends Comparable<E>> {
                 return rightNode;
             }
 
-            /* right tree is empty (maximum node)*/
+            /* right tree is empty,left tree not empty */
             if (node.right == null) {
                 Node leftNode = node.left;
                 node.left = null;
@@ -334,7 +334,7 @@ public class BST<E extends Comparable<E>> {
             /*
              * left or right tree both aren't empty
              */
-            // the smallest node larger than the node to be deleted (smallest node in right tree which belongs to delete node)
+            // deletes the smallest node in the right subtree
             Node successor = minimum(node.right);
 
             // use successor replaced node to be delete
@@ -343,6 +343,7 @@ public class BST<E extends Comparable<E>> {
 
             // free node
             node.left = node.right = null;
+            node.e = null;
 
             return successor;
         }
