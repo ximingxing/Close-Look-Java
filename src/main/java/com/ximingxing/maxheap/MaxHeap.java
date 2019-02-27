@@ -49,12 +49,16 @@ public class MaxHeap<E extends Comparable<E>> {
         return index * 2 + 2;
     }
 
+    /**
+     * Add an element to MaxHeap.
+     */
     public void add(E e) {
         data.addLast(e);
         siftUp(data.getSize() - 1);
     }
 
     private void siftUp(int index) {
+        // swap node if it bigger than its parent
         while (index > 0 && data.get(parent(index)).compareTo(data.get(index)) < 0) {
             data.swap(index, parent(index));
             index = parent(index);
