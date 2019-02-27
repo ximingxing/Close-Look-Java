@@ -216,8 +216,8 @@ public class Array<E> {
      * @param j index
      */
     public void swap(int i, int j) {
-        if (i < 0 || i > data.length || j < 0 || j > data.length)
-            throw new IllegalArgumentException("Index out of bounds");
+        if (i < 0 || i > size || j < 0 || j > size)
+            throw new IllegalArgumentException("Index is Illegal!");
 
         E temp = data[i];
         data[i] = data[j];
