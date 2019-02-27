@@ -48,4 +48,16 @@ public class MaxHeap<E extends Comparable<E>> {
     private int rightChild(int index) {
         return index * 2 + 2;
     }
+
+    public void add(E e) {
+        data.addLast(e);
+        siftUp(data.getSize() - 1);
+    }
+
+    private void siftUp(int index) {
+        while (index > 0 && data.get(parent(index)).compareTo(data.get(index)) < 0) {
+            data.swap(index, parent(index));
+            index = parent(index);
+        }
+    }
 }
