@@ -8,7 +8,7 @@ Project language level is 8 , build by Maven.
 
 I put the source code in the `java` directory and the test code in the `test` directory.
 
-## Data Structure
+### Directory
 
 * Linear list
     * DynamicArray

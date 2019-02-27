@@ -58,10 +58,47 @@ public class MaxHeap<E extends Comparable<E>> {
     }
 
     private void siftUp(int index) {
-        // swap node if it bigger than its parent
+        // swap element if it bigger than its parent
         while (index > 0 && data.get(parent(index)).compareTo(data.get(index)) < 0) {
             data.swap(index, parent(index));
             index = parent(index);
+        }
+    }
+
+    public E findMax() {
+        if (data.getSize() == 0)
+            throw new IllegalArgumentException("Heap is empty!");
+        return data.get(0);
+    }
+
+    /**
+     * Remove the biggest element of heap.
+     */
+    public E extractMax() {
+        E max = findMax();
+
+        data.swap(0, data.getSize() - 1);
+        data.removeLast();
+        siftDown(0);
+
+        return max;
+    }
+
+    private void siftDown(int index) {
+        while (leftChild(index) < data.getSize()) {
+
+            int j = leftChild(index);
+            // compare index with its left and right
+            if (j + 1 < data.getSize() &&  // its has right child
+                    data.get(j + 1).compareTo(data.get(j)) > 0) // right child bigger than left one
+                j = rightChild(index);
+
+            // compare index with its biggest child
+            if (data.get(index).compareTo(data.get(j)) > 0)
+                break;
+
+            data.swap(j, index);
+            index = j;
         }
     }
 }
