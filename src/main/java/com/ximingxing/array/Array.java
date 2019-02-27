@@ -209,6 +209,21 @@ public class Array<E> {
         data = newData;
     }
 
+    /**
+     * Swap elements with subscripts I and j.
+     *
+     * @param i index
+     * @param j index
+     */
+    public void swap(int i, int j) {
+        if (i < 0 || i > data.length || j < 0 || j > data.length)
+            throw new IllegalArgumentException("Index out of bounds");
+
+        E temp = data[i];
+        data[i] = data[j];
+        data[j] = temp;
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
