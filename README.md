@@ -21,6 +21,7 @@ I put the source code in the `java` directory and the test code in the `test` di
 * Queue
     * [ArrayQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
     * [LoopQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
+    * [LinkedListQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
 
 * Tree
     * [Binary Search Tree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/bstree)
