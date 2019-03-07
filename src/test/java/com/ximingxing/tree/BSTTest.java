@@ -1,8 +1,6 @@
-package com.ximingxing.bstree;
+package com.ximingxing.tree;
 
 import org.junit.Test;
-
-import java.util.Random;
 
 /**
  * Description:

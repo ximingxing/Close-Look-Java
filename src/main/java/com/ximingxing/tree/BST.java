@@ -1,4 +1,4 @@
-package com.ximingxing.bstree;
+package com.ximingxing.tree;
 
 import com.ximingxing.queue.LinkedListQueue;
 import com.ximingxing.queue.Queue;

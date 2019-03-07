@@ -22,10 +22,10 @@ I put the source code in the `java` directory and the test code in the `test` di
     * [ArrayQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
     * [LoopQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
     * [LinkedListQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
-    * [PriorityQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
+    * [PriorityQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue/PriorityQueue.java)
 
 * Tree
-    * [Binary Search Tree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/bstree)
+    * [Binary Search Tree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/bstree/BST.java)
     
 * Set
     * [BSTSet](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/set)

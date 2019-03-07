@@ -1,6 +1,6 @@
 package com.ximingxing.set;
 
-import com.ximingxing.bstree.BST;
+import com.ximingxing.tree.BST;
 
 /**
  * Description: SET implement by BST.
