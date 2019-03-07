@@ -1,4 +1,4 @@
-package com.ximingxing.maxheap;
+package com.ximingxing.tree;
 
 import com.ximingxing.array.Array;
 

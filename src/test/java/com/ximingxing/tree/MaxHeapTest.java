@@ -1,10 +1,9 @@
-package com.ximingxing.maxheap;
+package com.ximingxing.tree;
 
+import com.ximingxing.tree.MaxHeap;
 import org.junit.Test;
 
 import java.util.Random;
-
-import static org.junit.Assert.*;
 
 /**
  * Description:

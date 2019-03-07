@@ -25,7 +25,9 @@ I put the source code in the `java` directory and the test code in the `test` di
     * [PriorityQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue/PriorityQueue.java)
 
 * Tree
-    * [Binary Search Tree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/bstree/BST.java)
+    * [Binary Search Tree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/tree/BST.java)
+    * [MaxHeap](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/tree/MaxHeap.java)
+    * [SegmentTree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/tree/SegmentTree.java)
     
 * Set
     * [BSTSet](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/set)
@@ -35,8 +37,6 @@ I put the source code in the `java` directory and the test code in the `test` di
     * [LinkedListMap](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/map)
     * [BSTMap](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/map)
     
-* [MaxHeap](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/maxheap)
-
 ## Contributing
 
 The issue tracker is the preferred channel for bug reports, features requests and submitting pull requests.
