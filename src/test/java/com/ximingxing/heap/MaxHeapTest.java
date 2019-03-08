@@ -1,6 +1,6 @@
-package com.ximingxing.tree;
+package com.ximingxing.heap;
 
-import com.ximingxing.tree.MaxHeap;
+import com.ximingxing.heap.MaxHeap;
 import org.junit.Test;
 
 import java.util.Random;

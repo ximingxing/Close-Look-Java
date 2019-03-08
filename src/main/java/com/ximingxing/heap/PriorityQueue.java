@@ -1,6 +1,6 @@
-package com.ximingxing.queue;
+package com.ximingxing.heap;
 
-import com.ximingxing.tree.MaxHeap;
+import com.ximingxing.queue.Queue;
 
 /**
  * Description: PriorityQueue implement by maxheap.
