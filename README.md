@@ -24,7 +24,7 @@ I put the source code in the `java` directory and the test code in the `test` di
     * [LinkedListQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
 
 * Tree
-    * [Binary Search Tree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/tree/BST.java)
+    * [BinarySearchTree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/tree/BST.java)
     * [SegmentTree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/tree/SegmentTree.java)
     
 * Set
