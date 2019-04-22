@@ -6,8 +6,8 @@ package com.ximingxing.tree;
  */
 public class SegmentTree<E> {
 
-    private E[] tree;
-    private E[] data;
+    private E[] tree; // index
+    private E[] data; // value
     private Merger<E> merger; // user-defined method (Merge interval rules)
 
     public SegmentTree(E[] arr, Merger<E> merger) {
@@ -18,18 +18,19 @@ public class SegmentTree<E> {
             data[i] = arr[i];
 
         tree = (E[]) new Object[4 * arr.length];
-        buildSegmentTree(0, 0, arr.length - 1);
+        buildSegmentTree(0, 0, data.length - 1);
     }
 
     /**
      * Create a SegmentTree representing the intervals [l...r] at the location of the treeIndex.
      *
-     * @param treeIndex current location
+     * @param treeIndex the index of current location
      * @param l         left end of the interval
      * @param r         right end of the interval
      */
     private void buildSegmentTree(int treeIndex, int l, int r) {
 
+        // recursion stop rule: only one element in the interval
         if (l == r) {
             tree[treeIndex] = data[l];
             return;
