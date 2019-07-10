@@ -195,7 +195,7 @@ public class Array<E> {
         return remove(size - 1);
     }
 
-    public boolean removeELement(E e) {
+    public boolean removeElement(E e) {
         int index = find(e);
         if (index != -1) {
             remove(index);

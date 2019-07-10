@@ -71,7 +71,7 @@ public class ArrayTest {
     }
 
     @Test
-    public void removeELement() {
+    public void removeElement() {
     }
 
 }
