@@ -6,8 +6,8 @@ package com.ximingxing.tree;
  */
 public class SegmentTree<E> {
 
-    private E[] tree; // index
-    private E[] data; // value
+    private E[] tree;
+    private E[] data;
     private Merger<E> merger; // user-defined method (Merge interval rules)
 
     public SegmentTree(E[] arr, Merger<E> merger) {
@@ -67,6 +67,7 @@ public class SegmentTree<E> {
 
     /**
      * Query the specify interval.
+     * Time complexity: log(n) equals tree height.
      *
      * @param queryL left end of interval.
      * @param queryR right end of interval.
@@ -81,9 +82,9 @@ public class SegmentTree<E> {
     }
 
     /**
-     * @param treeIndex current location.
-     * @param l         left end of interval.
-     * @param r         right end of interval.
+     * @param treeIndex the root of tree.
+     * @param l         left boundary of the interval.
+     * @param r         right boundary of the interval.
      * @param queryL    left end of query interval.
      * @param queryR    right end of query interval.
      */
@@ -105,6 +106,37 @@ public class SegmentTree<E> {
         E leftResult = query(leftTreeIndex, l, mid, queryL, mid);
         E rightResult = query(rightTreeIndex, mid + 1, r, mid + 1, queryR);
         return merger.merge(leftResult, rightResult);
+    }
+
+    /**
+     * Set the index value to e
+     * Time complexity: log(n) equals tree height.
+     *
+     * @param index index
+     * @param e     value to set
+     */
+    public void set(int index, E e) {
+        if (index < 0 || index > +data.length)
+            throw new IllegalArgumentException("Index is illegal.");
+
+        set(0, 0, data.length - 1, index, e);
+    }
+
+    private void set(int treeIndex, int l, int r, int index, E e) {
+        if (l == r) {
+            tree[treeIndex] = e;
+            return;
+        }
+
+        int mid = l + (r - l) / 2;
+        int leftTreeIndex = leftChild(treeIndex);
+        int rightTreeIndex = rightChild(treeIndex);
+        if (index >= mid + 1)
+            set(rightTreeIndex, mid + 1, r, index, e);
+        else // index < mid
+            set(leftTreeIndex, l, mid, index, e);
+
+        tree[treeIndex] = merger.merge(tree[leftTreeIndex], tree[rightTreeIndex]);
     }
 
     @Override

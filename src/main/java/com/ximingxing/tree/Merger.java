@@ -5,6 +5,5 @@ package com.ximingxing.tree;
  * Created By xxm
  */
 public interface Merger<E> {
-
     E merge(E a, E b);
 }
