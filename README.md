@@ -1,50 +1,48 @@
-# Data-Structure-Implemented-By-Java
+<!-- the line below needs to be an empty line C: (its because kramdown isnt
+     that smart and dearly wants an empty line before a heading to be able to
+     display it as such, e.g. website) -->
+
+# Design patterns implemented in Java
+
+[![Build status](https://travis-ci.org/iluwatar/java-design-patterns.svg?branch=master)]()
+[![License Apache](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![Join the chat at https://gitter.im/iluwatar/java-design-patterns](https://badges.gitter.im/Join%20Chat.svg)]()
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=iluwatar_java-design-patterns&metric=alert_status)]() 
+
+# Introduction
 
 A series of data structures implemented using the Java language.
 
 Project language level is 8 , build by Maven.
 
-## How to start
+# Getting started
 
 I put the source code in the `java` directory and the test code in the `test` directory.
 
-### Directory
+We use the most popular battle-proven open source Java technologies.
 
-* Linear list
-    * [DynamicArray](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/array)
-    * [LinkedList](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/linkedlist)
+Before you dive into the material, you should be familiar with various principles.
 
-* Stack
-    * [ArrayStack](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/stack)
-    * [LinkedListStack](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/stack)
+All designs should be as simple as possible. You should start with KISS, YAGNI,
+and Do The Simplest Thing That Could Possibly Work principles. Complexity and
+patterns should only be introduced when they are needed for practical
+extensibility.
 
-* Queue
-    * [ArrayQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
-    * [LoopQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
-    * [LinkedListQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/queue)
+Once you are familiar with these concepts you can start drilling down into
+patterns by any of the following approaches
 
-* Tree
-    * [BinarySearchTree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/tree/BST.java)
-    * [SegmentTree](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/tree/SegmentTree.java)
-    
-* Set
-    * [BSTSet](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/set)
-    * [LinkedListSet](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/set)
-    
-* Map
-    * [LinkedListMap](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/map)
-    * [BSTMap](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/map)
+ - Using difficulty tags, `Difficulty-Beginner`, `Difficulty-Intermediate` & `Difficulty-Expert`.
+ - Using pattern categories, `Creational`, `Behavioral`, and others.
+ - Search for a specific pattern. Can't find one? Please report a new pattern [here](https://github.com/ximingxing/Close-Look-Java/issues).
 
-* Heap
-    * [MaxHeap](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/heap/MaxHeap.java)
-    * [PriorityQueue](https://github.com/learnmedicalcantsavecn/Data-Structure-Implemented-By-Java/tree/master/src/main/java/com/ximingxing/heap/PriorityQueue.java)
+Hopefully you find the object oriented solutions presented on this site useful
+in your architectures and have as much fun learning them as we had developing them.
 
-## Contributing
+# How to contribute
 
-The issue tracker is the preferred channel for bug reports, features requests and submitting pull requests.
+If you are willing to contribute to the project you will find the relevant information in 
+our [developer wiki](https://github.com/ximingxing/Close-Look-Java/wiki).
 
-By the way , join me!
-
-## License
+# License
 
 This project is released under version 2.0 of the Apache License.

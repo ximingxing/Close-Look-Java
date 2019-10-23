@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ximingxing</groupId>
-    <artifactId>data-structure-implemented-by-Java</artifactId>
+    <artifactId>Close-Look-Java</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>data-structure-implemented-by-Java</name>
+    <name>Close-Look-Java</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.xingximing.cn</url>
 
@@ -64,10 +64,6 @@
                 <plugin>
                     <artifactId>maven-site-plugin</artifactId>
                     <version>3.7.1</version>
-                </plugin>
-                <plugin>
-                    <artifactId>maven-project-info-reports-plugin</artifactId>
-                    <version>3.0.0</version>
                 </plugin>
             </plugins>
         </pluginManagement>
