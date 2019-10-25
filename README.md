@@ -1,48 +1,71 @@
-<!-- the line below needs to be an empty line C: (its because kramdown isnt
-     that smart and dearly wants an empty line before a heading to be able to
-     display it as such, e.g. website) -->
+<h1 id="close_look_java" align="center">CLose Look Java</h1>
 
-# Design patterns implemented in Java
+<p align="center">
+    <a href="https://colab.research.google.com/github/adhiraiyan/DeepLearningWithTF2.0/blob/master/notebooks/Index.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+    </a>
+    <a href="https://hub.mybinder.org/user/adhiraiyan-deeplearningwithtf2.0-h0jryg50/notebooks/notebooks/Index.ipynb">
+        <img src="https://mybinder.org/badge_logo.svg" alt="Binder">
+    </a>
+    <a href="https://opensource.org/licenses/Apache">
+        <img src="https://img.shields.io/badge/license-Apache-blue" alt="GitHub">
+    </a>
+    <a href="https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html">
+        <img src="https://img.shields.io/badge/Java-8-blue" alt="Java 8">
+    </a>
+</p>
 
-[![Build status](https://travis-ci.org/iluwatar/java-design-patterns.svg?branch=master)]()
-[![License Apache](https://img.shields.io/badge/license-MIT-blue.svg)]()
-[![Join the chat at https://gitter.im/iluwatar/java-design-patterns](https://badges.gitter.im/Join%20Chat.svg)]()
-[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=iluwatar_java-design-patterns&metric=alert_status)]() 
+<p align="center">
+    <a href="#clipboard-getting-started">Getting Started</a> •
+    <a href="#about">About</a> •
+    <a href="#table-of-contents">Table of Contents</a> •
+    <a href="#acknowledgment">Acknowledgment</a> •
+    <a href="#speech_balloon-faq">FAQ</a> •
+</p>
 
-# Introduction
+<h6 align="center">Made by Mukesh Mithrakumar • :milky_way: 
+<a href="https://ximingxing.github.io/">https://ximingxing.github.io/</a>
+</h6>
+
+A series of data structures and algorithms implemented using the Java language.
+
+Open Source runs on love, laughter and a whole lot of coffee. Consider buying me one if you find this content useful ☕️😉.
+
+<h2 align="center">:clipboard: Getting Started</h2>
+
+- the source code in the `java` directory 
+
+- the test code in the `test` directory.
+
+- Search for a specific pattern. Can't find one? Please report a new pattern [here](https://github.com/ximingxing/Close-Look-Java/issues).
+
+<h2 align="center">About</h2>
 
 A series of data structures implemented using the Java language.
 
 Project language level is 8 , build by Maven.
 
-# Getting started
+With your questions, comments or even if you just want to say Hi.
 
-I put the source code in the `java` directory and the test code in the `test` directory.
+<h2 align="center">Table of Contents</h2>
+<p align="right"><a href="#close_look_java"><sup>▴ Back to top</sup></a></p>
 
-We use the most popular battle-proven open source Java technologies.
+## [datastructures](#)
 
-Before you dive into the material, you should be familiar with various principles.
+<li>Dynamic Array</li>
+<li>LinkedList</li>
+<li>Stack</li>
+<li>Tree</li>
+<li>Queue</li>
+<li>Heap</li>
 
-All designs should be as simple as possible. You should start with KISS, YAGNI,
-and Do The Simplest Thing That Could Possibly Work principles. Complexity and
-patterns should only be introduced when they are needed for practical
-extensibility.
+## [algorithm](#)
 
-Once you are familiar with these concepts you can start drilling down into
-patterns by any of the following approaches
+<li>recursion</li>
 
- - Using difficulty tags, `Difficulty-Beginner`, `Difficulty-Intermediate` & `Difficulty-Expert`.
- - Using pattern categories, `Creational`, `Behavioral`, and others.
- - Search for a specific pattern. Can't find one? Please report a new pattern [here](https://github.com/ximingxing/Close-Look-Java/issues).
 
-Hopefully you find the object oriented solutions presented on this site useful
-in your architectures and have as much fun learning them as we had developing them.
+<h2 align="center">Acknowledgment</h2>
+<p align="right"><a href="#close_look_java"><sup>▴ Back to top</sup></a></p>
 
-# How to contribute
-
-If you are willing to contribute to the project you will find the relevant information in 
-our [developer wiki](https://github.com/ximingxing/Close-Look-Java/wiki).
-
-# License
-
-This project is released under version 2.0 of the Apache License.
+<h2 align="center">:speech_balloon: FAQ</h2>
+<p align="right"><a href="#close_look_java"><sup>▴ Back to top</sup></a></p>
