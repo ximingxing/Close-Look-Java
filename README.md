@@ -1,11 +1,14 @@
 <h1 id="close_look_java" align="center">CLose Look Java</h1>
 
 <p align="center">
-    <a href="#Datastructures">
+    <a href="#DataStructure">
         <img src="https://img.shields.io/badge/Content-Datastructure-orange" alt="Datastructure">
     </a>
-    <a href="#Algorithms">
+    <a href="#Algorithm">
         <img src="https://img.shields.io/badge/Content-Algorithm-orange" alt="Algorithm">
+    </a>
+    <a href="#GraphTheory">
+        <img src="https://img.shields.io/badge/Content-graph-orange" alt="graph">
     </a>
     <a href="http://www.apache.org/licenses/">
         <img src="https://img.shields.io/badge/license-Apache-blue" alt="GitHub">
@@ -14,7 +17,7 @@
         <img src="https://img.shields.io/badge/Java-8-blue" alt="Java 8">
     </a>
 </p>
-
+ 
 <p align="center">
     <a href="#clipboard-getting-started">快速开始 -- Getting Started</a> •
     <a href="#about">关于 -- About</a> •
@@ -27,8 +30,9 @@
 <a href="https://ximingxing.github.io/">https://ximingxing.github.io/</a>
 </h6>
 
-所有的数据结构和算法都是基于Java语言，使用了Java语言范型等特性。
+本项目所有的数据结构，算法和图论内容都是基于Java语言，使用了Java语言范型等特性。
 本项目基于Maven构建，将源代码与测试代码解耦。
+已在Java8版本完成测试✅
 
 A series of data structures and algorithms implemented using the Java language.
 
@@ -53,7 +57,7 @@ With your questions, comments or even if you just want to say Hi.
 <h2 align="center">目录 -- Table of Contents</h2>
 <p align="right"><a href="#close_look_java"><sup>▴ Back to top</sup></a></p>
 
-## Datastructures
+## DataStructure
 
 * [Dynamic Array](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/datastructure/array/Array.java)
 * [LinkedList](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/datastructure/linkedlist/LinkedList.java)
@@ -77,9 +81,13 @@ With your questions, comments or even if you just want to say Hi.
 * Heap
     * [MaxHeap](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/datastructure/heap/MaxHeap.java)
 
-## Algorithms
+## Algorithm
 
 * recursion -- 递归算法遍布在链表和树结构的遍历中
+
+## GraphTheory
+
+* [Adjacent Matrix](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/graph/basic/AdjMatrix.java)
 
 <h2 align="center">鸣谢 -- Acknowledgment</h2>
 <p align="right"><a href="#close_look_java"><sup>▴ Back to top</sup></a></p>
