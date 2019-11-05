@@ -1,5 +1,6 @@
-package datastructure.heap;
+package datastructure.queue;
 
+import datastructure.heap.MaxHeap;
 import datastructure.queue.Queue;
 
 /**

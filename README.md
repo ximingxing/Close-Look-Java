@@ -1,6 +1,12 @@
 <h1 id="close_look_java" align="center">CLose Look Java</h1>
 
 <p align="center">
+    <a href="#Datastructures">
+        <img src="https://img.shields.io/badge/Content-Datastructure-orange" alt="Datastructure">
+    </a>
+    <a href="#Algorithms">
+        <img src="https://img.shields.io/badge/Content-Algorithm-orange" alt="Algorithm">
+    </a>
     <a href="http://www.apache.org/licenses/">
         <img src="https://img.shields.io/badge/license-Apache-blue" alt="GitHub">
     </a>
@@ -47,7 +53,7 @@ With your questions, comments or even if you just want to say Hi.
 <h2 align="center">目录 -- Table of Contents</h2>
 <p align="right"><a href="#close_look_java"><sup>▴ Back to top</sup></a></p>
 
-## [datastructures](#)
+## Datastructures
 
 * [Dynamic Array](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/datastructure/array/Array.java)
 * [LinkedList](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/datastructure/linkedlist/LinkedList.java)
@@ -71,7 +77,7 @@ With your questions, comments or even if you just want to say Hi.
 * Heap
     * [MaxHeap](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/datastructure/heap/MaxHeap.java)
 
-## [algorithm](#)
+## Algorithms
 
 * recursion -- 递归算法遍布在链表和树结构的遍历中
 
