@@ -2,35 +2,33 @@ package graph.basic;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
- * Description: Adjacent Matrix
- * g.txt : Store a graph structure
- * --------line 1 : vertex edge
- * --------line 2 ~ line n : the relationship of edges
+ * Description: Adjacent List
  * Created By xxm
  */
-public class AdjMatrix {
-
+public class AdjList {
     private int V;
     private int E;
-    private int[][] adj;
+    private LinkedList<Integer>[] adj;
 
     /**
      * Build Adjacent Matrix
-     * time complexity: O(E)
-     * space complexity: O(V^2)
+     * time complexity: O(E*V) -- judge Parallel edge(Traversing LinkedList)
+     * space complexity: O(E+V)
      *
      * @param filename file path
      */
-    public AdjMatrix(String filename) {
+    public AdjList(String filename) {
         File file = new File(filename);
         try (Scanner scanner = new Scanner(file)) {
             V = scanner.nextInt();
             if (V < 0) throw new IllegalArgumentException("V must be non-negative!");
-            adj = new int[V][V];
+            adj = new LinkedList[V];
+            for (int i = 0; i < V; i++)
+                adj[i] = new LinkedList<>();
 
             E = scanner.nextInt();
             if (E < 0) throw new IllegalArgumentException("E must be non-negative!");
@@ -40,10 +38,11 @@ public class AdjMatrix {
                 validateVertex(a, b);
 
                 if (a == b) throw new IllegalArgumentException("Self Loop is Detected!");
-                if (adj[a][b] == 1) throw new IllegalArgumentException("Parallel Edges are Detected!");
+                if (adj[a].contains(b)) // contain() -- O(V)
+                    throw new IllegalArgumentException("Parallel Edges are Detected!");
 
-                adj[a][b] = 1;
-                adj[b][a] = 1;
+                adj[a].add(b);
+                adj[b].add(a);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -66,49 +65,48 @@ public class AdjMatrix {
 
     private boolean hasEdge(int v, int w) {
         validateVertex(v, w);
-        return adj[v][w] == 1;
+        return adj[v].contains(w);
     }
 
     /**
      * Look for the edge adjacent to v.
-     * time complexity: O(V)
+     * time complexity: O(degree(V)) -- worst-case scenario: O(V)
      *
      * @param v vertex
      * @return the edge adjacent to v.
      */
-    public ArrayList<Integer> adj(int v) {
+    public Iterable<Integer> adj(int v) {
         validateVertex(v);
-        ArrayList<Integer> res = new ArrayList<>();
-        for (int i = 0; i < V; i++)
-            if (adj[v][i] == 1) res.add(i);
-        return res;
+        return adj[v];
     }
 
     /**
      * Degree
-     * time complexity: O(1)
+     * time complexity: O(degree(V)) -- worst-case scenario: O(V)
      *
      * @param v vertex
-     * @return size if v has edge
+     * @return size
      */
     public int degree(int v) {
-        return adj(v).size();
+        validateVertex(v);
+        return adj[v].size();
     }
 
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
         builder.append(String.format("V = %d, E = %d\n", V, E));
-        for (int i = 0; i < V; i++) {
-            for (int j = 0; j < V; j++)
-                builder.append(String.format("%d ", adj[i][j]));
+        for (int v = 0; v < V; v++) {
+            builder.append(String.format("%d: ", v));
+            for (int w : adj[v])
+                builder.append(String.format("%d ", w));
             builder.append("\n");
         }
         return builder.toString();
     }
 
     public static void main(String[] args) {
-        AdjMatrix adjMatrix = new AdjMatrix("src/main/java/graph/basic/g.txt");
-        System.out.println(adjMatrix);
+        AdjList adjList = new AdjList("src/main/java/graph/basic/g.txt");
+        System.out.println(adjList);
     }
 }
