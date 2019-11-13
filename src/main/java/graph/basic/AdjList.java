@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Description: Adjacent List
  * Created By xxm
  */
-public class AdjList {
+public class AdjList implements Graph {
     private int V;
     private int E;
     private LinkedList<Integer>[] adj;
@@ -21,7 +21,7 @@ public class AdjList {
      *
      * @param filename file path
      */
-    public AdjList(String filename) {
+    private AdjList(String filename) {
         File file = new File(filename);
         try (Scanner scanner = new Scanner(file)) {
             V = scanner.nextInt();
@@ -55,15 +55,18 @@ public class AdjList {
         }
     }
 
-    private int V() {
+    @Override
+    public int V() {
         return V;
     }
 
-    private int E() {
+    @Override
+    public int E() {
         return E;
     }
 
-    private boolean hasEdge(int v, int w) {
+    @Override
+    public boolean hasEdge(int v, int w) {
         validateVertex(v, w);
         return adj[v].contains(w);
     }
@@ -75,6 +78,7 @@ public class AdjList {
      * @param v vertex
      * @return the edge adjacent to v.
      */
+    @Override
     public Iterable<Integer> adj(int v) {
         validateVertex(v);
         return adj[v];
@@ -87,6 +91,7 @@ public class AdjList {
      * @param v vertex
      * @return size
      */
+    @Override
     public int degree(int v) {
         validateVertex(v);
         return adj[v].size();

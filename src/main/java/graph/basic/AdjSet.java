@@ -10,7 +10,7 @@ import java.util.TreeSet;
  * Description: Adjacent Set
  * Created By xxm
  */
-public class AdjSet {
+public class AdjSet implements Graph {
     private int V;
     private int E;
     private TreeSet<Integer>[] adj;
@@ -56,15 +56,18 @@ public class AdjSet {
         }
     }
 
-    private int V() {
+    @Override
+    public int V() {
         return V;
     }
 
-    private int E() {
+    @Override
+    public int E() {
         return E;
     }
 
-    private boolean hasEdge(int v, int w) {
+    @Override
+    public boolean hasEdge(int v, int w) {
         validateVertex(v, w);
         return adj[v].contains(w);
     }
@@ -76,6 +79,7 @@ public class AdjSet {
      * @param v vertex
      * @return the edge adjacent to v.
      */
+    @Override
     public Iterable<Integer> adj(int v) {
         validateVertex(v);
         return adj[v];
@@ -88,6 +92,7 @@ public class AdjSet {
      * @param v vertex
      * @return size
      */
+    @Override
     public int degree(int v) {
         validateVertex(v);
         return adj[v].size();

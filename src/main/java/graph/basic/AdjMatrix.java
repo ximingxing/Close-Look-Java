@@ -12,7 +12,7 @@ import java.util.Scanner;
  * --------line 2 ~ line n : the relationship of edges
  * Created By xxm
  */
-public class AdjMatrix {
+public class AdjMatrix implements Graph{
 
     private int V;
     private int E;
@@ -25,7 +25,7 @@ public class AdjMatrix {
      *
      * @param filename file path
      */
-    public AdjMatrix(String filename) {
+    private AdjMatrix(String filename) {
         File file = new File(filename);
         try (Scanner scanner = new Scanner(file)) {
             V = scanner.nextInt();
@@ -56,15 +56,18 @@ public class AdjMatrix {
         }
     }
 
-    private int V() {
+    @Override
+    public int V() {
         return V;
     }
 
-    private int E() {
+    @Override
+    public int E() {
         return E;
     }
 
-    private boolean hasEdge(int v, int w) {
+    @Override
+    public boolean hasEdge(int v, int w) {
         validateVertex(v, w);
         return adj[v][w] == 1;
     }
@@ -76,6 +79,7 @@ public class AdjMatrix {
      * @param v vertex
      * @return the edge adjacent to v.
      */
+    @Override
     public ArrayList<Integer> adj(int v) {
         validateVertex(v);
         ArrayList<Integer> res = new ArrayList<>();
@@ -91,6 +95,7 @@ public class AdjMatrix {
      * @param v vertex
      * @return size if v has edge
      */
+    @Override
     public int degree(int v) {
         return adj(v).size();
     }
