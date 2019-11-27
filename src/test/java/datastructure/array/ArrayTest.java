@@ -1,6 +1,9 @@
 package datastructure.array;
 
+import org.junit.Before;
 import org.junit.Test;
+
+import java.util.Iterator;
 
 /**
  * Description:
@@ -10,6 +13,8 @@ public class ArrayTest {
 
     @Test
     public void getCapacity() {
+        Array<Integer> array = new Array<>();
+        System.out.println(array.getCapacity());
     }
 
     @Test
@@ -72,4 +77,12 @@ public class ArrayTest {
     public void removeElement() {
     }
 
+    @Test
+    public void iterator() {
+        Integer[] arr = {1, 2, 3, 4, 5};
+        Array<Integer> array = new Array<>(arr);
+
+        Iterator<Integer> iterator = array.iterator();
+        while (iterator.hasNext()) System.out.println(iterator.next());
+    }
 }

@@ -1,5 +1,6 @@
 package graph.dfs;
 
+import datastructure.array.Array;
 import datastructure.stack.LinkedListStack;
 import datastructure.stack.Stack;
 import graph.basic.AdjSet;
@@ -16,7 +17,7 @@ public class GraphDFSnr {
     private Graph G;
     private boolean[] visited;
 
-    private ArrayList<Integer> pre = new ArrayList<>();
+    private Array<Integer> pre = new Array<>();
 
     public GraphDFSnr(Graph G) {
         this.G = G;
@@ -27,7 +28,7 @@ public class GraphDFSnr {
     }
 
     /**
-     * Depth-first search
+     * Depth-first search non-recursion
      *
      * @param v
      */
@@ -36,8 +37,8 @@ public class GraphDFSnr {
         stack.push(v);
         visited[v] = true;
         while (!stack.isEmpty()) {
-            int cur = stack.pop();
-            pre.add(cur);
+            Integer cur = stack.pop();
+            pre.add(pre.getSize(), cur);
             for (Integer w : G.adj(cur))
                 if (!visited[w]) {
                     stack.push(w);
@@ -53,6 +54,6 @@ public class GraphDFSnr {
     public static void main(String[] args) {
         Graph g = new AdjSet("src/main/java/graph/dfs/g2.txt");
         GraphDFSnr graphDFSnr = new GraphDFSnr(g);
-        System.out.println(graphDFSnr.pre);
+        System.out.println(graphDFSnr.pre());
     }
 }

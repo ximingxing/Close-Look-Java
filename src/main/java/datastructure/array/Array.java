@@ -1,13 +1,17 @@
 package datastructure.array;
 
+import java.util.Iterator;
+import java.util.Spliterator;
+import java.util.function.Consumer;
+
 /**
  * Description: array
  * Created By xxm
  */
-public class Array<E> {
+public class Array<E> implements Iterable<E> {
 
     private E[] data;
-    private int size; // Points to the next element after the last element
+    private int size; // index
 
     /**
      * one-param constructor.
@@ -246,4 +250,35 @@ public class Array<E> {
         return res.toString();
     }
 
+    @Override
+    public Iterator<E> iterator() {
+        return new ArrayIterator();
+    }
+
+    @Override
+    public void forEach(Consumer<? super E> action) {
+    }
+
+    @Override
+    public Spliterator<E> spliterator() {
+        return null;
+    }
+
+    private class ArrayIterator implements Iterator<E> {
+        private int index;
+
+        ArrayIterator() {
+            this.index = 0;
+        }
+
+        @Override
+        public boolean hasNext() {
+            return index < size;
+        }
+
+        @Override
+        public E next() {
+            return data[index++];
+        }
+    }
 }
