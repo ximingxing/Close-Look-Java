@@ -1,28 +1,27 @@
 package graph.dfs;
 
-import datastructure.array.Array;
 import graph.basic.Graph;
 
 /**
- * Description: Graph DFS implementation with recursion
+ * Description: Connect Component.
  * Created By xxm
  */
-public class GraphDFS {
-
+public class ConnectComponent {
     private Graph G;
     private boolean[] visited;
+    private int cccount; // count connect component
 
-    private Array<Integer> pre = new Array<>();
-    private Array<Integer> post = new Array<>();
-
-    public GraphDFS(Graph G) {
+    public ConnectComponent(Graph G) {
         this.G = G;
         visited = new boolean[G.V()];
+        cccount = 0;
 
         // for Non-connected graph
         for (int v = 0; v < G.V(); v++)
-            if (!visited[v])
+            if (!visited[v]) {
                 dfs(v);
+                cccount++;
+            }
     }
 
     /**
@@ -33,18 +32,17 @@ public class GraphDFS {
      */
     private void dfs(int v) {
         visited[v] = true;
-        pre.addLast(v);
         for (int w : G.adj(v)) // traversing all neighbors of v
             if (!visited[w])
                 dfs(w);
-        post.addLast(v);
     }
 
-    public Iterable<Integer> pre() {
-        return pre;
-    }
-
-    public Iterable<Integer> post() {
-        return post;
+    /**
+     * Count connect component.
+     *
+     * @return int
+     */
+    public int count() {
+        return cccount;
     }
 }

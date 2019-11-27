@@ -19,6 +19,8 @@ public class GraphDFSnr {
     public GraphDFSnr(Graph G) {
         this.G = G;
         visited = new boolean[G.V()];
+
+        // for Non-connected graph
         for (int v = 0; v < G.V(); v++)
             if (!visited[v])
                 dfs(v);
@@ -31,13 +33,13 @@ public class GraphDFSnr {
      */
     private void dfs(int v) {
         Stack<Integer> stack = new LinkedListStack<>();
-        stack.push(v);
+        stack.push(v); // v push in stack
         visited[v] = true;
-        while (!stack.isEmpty()) {
-            Integer cur = stack.pop();
+        while (!stack.isEmpty()) { // if stack isn`t empty, still has node in graph untraveled.
+            Integer cur = stack.pop(); // travel the top of stack.
             pre.addLast(cur);
-            for (Integer w : G.adj(cur))
-                if (!visited[w]) {
+            for (Integer w : G.adj(cur)) // put all neighbors of cur in stack.
+                if (!visited[w]) {  // the element neighbors of cur isn`t visited.
                     stack.push(w);
                     visited[w] = true;
                 }
