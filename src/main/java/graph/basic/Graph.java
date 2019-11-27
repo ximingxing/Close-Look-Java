@@ -15,4 +15,6 @@ public interface Graph {
     int V();
 
     int E();
+
+    void validateVertex(int... vertex);
 }

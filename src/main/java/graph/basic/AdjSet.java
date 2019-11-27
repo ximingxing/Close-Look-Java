@@ -49,7 +49,8 @@ public class AdjSet implements Graph {
         }
     }
 
-    private void validateVertex(int... vertex) {
+    @Override
+    public void validateVertex(int... vertex) {
         for (int v : vertex) {
             if (v < 0 || v >= V) throw new IllegalArgumentException("vertex " + v + " is invalid!");
         }

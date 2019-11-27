@@ -85,6 +85,10 @@ With your questions, comments or even if you just want to say Hi.
 
 * recursion -- 递归算法遍布在链表和树结构的遍历中
 
+* Depth-first Search
+    * [DFS recursion](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/graph/dfs/GraphDFS.java)
+    * [DFS non-recursion](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/graph/dfs/GraphDFSnr.java)
+
 ## GraphTheory
 
 * Build Graph
@@ -95,6 +99,7 @@ With your questions, comments or even if you just want to say Hi.
 * Depth-first Search
     * [DFS recursion](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/graph/dfs/GraphDFS.java)
     * [DFS non-recursion](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/graph/dfs/GraphDFSnr.java)
+    * [connected component](https://github.com/ximingxing/Close-Look-Java/blob/master/src/main/java/graph/dfs/ConnectedComponent.java)
 
 <h2 align="center">鸣谢 -- Acknowledgment</h2>
 <p align="right"><a href="#close_look_java"><sup>▴ Back to top</sup></a></p>

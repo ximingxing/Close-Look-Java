@@ -133,6 +133,7 @@ public class Array<E> implements Iterable<E> {
      * Set an element from array's specified location.
      *
      * @param index the specified location
+     * @param e     e
      * @return the element
      */
     public void set(int index, E e) {

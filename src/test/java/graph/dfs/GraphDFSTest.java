@@ -1,5 +1,6 @@
 package graph.dfs;
 
+import datastructure.array.Array;
 import graph.basic.AdjSet;
 import graph.basic.Graph;
 import org.junit.Test;
@@ -30,7 +31,14 @@ public class GraphDFSTest {
     @Test
     public void connectComponent() {
         Graph g = new AdjSet("src/test/java/graph/dfs/g2.txt");
-        ConnectComponent cc = new ConnectComponent(g);
+        ConnectedComponent cc = new ConnectedComponent(g);
+
         assertEquals(cc.count(), 2);
+
+        assertEquals(cc.isConnected(0, 6), true);
+
+        for (Array<Integer> component : cc.components()) {
+            System.out.println(component);
+        }
     }
 }
