@@ -17,7 +17,7 @@ public class GraphDFS {
     private ArrayList<Integer> pre = new ArrayList<>();
     private ArrayList<Integer> post = new ArrayList<>();
 
-    private GraphDFS(Graph G) {
+    public GraphDFS(Graph G) {
         this.G = G;
         visited = new boolean[G.V()];
 
@@ -48,12 +48,5 @@ public class GraphDFS {
 
     public Iterable<Integer> post() {
         return post;
-    }
-
-    public static void main(String[] args) {
-        Graph g = new AdjSet("src/main/java/graph/dfs/g2.txt");
-        GraphDFS graphDFS = new GraphDFS(g);
-        System.out.println(graphDFS.pre());
-        System.out.println(graphDFS.post());
     }
 }

@@ -50,10 +50,4 @@ public class GraphDFSnr {
     public Iterable<Integer> pre() {
         return pre;
     }
-
-    public static void main(String[] args) {
-        Graph g = new AdjSet("src/main/java/graph/dfs/g2.txt");
-        GraphDFSnr graphDFSnr = new GraphDFSnr(g);
-        System.out.println(graphDFSnr.pre());
-    }
 }

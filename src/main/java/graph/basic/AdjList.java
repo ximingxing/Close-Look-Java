@@ -21,7 +21,7 @@ public class AdjList implements Graph {
      *
      * @param filename file path
      */
-    private AdjList(String filename) {
+    public AdjList(String filename) {
         File file = new File(filename);
         try (Scanner scanner = new Scanner(file)) {
             V = scanner.nextInt();
@@ -108,10 +108,5 @@ public class AdjList implements Graph {
             builder.append("\n");
         }
         return builder.toString();
-    }
-
-    public static void main(String[] args) {
-        AdjList adjList = new AdjList("src/main/java/graph/basic/g.txt");
-        System.out.println(adjList);
     }
 }

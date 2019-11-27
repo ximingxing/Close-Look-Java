@@ -25,7 +25,7 @@ public class AdjMatrix implements Graph{
      *
      * @param filename file path
      */
-    private AdjMatrix(String filename) {
+    public AdjMatrix(String filename) {
         File file = new File(filename);
         try (Scanner scanner = new Scanner(file)) {
             V = scanner.nextInt();
@@ -110,10 +110,5 @@ public class AdjMatrix implements Graph{
             builder.append("\n");
         }
         return builder.toString();
-    }
-
-    public static void main(String[] args) {
-        AdjMatrix adjMatrix = new AdjMatrix("src/main/java/graph/basic/g.txt");
-        System.out.println(adjMatrix);
     }
 }

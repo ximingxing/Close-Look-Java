@@ -110,9 +110,4 @@ public class AdjSet implements Graph {
         }
         return builder.toString();
     }
-
-    public static void main(String[] args) {
-        AdjSet adjSet = new AdjSet("src/main/java/graph/basic/g.txt");
-        System.out.println(adjSet);
-    }
 }
