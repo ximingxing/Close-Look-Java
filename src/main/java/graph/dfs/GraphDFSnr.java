@@ -1,27 +1,26 @@
 package graph.dfs;
 
+import datastructure.stack.LinkedListStack;
+import datastructure.stack.Stack;
 import graph.basic.AdjSet;
 import graph.basic.Graph;
 
 import java.util.ArrayList;
 
 /**
- * Description: Graph DFS implementation with recursion
+ * Description: Graph DFS implementation with non-recursion
  * Created By xxm
  */
-public class GraphDFS {
+public class GraphDFSnr {
 
     private Graph G;
     private boolean[] visited;
 
     private ArrayList<Integer> pre = new ArrayList<>();
-    private ArrayList<Integer> post = new ArrayList<>();
 
-    private GraphDFS(Graph G) {
+    public GraphDFSnr(Graph G) {
         this.G = G;
         visited = new boolean[G.V()];
-
-        // Non-connected graph
         for (int v = 0; v < G.V(); v++)
             if (!visited[v])
                 dfs(v);
@@ -29,31 +28,31 @@ public class GraphDFS {
 
     /**
      * Depth-first search
-     * time complexity: O(V + E)  -- E >> V
      *
-     * @param v vertex
+     * @param v
      */
     private void dfs(int v) {
+        Stack<Integer> stack = new LinkedListStack<>();
+        stack.push(v);
         visited[v] = true;
-        pre.add(v);
-        for (int w : G.adj(v)) // traversing all neighbors of v
-            if (!visited[w])
-                dfs(w);
-        post.add(v);
+        while (!stack.isEmpty()) {
+            int cur = stack.pop();
+            pre.add(cur);
+            for (Integer w : G.adj(cur))
+                if (!visited[w]) {
+                    stack.push(w);
+                    visited[w] = true;
+                }
+        }
     }
 
     public Iterable<Integer> pre() {
         return pre;
     }
 
-    public Iterable<Integer> post() {
-        return post;
-    }
-
     public static void main(String[] args) {
         Graph g = new AdjSet("src/main/java/graph/dfs/g2.txt");
-        GraphDFS graphDFS = new GraphDFS(g);
-        System.out.println(graphDFS.pre());
-        System.out.println(graphDFS.post());
+        GraphDFSnr graphDFSnr = new GraphDFSnr(g);
+        System.out.println(graphDFSnr.pre);
     }
 }
