@@ -259,11 +259,6 @@ public class Array<E> implements Iterable<E> {
     public void forEach(Consumer<? super E> action) {
     }
 
-    @Override
-    public Spliterator<E> spliterator() {
-        return null;
-    }
-
     private class ArrayIterator implements Iterator<E> {
         private int index;
 
