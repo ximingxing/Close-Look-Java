@@ -3,10 +3,7 @@ package graph.dfs;
 import datastructure.array.Array;
 import datastructure.stack.LinkedListStack;
 import datastructure.stack.Stack;
-import graph.basic.AdjSet;
 import graph.basic.Graph;
-
-import java.util.ArrayList;
 
 /**
  * Description: Graph DFS implementation with non-recursion
@@ -38,7 +35,7 @@ public class GraphDFSnr {
         visited[v] = true;
         while (!stack.isEmpty()) {
             Integer cur = stack.pop();
-            pre.add(pre.getSize(), cur);
+            pre.addLast(cur);
             for (Integer w : G.adj(cur))
                 if (!visited[w]) {
                     stack.push(w);
