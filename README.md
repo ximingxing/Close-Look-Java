@@ -32,15 +32,18 @@
 
 本项目所有的数据结构，算法和图论内容都是基于Java语言，使用了Java语言范型等特性。
 本项目基于Maven构建，将源代码与测试代码解耦。
+目标：构建自己的Java Collection 并拥有更多的算法。
 已在Java8版本完成测试✅
 
 A series of data structures and algorithms implemented using the Java language.
+
+Aim to built Java Collection and more than Collection.
 
 Open Source runs on love, laughter and a whole lot of coffee. Consider buying me one if you find this content useful ☕️😉.
 
 <h2 align="center">:clipboard: 快速开始 -- Getting Started</h2>
 
-* 源代代码在`Close-Look-Java/src/main/java` -- the source code in the `Close-Look-Java/src/main/java` directory 
+* 源代代码在`Close-Look-Java/src/main/java` -- the source code in the `Close-Look-Java/src/main/java` directory.
 
 * 测试代码在`Close-Look-Java/src/test/java` -- the test code in the `Close-Look-Java/src/test/java` directory.
 

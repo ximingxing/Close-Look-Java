@@ -17,6 +17,7 @@ public class SingleSourcePath {
 
     /**
      * Init SingleSourcePath Algorithm.
+     * Find path from a source vertex to any vertex in graph.
      *
      * @param G Graph
      * @param s source vertex

@@ -50,4 +50,13 @@ public class GraphDFSTest {
         System.out.println("Path from 0 to 6:\n" + sspath.path(6));
         System.out.println("\nPath from 0 to 5:\n" + sspath.path(5));
     }
+
+    @Test
+    public void AllPairPath() {
+        Graph g = new AdjSet("src/test/java/graph/dfs/g2.txt");
+        AllPairPath paths = new AllPairPath(g);
+        System.out.println(paths.path(0, 1));
+        System.out.println(paths.path(2, 5));
+        System.out.println(paths.path(3, 6));
+    }
 }
