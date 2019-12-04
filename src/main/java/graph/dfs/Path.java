@@ -4,63 +4,72 @@ import datastructure.array.Array;
 import graph.basic.Graph;
 
 /**
- * Description: Single Source Path
+ * Description: Path
  * Created By xxm
  */
-public class SingleSourcePath {
-
+public class Path {
     private Graph G;
     private int s;
+    private int t;
 
     private boolean[] visited;
     private int[] pre; // record visited path
 
     /**
-     * Init SingleSourcePath Algorithm.
-     * Find path from a source to any vertex in graph.
+     * Init Path Algorithm.
+     * Find path from a source to target vertex.
      *
      * @param G Graph
      * @param s source vertex
+     * @Param t target vertex
      */
-    public SingleSourcePath(Graph G, int s) {
-        G.validateVertex(s);
+    public Path(Graph G, int s, int t) {
+        G.validateVertex(s, t);
 
         this.G = G;
         this.s = s;
+        this.t = t;
+
         visited = new boolean[G.V()];
         pre = new int[G.V()];
+        for (int i = 0; i < pre.length; i++)
+            pre[i] = -1;
 
         dfs(s, s); // pre of s is it`s self and from s to end.
     }
 
     /**
-     * Depth-first search
+     * Depth-first search -- early stop recursion
      * time complexity: O(V + E)  -- E >> V
      *
-     * @param v vertex
+     * @param v      vertex
+     * @param parent visited vertex before v
      */
-    private void dfs(int v, int parent) {
+    private boolean dfs(int v, int parent) {
         visited[v] = true;
         pre[v] = parent;
+
+        if (v == t) return true;
+
         for (int w : G.adj(v)) // traversing all neighbors of v
             if (!visited[w])
-                dfs(w, v);
+                if (dfs(w, v)) return true;
+
+        return false;
     }
 
-    public boolean isConnectedTo(int t) {
-        G.validateVertex(t);
+    public boolean isConnected() {
         return visited[t];
     }
 
     /**
      * Path from source to target vertex.
      *
-     * @param t target vertex.
      * @return Array
      */
-    public Iterable<Integer> path(int t) {
+    public Iterable<Integer> path() {
         Array<Integer> res = new Array<>();
-        if (!isConnectedTo(t)) return res; // from source to t is unconnected.
+        if (!isConnected()) return res; // from source to t is unconnected.
 
         Array<Integer> temp = new Array<>();
         int cur = t;

@@ -59,4 +59,11 @@ public class GraphDFSTest {
         System.out.println(paths.path(2, 5));
         System.out.println(paths.path(3, 6));
     }
+
+    @Test
+    public void PathTest() {
+        Graph g = new AdjSet("src/test/java/graph/dfs/g2.txt");
+        Path path = new Path(g, 0, 6);
+        System.out.println("Path from 0 to 6:\n" + path.path());
+    }
 }
