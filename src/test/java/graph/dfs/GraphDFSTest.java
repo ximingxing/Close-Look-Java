@@ -41,4 +41,13 @@ public class GraphDFSTest {
             System.out.println(component);
         }
     }
+
+    @Test
+    public void SingleSourcePathTest() {
+        Graph g = new AdjSet("src/test/java/graph/dfs/g2.txt");
+        SingleSourcePath sspath = new SingleSourcePath(g, 0);
+
+        System.out.println("Path from 0 to 6:\n" + sspath.path(6));
+        System.out.println("\nPath from 0 to 5:\n" + sspath.path(5));
+    }
 }
