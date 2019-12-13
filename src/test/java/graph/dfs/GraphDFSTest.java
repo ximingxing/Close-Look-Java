@@ -78,4 +78,17 @@ public class GraphDFSTest {
         System.out.println(cd.hasCycle());
         System.out.println(cd2.hasCycle());
     }
+
+    @Test
+    public void BipartiteDetectionTest() {
+        Graph g = new AdjSet("src/test/java/graph/dfs/g.txt");
+        Graph g2 = new AdjSet("src/test/java/graph/dfs/g2.txt");
+        Graph g3 = new AdjSet("src/test/java/graph/dfs/g3.txt");
+        BipartiteDetection bd = new BipartiteDetection(g);
+        BipartiteDetection bd2 = new BipartiteDetection(g2);
+        BipartiteDetection bd3 = new BipartiteDetection(g3);
+        System.out.println(bd.isBipartite());
+        System.out.println(bd2.isBipartite());
+        System.out.println(bd3.isBipartite());
+    }
 }
