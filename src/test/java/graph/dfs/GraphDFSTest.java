@@ -35,7 +35,7 @@ public class GraphDFSTest {
 
         assertEquals(cc.count(), 2);
 
-        assertEquals(cc.isConnected(0, 6), true);
+        assertTrue(cc.isConnected(0, 6));
 
         for (Array<Integer> component : cc.components()) {
             System.out.println(component);
@@ -67,5 +67,15 @@ public class GraphDFSTest {
         System.out.println("Path from 0 to 6:\n" + path.path());
         Path path2 = new Path(g, 0, 5);
         System.out.println("Path from 0 to 5:\n" + path2.path());
+    }
+
+    @Test
+    public void CycleDetectionTest() {
+        Graph g = new AdjSet("src/test/java/graph/dfs/g.txt");
+        Graph g2 = new AdjSet("src/test/java/graph/dfs/g2.txt");
+        CycleDetection cd = new CycleDetection(g);
+        CycleDetection cd2 = new CycleDetection(g2);
+        System.out.println(cd.hasCycle());
+        System.out.println(cd2.hasCycle());
     }
 }
