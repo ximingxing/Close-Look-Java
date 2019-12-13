@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Description:
+ * Description: Test case of DFS.
  * Created By xxm
  */
 public class GraphDFSTest {
@@ -65,5 +65,7 @@ public class GraphDFSTest {
         Graph g = new AdjSet("src/test/java/graph/dfs/g2.txt");
         Path path = new Path(g, 0, 6);
         System.out.println("Path from 0 to 6:\n" + path.path());
+        Path path2 = new Path(g, 0, 5);
+        System.out.println("Path from 0 to 5:\n" + path2.path());
     }
 }

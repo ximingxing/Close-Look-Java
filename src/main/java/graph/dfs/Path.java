@@ -4,7 +4,8 @@ import datastructure.array.Array;
 import graph.basic.Graph;
 
 /**
- * Description: Path
+ * Description: Find path from source to target vertex.
+ *              And stop DFS when find a path.
  * Created By xxm
  */
 public class Path {
