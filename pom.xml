@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ximingxing</groupId>
-    <artifactId>Close-Look-Java</artifactId>
+    <artifactId>More-than-Algorithm</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Close-Look-Java</name>
+    <name>More-than-Algorithm</name>
     <url>https://ximingxing.github.io/</url>
 
     <properties>
