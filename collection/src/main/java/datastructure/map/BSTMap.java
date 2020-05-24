@@ -60,9 +60,10 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
 
     @Override
     public void set(K key, V newValue) {
-        Node node = getNode(root, key);
+//        Node node = getNode(root, key);
+        Node node = getNodeWithSameValue(root, key);
         if (node == null)
-            throw new IllegalArgumentException(key + "isn`t exist!");
+            throw new IllegalArgumentException(key + " isn`t exist!");
 
         node.value = newValue;
     }
@@ -78,6 +79,17 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
         else // (key.compareTo(node.key) > 0)
             return getNode(node.right, key);
     }
+
+    private Node getNodeWithSameValue(Node node, K key) {
+        if (node == null)
+            return null;
+
+        if (key.compareTo(node.key) <= 0)
+            return getNode(node.left, key);
+        else  //(key.compareTo(node.key) >= 0)
+            return getNode(node.right, key);
+    }
+
 
     /**
      * @param node

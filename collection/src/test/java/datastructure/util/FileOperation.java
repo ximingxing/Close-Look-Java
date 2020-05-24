@@ -1,4 +1,4 @@
-package datastructure.set;
+package datastructure.util;
 
 import java.io.BufferedInputStream;
 import java.io.File;

@@ -1,5 +1,6 @@
 package datastructure.map;
 
+import datastructure.util.FileOperation;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ public class BSTMapTest {
         System.out.println("Pride and Prejudice");
 
         ArrayList<String> words1 = new ArrayList<>();
-        if (FileOperation.readFile("src/test/java/com/datastructure/map/pride-and-prejudice.txt", words1)) {
+        if (FileOperation.readFile("src/test/java/datastructure/util/pride-and-prejudice.txt", words1)) {
             System.out.println("Total words: " + words1.size());
 
             BSTMap<String, Integer> map = new BSTMap<>();

@@ -45,7 +45,7 @@ public class Trie {
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
             if (cur.next.get(c) == null)
-                cur.next.set(c, new Node()); // set char c as value of node
+                cur.next.add(c, new Node()); // set char c as value of node
             cur = cur.next.get(c);
         }
 
@@ -67,7 +67,7 @@ public class Trie {
     private void _add(int i, Node node, String word) {
         char c = word.charAt(i);
         if (node.next.get(c) == null)
-            node.next.set(c, new Node());
+            node.next.add(c, new Node());
         node = node.next.get(c);
 
         if (i == word.length()) { // recursion stop condition
