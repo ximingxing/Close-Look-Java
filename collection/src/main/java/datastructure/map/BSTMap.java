@@ -1,7 +1,7 @@
 package datastructure.map;
 
 /**
- * Description: Map implement by BST.
+ * Description: Map implement by Binary Search Tree.
  * Created By xxm
  */
 public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
@@ -68,6 +68,9 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
         node.value = newValue;
     }
 
+    /**
+     * BST don`t contains same element.
+     */
     private Node getNode(Node node, K key) {
         if (node == null)
             return null;
@@ -80,6 +83,9 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
             return getNode(node.right, key);
     }
 
+    /**
+     * BST contains same element.
+     */
     private Node getNodeWithSameValue(Node node, K key) {
         if (node == null)
             return null;
@@ -92,7 +98,9 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
 
 
     /**
-     * @param node
+     * Find the minimum element in the BST.
+     *
+     * @param node where start to find.
      * @return minimum node in the bst which root of node.
      */
     private Node minimum(Node node) {
