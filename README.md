@@ -1,4 +1,4 @@
-<h1 id="close_look_java" align="center">CLose Look Java</h1>
+<h1 id="close_look_java" align="center">More than algotithms</h1>
 
 <p align="center">
     <a href="#DataStructure">
