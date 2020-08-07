@@ -14,12 +14,13 @@
  * Created By xxm
  */
 public class Solution {
+    // Two-points
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;
-        int i = 0;
-        for (int j = 1; j < nums.length; j++) {
-            if (nums[j] != nums[i]) {
-                i++;
+        int i = 0; // define point one
+        for (int j = 1; j < nums.length; j++) { // point two move to find diff e.
+            if (nums[j] != nums[i]) { // find diff element
+                i++; // point one move
                 nums[i] = nums[j];
             }
         }
