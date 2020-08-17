@@ -43,11 +43,7 @@ Open Source runs on love, laughter and a whole lot of coffee. Consider buying me
 
 <h2 align="center">:clipboard: 快速开始 -- Getting Started</h2>
 
-* 源代代码在`Close-Look-Java/src/main/java` -- the source code in the `Close-Look-Java/src/main/java` directory.
-
-* 测试代码在`Close-Look-Java/src/test/java` -- the test code in the `Close-Look-Java/src/test/java` directory.
-
-- Search for a specific Code. Can't find one? Please report a new Code [here](https://github.com/ximingxing/Close-Look-Java/issues).
+- Search for a specific Code. Can't find one? Please report a new Code [here](https://github.com/ximingxing/LeetCode-notepad/issues).
 
 <h2 align="center">关于 -- About</h2>
 
