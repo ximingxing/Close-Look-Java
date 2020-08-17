@@ -58,9 +58,17 @@ Project language level is 8 , build by Maven.
 With your questions, comments or even if you just want to say Hi.
 
 <h2 align="center">目录 -- Table of Contents</h2>
+
+#### Array
+* `#1`   Two Sum
+* `#26`  Remove Duplicates from Sorted Array
+* `#27`  Remove Duplicates from Sorted Array
+* `#167` Two Sum II - Input array is sorted
+
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
 
 <h2 align="center">鸣谢 -- Acknowledgment</h2>
+
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
 
 <h2 align="center">:speech_balloon: 问答 -- FAQ</h2>
