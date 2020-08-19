@@ -13,7 +13,7 @@ import java.util.HashMap;
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
-        // map idx to element
+        // map element to idx
         for (int i = 0; i < nums.length; i++)
             map.put(nums[i], i);
         // match pair in nums
