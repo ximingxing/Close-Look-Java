@@ -19,21 +19,20 @@
 </p>
  
 <p align="center">
-    <a href="#clipboard-getting-started">快速开始 -- Getting Started</a> •
-    <a href="#about">关于 -- About</a> •
-    <a href="#table-of-contents">目录 -- Table of Contents</a> •
-    <a href="#acknowledgment">鸣谢 -- Acknowledgment</a> •
-    <a href="#speech_balloon-faq">问答 -- FAQ</a> •
+    <a href="#clipboard-getting-started">Getting Started</a> •
+    <a href="#about">About</a> •
+    <a href="#table-of-contents">Table of Contents</a> •
+    <a href="#acknowledgment">Acknowledgment</a> •
+    <a href="#speech_balloon-faq">FAQ</a> •
 </p>
 
 <h6 align="center">Made by ximing Xing • :milky_way: 
 <a href="https://ximingxing.github.io/">https://ximingxing.github.io/</a>
 </h6>
 
-本项目所有的内容都是基于Java语言，使用了Java语言范型等特性。
-本项目基于Maven构建，将源代码与测试代码解耦。
-目标：构建自己的Java Collection 并拥有更多的算法。
-已在Java8版本完成测试✅
+Everything in this project is based on the Java language, using features such as the Java language paradigm.
+This project is built on Maven to decouple the source code from the test code.
+Has been completed test ✅ Java8 version.
 
 A series of data structures and algorithms implemented using the Java language.
 
@@ -41,11 +40,11 @@ Aim to built Java Collection and more than Collection.
 
 Open Source runs on love, laughter and a whole lot of coffee. Consider buying me one if you find this content useful ☕️😉.
 
-<h2 align="center">:clipboard: 快速开始 -- Getting Started</h2>
+<h2 align="center">:clipboard: Getting Started</h2>
 
 - Search for a specific Code. Can't find one? Please report a new Code [here](https://github.com/ximingxing/LeetCode-notepad/issues).
 
-<h2 align="center">关于 -- About</h2>
+<h2 align="center">About</h2>
 
 A series of data structures implemented using the Java language.
 
@@ -53,20 +52,21 @@ Project language level is 8 , build by Maven.
 
 With your questions, comments or even if you just want to say Hi.
 
-<h2 align="center">目录 -- Table of Contents</h2>
+<h2 align="center">Table of Contents</h2>
 
 #### Array
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src)
 * `#26`  [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/26-Remove-Duplicates-from-Sorted-Array/src)
 * `#27`  [Remove Element](https://github.com/ximingxing/LeetCode-notepad/tree/master/27-Remove-Element/src)
 * `#35`  [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/35-Search-Insert-Position/src)
+* `#53`  [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src)
 * `#167` [Two Sum II - Input array is sorted]((https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src))
 
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
 
-<h2 align="center">鸣谢 -- Acknowledgment</h2>
+<h2 align="center">Acknowledgment</h2>
 
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
 
-<h2 align="center">:speech_balloon: 问答 -- FAQ</h2>
+<h2 align="center">:speech_balloon: FAQ</h2>
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
