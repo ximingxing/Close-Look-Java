@@ -56,11 +56,13 @@ With your questions, comments or even if you just want to say Hi.
 
 #### Array
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src)
+* `#2`   [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/2-Add-Two-Numbers/src)
 * `#26`  [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/26-Remove-Duplicates-from-Sorted-Array/src)
 * `#27`  [Remove Element](https://github.com/ximingxing/LeetCode-notepad/tree/master/27-Remove-Element/src)
 * `#35`  [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/35-Search-Insert-Position/src)
 * `#53`  [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src)
 * `#66`  [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src)
+* `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src)
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src)
 
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
