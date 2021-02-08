@@ -80,4 +80,4 @@ With your questions, comments or even if you just want to say Hi.
 
 - Git commit format:
 
-`git commit -m "(new/update) #problem_id problem_name""`
+`git commit -m "(new/update) #problem_id problem_name"`
