@@ -65,6 +65,10 @@ With your questions, comments or even if you just want to say Hi.
 * `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src)
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src)
 
+#### Math
+* `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/)
+
+
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
 
 <h2 align="center">Acknowledgment</h2>
@@ -73,3 +77,7 @@ With your questions, comments or even if you just want to say Hi.
 
 <h2 align="center">:speech_balloon: FAQ</h2>
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
+
+- Git commit format:
+
+`git commit -m "(new/update) #problem_id problem_name""`
