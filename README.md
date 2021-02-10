@@ -54,6 +54,9 @@ With your questions, comments or even if you just want to say Hi.
 
 <h2 align="center">Table of Contents</h2>
 
+#### Math
+* `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
+
 #### Array
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#2`   [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -64,11 +67,27 @@ With your questions, comments or even if you just want to say Hi.
 * `#66`  [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#992` [Subarrays with K Different Integers](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-hard-red"> `Double pointer`
 
-#### Math
-* `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
+#### LinkedList
 
-<!--<img src="https://img.shields.io/badge/-hard-red">-->
+#### Stack
+
+#### Queue
+
+#### Divide and conquer: Binary search
+
+#### Recursive
+
+#### Graph
+
+#### Greedy algorithm
+
+#### Bit operation
+
+#### Dynamic programming
+
+#### Others
 
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
 
