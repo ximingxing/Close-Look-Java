@@ -63,7 +63,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#66`  [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#485` [Max Consecutive Ones](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#485` [Max Consecutive Ones](https://github.com/ximingxing/LeetCode-notepad/blob/master/485-Max-Consecutive-Ones/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### LinkedList
 
