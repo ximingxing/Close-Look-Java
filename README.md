@@ -50,8 +50,10 @@ With your questions, comments or even if you just want to say Hi.
 
 <h2 align="center">Table of Contents</h2>
 
-#### Math
+#### [Math]()
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#914`  [X of a Kind in a Deck of Cards](https://github.com/ximingxing/LeetCode-notepad/tree/master/914-X-of-a-Kind-in-a-Deck-of-Cards/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#1201` [Ugly Number III]() <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Array
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
