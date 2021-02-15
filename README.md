@@ -36,10 +36,6 @@ Has been completed test ✅ Java8 version.
 
 A series of data structures and algorithms implemented using the Java language.
 
-Aim to built Java Collection and more than Collection.
-
-Open Source runs on love, laughter and a whole lot of coffee. Consider buying me one if you find this content useful ☕️😉.
-
 <h2 align="center">:clipboard: Getting Started</h2>
 
 - Search for a specific Code. Can't find one? Please report a new Code [here](https://github.com/ximingxing/LeetCode-notepad/issues).
@@ -67,7 +63,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#66`  [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#992` [Subarrays with K Different Integers](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-hard-red"> `Double pointer`
 
 #### LinkedList
 
