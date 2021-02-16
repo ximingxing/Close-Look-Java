@@ -7,9 +7,6 @@
     <a href="#Algorithm">
         <img src="https://img.shields.io/badge/Content-Algorithm-orange" alt="Algorithm">
     </a>
-    <a href="#GraphTheory">
-        <img src="https://img.shields.io/badge/Content-graph-orange" alt="graph">
-    </a>
     <a href="http://www.apache.org/licenses/">
         <img src="https://img.shields.io/badge/license-Apache-blue" alt="GitHub">
     </a>
@@ -17,7 +14,7 @@
         <img src="https://img.shields.io/badge/Java-8-blue" alt="Java 8">
     </a>
 </p>
- 
+
 <p align="center">
     <a href="#clipboard-getting-started">Getting Started</a> •
     <a href="#about">About</a> •
@@ -50,10 +47,11 @@ With your questions, comments or even if you just want to say Hi.
 
 <h2 align="center">Table of Contents</h2>
 
-#### [Math]()
+#### [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Math.md)
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#914`  [X of a Kind in a Deck of Cards](https://github.com/ximingxing/LeetCode-notepad/tree/master/914-X-of-a-Kind-in-a-Deck-of-Cards/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1201` [Ugly Number III]() <img src="https://img.shields.io/badge/-medium-yellow">
+* `#50` [Pow(x,n)]() <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Array
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
