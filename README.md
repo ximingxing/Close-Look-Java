@@ -50,7 +50,7 @@ With your questions, comments or even if you just want to say Hi.
 #### [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Math.md)
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#914`  [X of a Kind in a Deck of Cards](https://github.com/ximingxing/LeetCode-notepad/tree/master/914-X-of-a-Kind-in-a-Deck-of-Cards/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#1201` [Ugly Number III]() <img src="https://img.shields.io/badge/-medium-yellow">
+* `#1201` [Ugly Number III](https://github.com/ximingxing/LeetCode-notepad/tree/master/1201-Ugly-Number-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#50` [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Array
