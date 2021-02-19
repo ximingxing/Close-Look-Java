@@ -1,43 +1,50 @@
-### 1201. Ugly Number III
+### 1524. Number of Sub-arrays With Odd Sum
 
 > **Medium**
 
-Given four integers `n`, `a`, `b`, and `c`, return the `n^th` ugly number.
+Given an array of integers arr. Return the number of sub-arrays with odd sum.
 
-Ugly numbers are **positive integers** that are divisible by `a`, `b`, or `c`.
+As the answer may grow large, the answer must be computed modulo 10^9 + 7.
 
 #### Constraints:
 
-* `1 <= n, a, b, c <= 109`
-* `1 <= a * b * c <= 1018`
-* It is guaranteed that the result will be in range `[1, 2 * 109]`.
+* `1 <= arr.length <= 10^5`
+* `1 <= arr[i] <= 100`
 
 #### Example:
 ```
-Input: n = 3, a = 2, b = 3, c = 5
+Input: arr = [1,3,5]
 Output: 4
-Explanation: The ugly numbers are 2, 3, 4, 5, 6, 8, 9, 10... The 3rd is 4.
+Explanation: All sub-arrays are [[1],[1,3],[1,3,5],[3],[3,5],[5]]
+All sub-arrays sum are [1,4,9,3,8,5].
+Odd sums are [1,9,3,5] so the answer is 4.
 ```
 
 ```
-Input: n = 4, a = 2, b = 3, c = 4
-Output: 6
-Explanation: The ugly numbers are 2, 3, 4, 6, 8, 9, 10, 12... The 4th is 6.
+Input: arr = [2,4,6]
+Output: 0
+Explanation: All sub-arrays are [[2],[2,4],[2,4,6],[4],[4,6],[6]]
+All sub-arrays sum are [2,6,12,4,10,6].
+All sub-arrays have even sum and the answer is 0.
 ```
 
 ```
-Input: n = 5, a = 2, b = 11, c = 13
-Output: 10
-Explanation: The ugly numbers are 2, 4, 6, 8, 10, 11, 12, 13... The 5th is 10.
+Input: arr = [1,2,3,4,5,6,7]
+Output: 16
 ```
 
 ```
-Input: n = 1000000000, a = 2, b = 217983653, c = 336916467
-Output: 1999999984
+Input: arr = [100,100,99,99]
+Output: 4
+```
+
+```
+Input: arr = [7]
+Output: 1
 ```
 
 #### Solution:
 
-核心: 二分查找, 容斥原理, 最小公倍数
+这道题目要求返回和为奇数对子数组数目.
 
-二分答案x，对于每个x，利用容斥原理，考察满足条件的数的个数等于任意一个数的倍数的个数之和，减去任意两个数的公倍数个数之和，加上3个数的公倍数个数.
+为了快速计算任意子数组的和, 可以通过维护前缀和的方式.
