@@ -55,7 +55,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1524` [Number of Sub-arrays With Odd Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1524-Number-of-Sub-arrays-With-Odd-Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### Array
+#### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array.md)
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#2`   [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#26`  [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
