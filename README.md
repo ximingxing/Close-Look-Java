@@ -1,11 +1,8 @@
 <h1 id="title" align="center">LeetCode-notepad</h1>
 
 <p align="center">
-    <a href="#DataStructure">
-        <img src="https://img.shields.io/badge/Content-Datastructure-orange" alt="Datastructure">
-    </a>
-    <a href="#Algorithm">
-        <img src="https://img.shields.io/badge/Content-Algorithm-orange" alt="Algorithm">
+    <a href="#leetcode">
+        <img src="https://img.shields.io/badge/content-leetcode-blueviolet" alt="leetcode">
     </a>
     <a href="http://www.apache.org/licenses/">
         <img src="https://img.shields.io/badge/license-Apache-blue" alt="GitHub">
@@ -52,8 +49,8 @@ With your questions, comments or even if you just want to say Hi.
 * `#914`  [X of a Kind in a Deck of Cards](https://github.com/ximingxing/LeetCode-notepad/tree/master/914-X-of-a-Kind-in-a-Deck-of-Cards/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1201` [Ugly Number III](https://github.com/ximingxing/LeetCode-notepad/tree/master/1201-Ugly-Number-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1227` [Airplane Seat Assignment Probability](https://github.com/ximingxing/LeetCode-notepad/tree/master/1227-Airplane-Seat-Assignment-Probability/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1524` [Number of Sub-arrays With Odd Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1524-Number-of-Sub-arrays-With-Odd-Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array.md)
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -63,6 +60,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#35`  [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#53`  [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#66`  [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#75`  [Sort Colors](https://github.com/ximingxing/LeetCode-notepad/tree/master/75-Sort-Colors/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#485` [Max Consecutive Ones](https://github.com/ximingxing/LeetCode-notepad/blob/master/485-Max-Consecutive-Ones/src) <img src="https://img.shields.io/badge/-easy-green">
