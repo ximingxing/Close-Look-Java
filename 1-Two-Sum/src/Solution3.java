@@ -21,7 +21,7 @@ public class Solution3 {
         // 双指针: i从左向右, j从右向左
         for (int i = 0, j = n - 1; i < j; ) {
             int sum = p[i][0] + p[j][0];
-            if (sum == target) return new int[]{p[i][1], p[i][0]};
+            if (sum == target) return new int[]{p[i][1], p[j][1]};
             // 如果当前两个元素的和小于target, 则i向右移动
             // 因为当前p经过排序, 两个元素和小于target说明i指向的元素太小
             // 反之, j向左移动
