@@ -97,11 +97,11 @@ With your questions, comments or even if you just want to say Hi.
 
 - Git commit format:
 
-`git commit -m "(new/fix/docs/add) #problem_id(necessary) description(unnecessary)"`
-
-|  message   | explain  |
-|  ----  | ----  |
-| new  | first commit |
-| add  | new answer |
-| fix  | fix bugs |
-| docs  | update README.md |
+    `git commit -m "(new/fix/docs/add) #problem_id(necessary) description(unnecessary)"`
+    
+    |  message   | explain  |
+    |  ----  | ----  |
+    | new  | first commit |
+    | add  | new answer |
+    | fix  | fix bugs |
+    | docs  | update README.md |
