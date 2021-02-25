@@ -60,10 +60,11 @@ With your questions, comments or even if you just want to say Hi.
 * `#35`  [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#53`  [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#66`  [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#75`  [Sort Colors](https://github.com/ximingxing/LeetCode-notepad/tree/master/75-Sort-Colors/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#75`  [Sort Colors](https://github.com/ximingxing/LeetCode-notepad/tree/master/75-Sort-Colors/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#485` [Max Consecutive Ones](https://github.com/ximingxing/LeetCode-notepad/blob/master/485-Max-Consecutive-Ones/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#1234` [Replace the Substring for Balanced String](https://github.com/ximingxing/LeetCode-notepad/blob/master/1234-Replace-the-Substring-for-Balanced-String/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### LinkedList
 
@@ -101,6 +102,6 @@ With your questions, comments or even if you just want to say Hi.
 |  message   | explain  |
 |  ----  | ----  |
 | new  | first commit |
+| add  | new answer |
 | fix  | fix bugs |
 | docs  | update README.md |
-| add  | new answer |
