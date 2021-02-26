@@ -1,4 +1,6 @@
-# Array/String
+# Array and String
+
+这里我们将数组相关问题与字符串相关问题总结在一起, 因为字符串在Java中是以字符数组的形式存在的.
 
 * 优点: `O(1)`时间里根据数组的下标查询某个元素.
 
@@ -74,27 +76,30 @@
 
 ```java
 class Solution {
-    public int findSubArray(int[] A, int K) {
-        int N = A.length; // 数组/字符串长度
-        int res = 0;
-        int left = 0, right = 0;
-        int zeros = 0;
-        while (right < N) {
-            if (A[right] == 0)
-                zeros ++;
-            while (zeros > K) {
-                if (A[left++] == 0) 
-                    zeros --;
+    public int findSubArray(int[] nums) {
+        int N = nums.length; // 数组/字符串长度
+        int left = 0, right = 0; // 双指针, 表示当前遍历的区间[left, right], 闭区间
+        int res = 0; //  保存最大的满足题目要求的 子数组/子串 长度
+        int sums = 0; // 用于统计 子数组/子区间 是否有效，根据题目可能会改成求和/计数
+        while (right < N) { // 当右边的指针没有搜索到 数组/字符串 的结尾
+            sums += nums[right];  // 增加当前右边指针的数字/字符的求和/计数
+            while (区间[left, right]不符合题意) { // 此时需要一直移动左指针，直至找到一个符合题意的区间
+                sums -= nums[left]; // 移动左指针前需要从counter中减少left位置字符的求和/计数
+                i++; // 移动左指针
             }
-            res = Math.max(res, right - left + 1);
-            right ++;
+            // 当while结束时, 我们找到一个符合题意的 子数组/子串
+            res = Math.max(res, right - left + 1); // 更新结果
+            right ++; // 移动右指针, 去探索新的区间
         }
         return res;
     }
 }
 ```
 
+滑动窗口中用到了左右两个指针, 它们移动的思路是: **以右指针作为驱动, 拖着左指针向前走.
+右指针每次只移动一步, 而左指针在内部 while 循环中每次可能移动多步.
+右指针是主动前移, 探索未知的新区域; 左指针是被迫移动, 负责寻找满足题意的区间**.
 
-题目: #1234
+题目: #1004, 1234
 
 ---
