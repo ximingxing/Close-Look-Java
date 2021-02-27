@@ -52,7 +52,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1524` [Number of Sub-arrays With Odd Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1524-Number-of-Sub-arrays-With-Odd-Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array.md)
+#### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array_and_String.md)
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#2`   [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#26`  [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -67,7 +67,9 @@ With your questions, comments or even if you just want to say Hi.
 * `#1234` [Replace the Substring for Balanced String](https://github.com/ximingxing/LeetCode-notepad/blob/master/1234-Replace-the-Substring-for-Balanced-String/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1004` [Max Consecutive Ones III](https://github.com/ximingxing/LeetCode-notepad/blob/master/1004-Max-Consecutive-Ones-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### LinkedList
+#### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/blob/master/Linked_List.md)
+* `#1171` [Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/1171-Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#1290` [Convert Binary Number in a Linked List to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/1290-Convert-Binary-Number-in-a-Linked-List-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Stack
 
