@@ -1,29 +1,25 @@
-import javafx.util.Pair;
-
 /**
  * Description:
  * <p>
- * 递归
+ * 顺次翻转
  * <p>
  * Created By xxm
  */
-public class Solution {
+public class Solution3 {
 
     public static ListNode reverseList(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
+        ListNode r = null;
+        for (; head != null; ) {
+            // 将temp接到表头
+            ListNode temp = head;
+            // 表头向后移动, 成为新表头
+            head = head.next;
+            // 旧表头接在r之前
+            temp.next = r;
+            // 更新表头
+            r = temp;
         }
-        // 想象递归已经层层返回，到了最后一步.
-        // 以链表 1->2->3->4->5 为例;
-        // 现在链表变成了 5->4->3->2->null，1->2->null（是一个链表，不是两个链表）
-        // 此时newHead是5, head是1.
-        ListNode newHead = reverseList(head.next);
-        // 最后的操作是把链表 1->2->null 变成 2->1->null
-        // head是1, head.next是2, head.next.next = head 就是2指向1, 此时链表为 2->1->2
-        head.next.next = head;
-        // 防止链表循环, 1指向null, 此时链表为 2->1->null, 整个链表为 5->4->3->2->1->null
-        head.next = null;
-        return newHead;
+        return r;
     }
 
     public static void main(String[] args) {

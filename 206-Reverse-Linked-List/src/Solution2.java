@@ -1,28 +1,32 @@
-import javafx.util.Pair;
+import java.util.Stack;
 
 /**
  * Description:
  * <p>
- * 递归
+ * 利用堆栈
  * <p>
  * Created By xxm
  */
-public class Solution {
+public class Solution2 {
 
     public static ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
-        // 想象递归已经层层返回，到了最后一步.
-        // 以链表 1->2->3->4->5 为例;
-        // 现在链表变成了 5->4->3->2->null，1->2->null（是一个链表，不是两个链表）
-        // 此时newHead是5, head是1.
-        ListNode newHead = reverseList(head.next);
-        // 最后的操作是把链表 1->2->null 变成 2->1->null
-        // head是1, head.next是2, head.next.next = head 就是2指向1, 此时链表为 2->1->2
-        head.next.next = head;
-        // 防止链表循环, 1指向null, 此时链表为 2->1->null, 整个链表为 5->4->3->2->1->null
-        head.next = null;
+        // 将链表节点顺次压入堆栈
+        Stack<ListNode> stack = new Stack<>();
+        for (; head != null; head = head.next) {
+            stack.push(head);
+        }
+        // 将堆栈中的元素弹出的顺序即为链表翻转后的顺序
+        ListNode newHead = stack.pop();
+        ListNode temp = newHead;
+        while (stack.size() != 0) {
+            ListNode cur = stack.pop();
+            cur.next = null;
+            temp.next = cur;
+            temp = temp.next;
+        }
         return newHead;
     }
 
