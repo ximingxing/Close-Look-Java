@@ -68,6 +68,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1004` [Max Consecutive Ones III](https://github.com/ximingxing/LeetCode-notepad/blob/master/1004-Max-Consecutive-Ones-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/blob/master/Linked_List.md)
+* `#206` [Reverse Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/206-Reverse-Linked-List/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#237` [Delete Node in a Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/237-Delete-Node-in-a-Linked-List/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1171` [Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/1171-Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1290` [Convert Binary Number in a Linked List to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/1290-Convert-Binary-Number-in-a-Linked-List-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
