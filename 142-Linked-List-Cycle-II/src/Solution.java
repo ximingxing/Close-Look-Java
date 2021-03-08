@@ -8,13 +8,12 @@ import java.util.HashSet;
  * Created By xxm
  */
 public class Solution {
-    public boolean hasCycle(ListNode head) {
+    public ListNode detectCycle(ListNode head) {
         HashSet<ListNode> have = new HashSet<>();
-
         for (; head != null; head = head.next) {
-            if (have.contains(head)) return true;
+            if (have.contains(head)) return head;
             have.add(head);
         }
-        return false;
+        return null;
     }
 }

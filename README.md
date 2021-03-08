@@ -70,6 +70,7 @@ With your questions, comments or even if you just want to say Hi.
 #### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/blob/master/Linked_List.md)
 * `#25` [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#141` [Linked List Cycle](https://github.com/ximingxing/LeetCode-notepad/tree/master/141-Linked-List-Cycle/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#142` [Linked List Cycle II](https://github.com/ximingxing/LeetCode-notepad/tree/master/142-Linked-List-Cycle-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#206` [Reverse Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/206-Reverse-Linked-List/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#237` [Delete Node in a Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/237-Delete-Node-in-a-Linked-List/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1171` [Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/1171-Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
