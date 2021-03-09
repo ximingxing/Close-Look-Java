@@ -21,7 +21,7 @@ public class Solution2 {
             if (fast == slow) {
                 ListNode ptr = head;
                 // ptr和慢指针相遇点即为入环点
-                while (ptr != null) {
+                while (ptr != slow) {
                     ptr = ptr.next;
                     slow = slow.next;
                 }
