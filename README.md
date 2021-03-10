@@ -64,8 +64,8 @@ With your questions, comments or even if you just want to say Hi.
 * `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#485` [Max Consecutive Ones](https://github.com/ximingxing/LeetCode-notepad/blob/master/485-Max-Consecutive-Ones/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#1234` [Replace the Substring for Balanced String](https://github.com/ximingxing/LeetCode-notepad/blob/master/1234-Replace-the-Substring-for-Balanced-String/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1004` [Max Consecutive Ones III](https://github.com/ximingxing/LeetCode-notepad/blob/master/1004-Max-Consecutive-Ones-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#1234` [Replace the Substring for Balanced String](https://github.com/ximingxing/LeetCode-notepad/blob/master/1234-Replace-the-Substring-for-Balanced-String/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/blob/master/Linked_List.md)
 * `#25` [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
