@@ -6,7 +6,7 @@ Given the `head` of a linked list, we repeatedly delete consecutive sequences of
 
 After doing so, return the head of the final linked list. You may return any such answer.
 
-(Note that in the examples below, all sequences are serializations of `ListNode` objects.)
+(Note that in the examples below, all sequences are serializations of `Node` objects.)
 
 #### Constraints:
 
