@@ -76,11 +76,17 @@ With your questions, comments or even if you just want to say Hi.
 * `#206` [Reverse Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/206-Reverse-Linked-List/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#237` [Delete Node in a Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/237-Delete-Node-in-a-Linked-List/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#876` [Middle of the Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/876-Middle-of-the-Linked-List/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#725` [Split Linked List in Parts](https://github.com/ximingxing/LeetCode-notepad/tree/master/725-Split-Linked-List-in-Parts/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1171` [Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/1171-Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1290` [Convert Binary Number in a Linked List to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/1290-Convert-Binary-Number-in-a-Linked-List-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1669` [Merge In Between Linked Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/1669-Merge-In-Between-Linked-Lists/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Stack
+
+* `#20`   [Valid Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/20-Valid-Parentheses/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#144`  [Binary Tree Preorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/144-Binary-Tree-Preorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#1441` [Build an Array With Stack Operations](https://github.com/ximingxing/LeetCode-notepad/tree/master/1441-Build-an-Array-With-Stack-Operations/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Queue
 
