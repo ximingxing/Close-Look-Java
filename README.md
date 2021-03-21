@@ -60,6 +60,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#35`  [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#53`  [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#66`  [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#73` [Set Matrix Zeroes](https://github.com/ximingxing/LeetCode-notepad/tree/master/73-Set-Matrix-Zeroes/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#75`  [Sort Colors](https://github.com/ximingxing/LeetCode-notepad/tree/master/75-Sort-Colors/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#88`  [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167` [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
