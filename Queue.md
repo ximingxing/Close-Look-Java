@@ -59,3 +59,25 @@ void bfs(TreeNode root) {
 题目: #950
 
 ---
+
+### 循环/环形队列
+
+队列的一种实现, 为了节省空间, 首尾相接
+
+适用: 队列里元素个数不多
+
+难点: `front`, `rear`, `size`之间的关系以及判断满和空
+
+1. 循环队列
+
+    * 对于front, `tail = (front + size - 1) mod capacity`
+
+    * 对于tail, `front = (tail - size + 1 + capacity) mod capacity`
+
+题目: #622
+
+2. 循环双端队列
+
+题目: #641
+
+---
