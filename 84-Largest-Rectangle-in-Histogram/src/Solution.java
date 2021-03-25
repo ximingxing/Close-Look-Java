@@ -20,7 +20,7 @@ public class Solution {
             // 说明当前矩形无法扩展宽度(即不能矩形面积无法变大)
             // 则让当前矩形对应元素出栈, 即为矩形右边界
             for (; !stack.isEmpty() && heights[stack.peek()] >= heights[i]; ) {
-                int cur = heights[stack.pop()] * (i - (stack.isEmpty() ? -1 : stack.peek()));
+                int cur = heights[stack.pop()] * (i - (stack.isEmpty() ? -1 : stack.peek()) - 1);
                 r = Math.max(r, cur);
             }
             // i入栈, 代表当前的左边界
@@ -29,7 +29,7 @@ public class Solution {
 
         // 如果栈里还有元素
         while (!stack.isEmpty()) {
-            int cur = heights[stack.pop()] * (n - (stack.isEmpty() ? -1 : stack.peek()));
+            int cur = heights[stack.pop()] * (n - (stack.isEmpty() ? -1 : stack.peek()) - 1);
             r = Math.max(r, cur);
         }
 

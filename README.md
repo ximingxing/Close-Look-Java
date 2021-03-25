@@ -86,13 +86,16 @@ With your questions, comments or even if you just want to say Hi.
 
 * `#20`   [Valid Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/20-Valid-Parentheses/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#50`   [Largest Rectangle in Histogram](https://github.com/ximingxing/LeetCode-notepad/tree/master/84-Largest-Rectangle-in-Histogram/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#84`   [Largest Rectangle in Histogram](https://github.com/ximingxing/LeetCode-notepad/tree/master/84-Largest-Rectangle-in-Histogram/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#94`   [Binary Tree Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/94-Binary-Tree-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#144`  [Binary Tree Preorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/144-Binary-Tree-Preorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#145`  [Binary Tree Postorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/145-Binary-Tree-Postorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1441` [Build an Array With Stack Operations](https://github.com/ximingxing/LeetCode-notepad/tree/master/1441-Build-an-Array-With-Stack-Operations/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Queue
+
+* `#102`   [Binary Tree Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/102-Binary-Tree-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#933`   [Number of Recent Calls](https://github.com/ximingxing/LeetCode-notepad/tree/master/933-Number-of-Recent-Calls/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Divide and conquer: Binary search
 
