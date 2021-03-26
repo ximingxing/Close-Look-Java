@@ -82,7 +82,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1290` [Convert Binary Number in a Linked List to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/1290-Convert-Binary-Number-in-a-Linked-List-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1669` [Merge In Between Linked Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/1669-Merge-In-Between-Linked-Lists/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### Stack
+#### [Stack](https://github.com/ximingxing/LeetCode-notepad/blob/master/Stack.md))
 
 * `#20`   [Valid Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/20-Valid-Parentheses/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -92,7 +92,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#145`  [Binary Tree Postorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/145-Binary-Tree-Postorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1441` [Build an Array With Stack Operations](https://github.com/ximingxing/LeetCode-notepad/tree/master/1441-Build-an-Array-With-Stack-Operations/src) <img src="https://img.shields.io/badge/-easy-green">
 
-#### Queue
+#### [Queue](https://github.com/ximingxing/LeetCode-notepad/blob/master/Queue.md))
 
 * `#102`   [Binary Tree Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/102-Binary-Tree-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#622`   [Design Circular Queue](https://github.com/ximingxing/LeetCode-notepad/tree/master/622-Design-Circular-Queue/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -110,7 +110,9 @@ With your questions, comments or even if you just want to say Hi.
 
 #### Bit operation
 
-#### Dynamic programming
+#### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/Dynamic_Programming.md))
+
+* `#322`   [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Others
 
