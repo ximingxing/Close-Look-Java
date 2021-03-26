@@ -1,7 +1,7 @@
 /**
  * Description:
  * <p>
- * 实现一: 保存指向队头元素的下标
+ * 实现一: 仅保存front用来标记队列头部
  * 通过 `tail = (front + size - 1) mod capacity` 找到队尾
  * <p>
  * Created By xxm
