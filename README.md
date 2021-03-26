@@ -96,6 +96,7 @@ With your questions, comments or even if you just want to say Hi.
 
 * `#102`   [Binary Tree Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/102-Binary-Tree-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#622`   [Design Circular Queue](https://github.com/ximingxing/LeetCode-notepad/tree/master/622-Design-Circular-Queue/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#641`   [Design Circular Deque](https://github.com/ximingxing/LeetCode-notepad/tree/master/641-Design-Circular-Deque/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#933`   [Number of Recent Calls](https://github.com/ximingxing/LeetCode-notepad/tree/master/933-Number-of-Recent-Calls/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#950`   [Reveal Cards In Increasing Order](https://github.com/ximingxing/LeetCode-notepad/tree/master/950-Reveal-Cards-In-Increasing-Order/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
