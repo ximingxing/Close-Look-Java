@@ -95,6 +95,7 @@ With your questions, comments or even if you just want to say Hi.
 #### [Queue](https://github.com/ximingxing/LeetCode-notepad/blob/master/Queue.md))
 
 * `#102`   [Binary Tree Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/102-Binary-Tree-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#225`   [Implement Stack using Queues](https://github.com/ximingxing/LeetCode-notepad/tree/master/225-Implement-Stack-using-Queues/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#622`   [Design Circular Queue](https://github.com/ximingxing/LeetCode-notepad/tree/master/622-Design-Circular-Queue/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#641`   [Design Circular Deque](https://github.com/ximingxing/LeetCode-notepad/tree/master/641-Design-Circular-Deque/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#933`   [Number of Recent Calls](https://github.com/ximingxing/LeetCode-notepad/tree/master/933-Number-of-Recent-Calls/src) <img src="https://img.shields.io/badge/-easy-green">

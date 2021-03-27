@@ -57,3 +57,5 @@ int coinChange(int[] coins, int amount)
 3. 最后**明确 base case**
 
 显然目标金额为0时, 所需硬币数量为0; 当目标金额小于0时, 无解, 返回 -1;
+
+---
