@@ -13,14 +13,17 @@ public class Solution {
     public int maxResult(int[] nums, int k) {
         // 单调队列, 存储下标
         Deque<Integer> q = new LinkedList<>();
-        final int n = nums.length;
 
         // 循环遍历nums, last用于保存上一个滑动窗口中的最大值
-        for (int i = 0, last = 0; i < n; ++i) {
+        for (int i = 0, last = 0; i < nums.length; ++i) {
             // 如果窗口内的元素个数超过窗口大小, 出队
             if (!q.isEmpty() && q.peek() <= i - k) {
-                q.poll();
+                q.removeFirst();
             }
+
+            // 第i个元素最大值 == 当前第i个元素的值 + 前i个元素可以组合成的最大值
+            nums[i] += last;
+
             // 如果当前第i个元素的值大于单调队列中最后一个元素,
             // 则让队尾元素出队;
             // 循环这个过程, 单调队列中的所有元素满足单调性.
@@ -29,8 +32,6 @@ public class Solution {
             }
             // 当前第i个元素满足单调性
             q.add(i);
-            // 第i个元素最大值 == 当前第i个元素的值 + 前i个元素可以组合成的最大值
-            nums[i] += last;
             // 更新last, 为下一个滑动窗口作准备.
             last = nums[q.peek()];
         }
