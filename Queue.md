@@ -19,7 +19,7 @@
 * DFS使用递归:
 
 ```java
-void dfs(TreeNode root) {
+void dfs(Node root) {
     if (root == null) {
         return;
     }
@@ -31,11 +31,11 @@ void dfs(TreeNode root) {
 * BFS使用**队列**数据结构
 
 ```java
-void bfs(TreeNode root) {
-    Queue<TreeNode> queue = new ArrayDeque<>();
+void bfs(Node root) {
+    Queue<Node> queue = new ArrayDeque<>();
     queue.add(root);
     while (!queue.isEmpty()) {
-        TreeNode node = queue.poll(); // Java 的 pop 写作 poll()
+        Node node = queue.poll(); // Java 的 pop 写作 poll()
         if (node.left != null) {
             queue.add(node.left);
         }

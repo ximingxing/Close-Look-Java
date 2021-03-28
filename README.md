@@ -83,7 +83,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1290` [Convert Binary Number in a Linked List to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/1290-Convert-Binary-Number-in-a-Linked-List-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1669` [Merge In Between Linked Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/1669-Merge-In-Between-Linked-Lists/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [Stack](https://github.com/ximingxing/LeetCode-notepad/blob/master/Stack.md))
+#### [Stack](https://github.com/ximingxing/LeetCode-notepad/blob/master/Stack.md)
 
 * `#20`   [Valid Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/20-Valid-Parentheses/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -93,7 +93,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#145`  [Binary Tree Postorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/145-Binary-Tree-Postorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1441` [Build an Array With Stack Operations](https://github.com/ximingxing/LeetCode-notepad/tree/master/1441-Build-an-Array-With-Stack-Operations/src) <img src="https://img.shields.io/badge/-easy-green">
 
-#### [Queue](https://github.com/ximingxing/LeetCode-notepad/blob/master/Queue.md))
+#### [Queue](https://github.com/ximingxing/LeetCode-notepad/blob/master/Queue.md)
 
 * `#102`   [Binary Tree Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/102-Binary-Tree-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#225`   [Implement Stack using Queues](https://github.com/ximingxing/LeetCode-notepad/tree/master/225-Implement-Stack-using-Queues/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -106,8 +106,9 @@ With your questions, comments or even if you just want to say Hi.
 * `#1306`  [Jump Game III](https://github.com/ximingxing/LeetCode-notepad/tree/master/1306-Jump-Game-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1696`  [Jump Game VI](https://github.com/ximingxing/LeetCode-notepad/tree/master/1696-Jump-Game-VI/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### Binary Tree
+#### [Binary Tree](https://github.com/ximingxing/LeetCode-notepad/blob/master/Binary_Tree.md)
 
+* `#116`   [Populating Next Right Pointers in Each Node](https://github.com/ximingxing/LeetCode-notepad/tree/master/116-Populating-Next-Right-Pointers-in-Each-Node/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#226`   [Invert Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/226-Invert-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Divide and conquer: Binary search
