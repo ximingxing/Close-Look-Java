@@ -106,6 +106,10 @@ With your questions, comments or even if you just want to say Hi.
 * `#1306`  [Jump Game III](https://github.com/ximingxing/LeetCode-notepad/tree/master/1306-Jump-Game-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1696`  [Jump Game VI](https://github.com/ximingxing/LeetCode-notepad/tree/master/1696-Jump-Game-VI/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
+#### Binary Tree
+
+* `#226`   [Invert Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/226-Invert-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
+
 #### Divide and conquer: Binary search
 
 * `#69`   [Sqrt(x)](https://github.com/ximingxing/LeetCode-notepad/tree/master/69-Sqrt(x)/src) <img src="https://img.shields.io/badge/-easy-green">
