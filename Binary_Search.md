@@ -12,4 +12,23 @@
 
 - 解是什么? left - 1 或 right + 1
 
-题目: #69
+```java
+// 左右界限
+left, right;
+while (left <= right) {
+    mid = left + (right - left) / 2;
+    if (fit(mid)) {
+        // 如果满足条件，记录答案
+        ...
+        // 减小右边界以找到更小的满足要求的值
+        right = mid - 1;
+    } else {
+        // 如果不满足条件，增加天数以放宽条件
+        left = mid + 1;    
+    }
+}
+```
+
+题目: #69, 1482， 1552
+
+"先猜后证"
