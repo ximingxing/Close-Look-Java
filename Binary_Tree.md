@@ -85,3 +85,44 @@ void traverse(Node root) {
 思路: 对于每个根节点, 只需要找到当前nums中的最大值和对应的索引, 然后递归调用左右数组构造左右子树即可.
 
 题目: #654
+
+---
+
+### 通过前序和中序遍历结果构造二叉树
+
+```
+Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
+Output: [3,9,20,null,null,15,7]
+```
+
+对于前序遍历结果, 第一个元素`3`为二叉树的根节点.
+
+**如何确定前序遍历左右子树是关键**.
+
+对于中序遍历结果, 已知根节点, 便可以用根节点在中序遍历中的索引`ind`,
+将中序遍历结果分为左右子树.
+
+```     
+            ind
+             |
+inorder = [9,3,15,20,7]
+           |         |
+        inStart    inEnd
+```
+
+左子树区间为`[inStart, ind]`, 右子树区间为`[ind+1, inEnd]`.
+
+根据中序遍历中根节点索引`ind`以及起始点所以`inStart`.
+
+得到前序遍历左子树区间`[preStart+1, preStart + leftSize]`
+得到前序遍历右子树区间`[preStart + leftSize + 1, preEnd]`
+
+```        
+         preStart(root)
+            |
+preorder = [3,9,20,15,7]
+                |
+       preStart + leftSize +1
+```
+
+题目: #105
