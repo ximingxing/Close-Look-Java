@@ -111,6 +111,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#114`   [Flatten Binary Tree to Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/114-Flatten-Binary-Tree-to-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#116`   [Populating Next Right Pointers in Each Node](https://github.com/ximingxing/LeetCode-notepad/tree/master/116-Populating-Next-Right-Pointers-in-Each-Node/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#226`   [Invert Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/226-Invert-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#654`   [Maximum Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/654-Maximum-Binary-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Divide and conquer: Binary search
 
