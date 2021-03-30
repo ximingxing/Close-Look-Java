@@ -1,5 +1,8 @@
 /**
  * Description:
+ * <p>
+ * 先递归遍历二分搜索树, 在根据三种情况删除节点
+ * <p>
  * Created By xxm
  */
 public class Solution {
