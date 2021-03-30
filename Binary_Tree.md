@@ -335,6 +335,8 @@ TreeNode insertIntoBST(TreeNode root, int val) {
 }
 ```
 
+题目: #701
+
 ### 在BST中删除一个数
 
 跟插入操作类似, 先「找」再「改」, 算法框架如下:
