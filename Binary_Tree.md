@@ -1,4 +1,4 @@
-### Binary Tree
+# 二叉树 - Binary Tree
 
 **递归算法的关键要明确函数的定义, 相信这个定义, 而不要跳进递归细节**.
 
@@ -185,3 +185,31 @@ String traverse(TreeNode root) {
 2. 借助一个数据结构(HashMap)存储所有节点的子树, 判断有无重复即可
 
 题目: #652
+
+---
+
+# 二分搜索树 - Binary Search Tree
+
+1. 对于 BST 的每一个节点node, 左子树节点的值都比node的值要小, 右子树节点的值都比node的值大.
+
+2. 对于 BST 的每一个节点node, 它的左侧子树和右侧子树都是BST.
+
+**BST的中序遍历结果是有序的(升序)**.
+
+```java
+void traverse(TreeNode root) {
+    if (root == null) return;
+    traverse(root.left);
+    // 中序遍历代码位置
+    print(root.val);
+    traverse(root.right);
+}
+```
+
+### 寻找第K小第元素
+
+解法一: 由于我们已知BST中序遍历结果是有序的, 所有通过中序遍历可以找到第k小第元素.
+
+解法二: 用栈模拟递归解法
+
+题目: #230
