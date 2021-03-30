@@ -229,3 +229,8 @@ void traverse(TreeNode root) {
 改变思路为: 先遍历right, 再遍历自己, 最后遍历left.
 
 题目: #538
+
+---
+
+### 判断BST合法性
+
