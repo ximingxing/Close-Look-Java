@@ -315,6 +315,8 @@ void BST(TreeNode root, int target) {
 }
 ```
 
+题目: #700
+
 ### 在BST中插入一个数
 
 我们总结了 BST 中的遍历框架, 就是「找」的问题.

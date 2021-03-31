@@ -117,6 +117,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#538`   [Convert BST to Greater Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/538-Convert-BST-to-Greater-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#652`   [Find Duplicate Subtrees](https://github.com/ximingxing/LeetCode-notepad/tree/master/652-Find-Duplicate-Subtrees/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#654`   [Maximum Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/654-Maximum-Binary-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#700`   [Search in a Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/700-Search-in-a-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#701`   [Insert into a Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/701-Insert-into-a-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Divide and conquer: Binary search
