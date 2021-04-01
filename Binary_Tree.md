@@ -442,6 +442,43 @@ void traverse(TreeNode root) {
 }
 ```
 
+基于层序遍历序列化二叉树和层序遍历二叉树相似.
+
+同样, 由于存在空指针的信息, 也可以用层序遍历反序列化二叉树, 同样使用一个队列依次保存父节点.
+
 题目: #297
+
+---
+
+### 多叉树遍历
+
+多叉树的基本结构:
+
+```
+/* 基本的 N 叉树节点 */
+class TreeNode {
+    int val;
+    TreeNode[] children;
+}
+```
+
+题目中可能类似的数据结构:
+
+```
+class NestedInteger {
+    Integer val;
+    List<NestedInteger> list;
+}
+```
+
+**多叉树遍历框架**:
+
+```java
+void traverse(TreeNode root) {
+    for (TreeNode child : root.children)
+        traverse(child);
+```
+
+题目: #341
 
 ---
