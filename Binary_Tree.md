@@ -395,3 +395,53 @@ TreeNode getMin(TreeNode node) {
 ```
 
 题目: #450
+
+---
+
+### 二叉树的序列化
+
+二叉树结该是一个二维平面内的结构，而序列化出来的字符串是一个线性的一维结构.
+
+**所谓的序列化不过就是把结构化的数据「打平」,其实就是在考察二叉树的遍历方式**.
+
+> 一般语境下, 单单前序遍历结果是不能还原二叉树结构的, 因为缺少空指针的信息,
+> 至少要得到前、中、后序遍历中的两种才能还原二叉树.
+
+**解法一**: 前序遍历
+
+**解法二**: 后序遍历
+
+**至于单独依靠中序遍历无法完成反序列化, 因为无法判断root节点所在的位置**.
+
+**解法三**: 层序遍历
+
+层序遍历二叉树框架:
+
+```java
+void traverse(TreeNode root) {
+    if (root == null) return;
+    // 初始化队列，将 root 加入队列
+    Queue<TreeNode> q = new LinkedList<>();
+    q.offer(root);
+
+    while (!q.isEmpty()) {
+        TreeNode cur = q.poll();
+
+        /* 层级遍历代码位置 */
+        System.out.println(root.val);
+        /*****************/
+
+        if (cur.left != null) {
+            q.offer(cur.left);
+        }
+
+        if (cur.right != null) {
+            q.offer(cur.right);
+        }
+    }
+}
+```
+
+题目: #297
+
+---
