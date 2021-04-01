@@ -52,7 +52,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1524` [Number of Sub-arrays With Odd Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1524-Number-of-Sub-arrays-With-Odd-Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array_and_String.md)
+#### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array.md)
 * `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#26`   [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -115,7 +115,9 @@ With your questions, comments or even if you just want to say Hi.
 * `#226`   [Invert Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/226-Invert-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#226`   [Invert Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/226-Invert-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#230`   [Kth Smallest Element in a BST](https://github.com/ximingxing/LeetCode-notepad/tree/master/230-Kth-Smallest-Element-in-a-BST/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#236`   [Lowest Common Ancestor of a Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/236-Lowest-Common-Ancestor-of-a-Binary-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#297`   [Serialize and Deserialize Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/297-Serialize-and-Deserialize-Binary-Tree/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#341`   [Flatten Nested List Iterator](https://github.com/ximingxing/LeetCode-notepad/tree/master/341-Flatten-Nested-List-Iterator/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#450`   [Delete Node in a BST](https://github.com/ximingxing/LeetCode-notepad/tree/master/450-Delete-Node-in-a-BST/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#538`   [Convert BST to Greater Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/538-Convert-BST-to-Greater-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#652`   [Find Duplicate Subtrees](https://github.com/ximingxing/LeetCode-notepad/tree/master/652-Find-Duplicate-Subtrees/src) <img src="https://img.shields.io/badge/-medium-yellow">
