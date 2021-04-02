@@ -18,6 +18,7 @@ public class Solution2 {
         int[] dp = new int[max];
         // 为dp数组中的每个元素赋初始值`amount + 1`
         Arrays.fill(dp, max);
+        // base case
         dp[0] = 0;
         // 遍历dp的全部状态
         for (int i = 1; i <= amount; i++) {
