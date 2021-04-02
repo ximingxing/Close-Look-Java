@@ -28,6 +28,7 @@ public class Solution2 {
                 dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
             }
         }
+        // 当前 amount 无解, 返回 -1 , 否则返回最小硬币数量
         return (dp[amount] == max) ? -1 : dp[amount];
     }
 
