@@ -112,7 +112,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#105`   [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#114`   [Flatten Binary Tree to Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/114-Flatten-Binary-Tree-to-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#116`   [Populating Next Right Pointers in Each Node](https://github.com/ximingxing/LeetCode-notepad/tree/master/116-Populating-Next-Right-Pointers-in-Each-Node/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#226`   [Invert Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/226-Invert-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#222`   [Count Complete Tree Nodes](https://github.com/ximingxing/LeetCode-notepad/tree/master/222-Count-Complete-Tree-Nodes/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#226`   [Invert Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/226-Invert-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#230`   [Kth Smallest Element in a BST](https://github.com/ximingxing/LeetCode-notepad/tree/master/230-Kth-Smallest-Element-in-a-BST/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#236`   [Lowest Common Ancestor of a Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/236-Lowest-Common-Ancestor-of-a-Binary-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
