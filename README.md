@@ -58,6 +58,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#26`   [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#27`   [Remove Element](https://github.com/ximingxing/LeetCode-notepad/tree/master/27-Remove-Element/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#35`   [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#42`   [Trapping Rain Water](https://github.com/ximingxing/LeetCode-notepad/tree/master/42-Trapping-Rain-Water/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#53`   [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#66`   [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#73`   [Set Matrix Zeroes](https://github.com/ximingxing/LeetCode-notepad/tree/master/73-Set-Matrix-Zeroes/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -84,7 +85,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#1669` [Merge In Between Linked Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/1669-Merge-In-Between-Linked-Lists/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Stack](https://github.com/ximingxing/LeetCode-notepad/blob/master/Stack.md)
-
 * `#20`   [Valid Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/20-Valid-Parentheses/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#84`   [Largest Rectangle in Histogram](https://github.com/ximingxing/LeetCode-notepad/tree/master/84-Largest-Rectangle-in-Histogram/src) <img src="https://img.shields.io/badge/-hard-red">
@@ -94,7 +94,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#1441` [Build an Array With Stack Operations](https://github.com/ximingxing/LeetCode-notepad/tree/master/1441-Build-an-Array-With-Stack-Operations/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### [Queue](https://github.com/ximingxing/LeetCode-notepad/blob/master/Queue.md)
-
 * `#102`   [Binary Tree Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/102-Binary-Tree-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#225`   [Implement Stack using Queues](https://github.com/ximingxing/LeetCode-notepad/tree/master/225-Implement-Stack-using-Queues/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#232`   [Implement Queue using Stacks](https://github.com/ximingxing/LeetCode-notepad/tree/master/232-Implement-Queue-using-Stacks/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -107,7 +106,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#1696`  [Jump Game VI](https://github.com/ximingxing/LeetCode-notepad/tree/master/1696-Jump-Game-VI/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Binary Tree](https://github.com/ximingxing/LeetCode-notepad/blob/master/Binary_Tree.md)
-
 * `#98`    [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/98-Validate-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#105`   [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#114`   [Flatten Binary Tree to Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/114-Flatten-Binary-Tree-to-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -127,7 +125,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#814`   [Binary Tree Pruning](https://github.com/ximingxing/LeetCode-notepad/tree/master/814-Binary-Tree-Pruning/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Divide and conquer: Binary search
-
 * `#69`   [Sqrt(x)](https://github.com/ximingxing/LeetCode-notepad/tree/master/69-Sqrt(x)/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#74`   [Search a 2D Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/74-Search-a-2D-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1482` [Minimum Number of Days to Make m Bouquets](https://github.com/ximingxing/LeetCode-notepad/tree/master/1482-Minimum-Number-of-Days-to-Make-m-Bouquets/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -141,7 +138,6 @@ With your questions, comments or even if you just want to say Hi.
 #### Bit operation
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/Dynamic_Programming.md))
-
 * `#322`   [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Others
