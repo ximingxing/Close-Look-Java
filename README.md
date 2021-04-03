@@ -129,13 +129,13 @@ With your questions, comments or even if you just want to say Hi.
 * `#74`   [Search a 2D Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/74-Search-a-2D-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1482` [Minimum Number of Days to Make m Bouquets](https://github.com/ximingxing/LeetCode-notepad/tree/master/1482-Minimum-Number-of-Days-to-Make-m-Bouquets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### Recursive
+#### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/blob/master/Backtracking.md))
 
 #### Graph
 
 #### Greedy algorithm
 
-#### Bit operation
+#### Bit manipulation]
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/Dynamic_Programming.md))
 * `#322`  [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
