@@ -106,8 +106,9 @@ With your questions, comments or even if you just want to say Hi.
 * `#1696`  [Jump Game VI](https://github.com/ximingxing/LeetCode-notepad/tree/master/1696-Jump-Game-VI/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Binary Tree](https://github.com/ximingxing/LeetCode-notepad/blob/master/Binary_Tree.md)
-* `#98`    [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/98-Validate-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#98`    [Validate Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/98-Validate-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#105`   [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#111`   [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#114`   [Flatten Binary Tree to Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/114-Flatten-Binary-Tree-to-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#116`   [Populating Next Right Pointers in Each Node](https://github.com/ximingxing/LeetCode-notepad/tree/master/116-Populating-Next-Right-Pointers-in-Each-Node/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#222`   [Count Complete Tree Nodes](https://github.com/ximingxing/LeetCode-notepad/tree/master/222-Count-Complete-Tree-Nodes/src) <img src="https://img.shields.io/badge/-medium-yellow">
