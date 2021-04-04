@@ -108,7 +108,6 @@ With your questions, comments or even if you just want to say Hi.
 #### [Binary Tree](https://github.com/ximingxing/LeetCode-notepad/blob/master/Binary_Tree.md)
 * `#98`    [Validate Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/98-Validate-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#105`   [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#111`   [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#114`   [Flatten Binary Tree to Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/114-Flatten-Binary-Tree-to-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#116`   [Populating Next Right Pointers in Each Node](https://github.com/ximingxing/LeetCode-notepad/tree/master/116-Populating-Next-Right-Pointers-in-Each-Node/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#222`   [Count Complete Tree Nodes](https://github.com/ximingxing/LeetCode-notepad/tree/master/222-Count-Complete-Tree-Nodes/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -124,6 +123,10 @@ With your questions, comments or even if you just want to say Hi.
 * `#700`   [Search in a Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/700-Search-in-a-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#701`   [Insert into a Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/701-Insert-into-a-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#814`   [Binary Tree Pruning](https://github.com/ximingxing/LeetCode-notepad/tree/master/814-Binary-Tree-Pruning/src) <img src="https://img.shields.io/badge/-medium-yellow">
+
+### [BFS](https://github.com/ximingxing/LeetCode-notepad/blob/master/BFS.md)
+* `#111`   [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#752`   [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Divide and conquer: Binary search
 * `#69`   [Sqrt(x)](https://github.com/ximingxing/LeetCode-notepad/tree/master/69-Sqrt(x)/src) <img src="https://img.shields.io/badge/-easy-green">
