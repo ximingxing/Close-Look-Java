@@ -135,6 +135,7 @@ With your questions, comments or even if you just want to say Hi.
 #### Graph
 
 #### Greedy algorithm
+* `#781`  [Rabbits in Forest](https://github.com/ximingxing/LeetCode-notepad/tree/master/781-Rabbits-in-Forest/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Bit manipulation]
 
