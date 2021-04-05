@@ -52,6 +52,9 @@ With your questions, comments or even if you just want to say Hi.
 * `#1524` [Number of Sub-arrays With Odd Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1524-Number-of-Sub-arrays-With-Odd-Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 
+#### [Sort](https://github.com/ximingxing/LeetCode-notepad/blob/master/Sort.md)
+* `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
+
 #### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array.md)
 * `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -63,7 +66,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#66`   [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#73`   [Set Matrix Zeroes](https://github.com/ximingxing/LeetCode-notepad/tree/master/73-Set-Matrix-Zeroes/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#75`   [Sort Colors](https://github.com/ximingxing/LeetCode-notepad/tree/master/75-Sort-Colors/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167`  [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#485`  [Max Consecutive Ones](https://github.com/ximingxing/LeetCode-notepad/blob/master/485-Max-Consecutive-Ones/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1004` [Max Consecutive Ones III](https://github.com/ximingxing/LeetCode-notepad/blob/master/1004-Max-Consecutive-Ones-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
