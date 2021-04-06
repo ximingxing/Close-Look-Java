@@ -144,6 +144,7 @@ With your questions, comments or even if you just want to say Hi.
 
 #### [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/blob/master/Greedy.md))
 * `#781`  [Rabbits in Forest](https://github.com/ximingxing/LeetCode-notepad/tree/master/781-Rabbits-in-Forest/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#1024` [Video Stitching](https://github.com/ximingxing/LeetCode-notepad/tree/master/1024-Video-Stitching/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1221` [Split a String in Balanced Strings](https://github.com/ximingxing/LeetCode-notepad/tree/master/1221-Split-a-String-in-Balanced-Strings/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1431` [Kids With the Greatest Number of Candies](https://github.com/ximingxing/LeetCode-notepad/tree/master/1431-Kids-With-the-Greatest-Number-of-Candies/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1403` [Minimum Subsequence in Non-Increasing Order](https://github.com/ximingxing/LeetCode-notepad/tree/master/1403-Minimum-Subsequence-in-Non-Increasing-Order/src) <img src="https://img.shields.io/badge/-easy-green">
