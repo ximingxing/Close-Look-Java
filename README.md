@@ -137,6 +137,7 @@ With your questions, comments or even if you just want to say Hi.
 
 #### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/blob/master/Backtracking.md))
 * `#51`   [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#698`  [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Graph
 
