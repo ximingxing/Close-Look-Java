@@ -1,31 +1,26 @@
-import java.util.Deque;
-import java.util.LinkedList;
-
 /**
  * Description:
  * <p>
- * 使用堆栈模拟递归调用pow.
+ * 题目提示范围很关键.
+ * -100.0 < x < 100.0
+ * -231 <= n <= 231-1
+ * -104 <= xn <= 104
  * <p>
  * Created By xxm
  */
 public class Solution2 {
 
+    // 快速模取幂算法
     private double pow(double x, long n) {
-        // 用堆栈模拟递归调用
-        Deque<Long> stack = new LinkedList<>();
-        // 将 n 次幂除以 2 后依次入栈
-        for (stack.push(n); stack.peek() > 1; stack.push(stack.peek() / 2)) ;
-        // r 用来存储返回结果
-        double r = x;
-        // 让堆栈中的幂次依次出栈
-        for (stack.pop(); !stack.isEmpty(); ) {
-            // 出栈一个元素 r 自乘一次
-            r *= r;
-            // 如果要求得是奇数次幂, 即 x^n, n为奇数
-            // 需要再次自乘
-            if (stack.pop() % 2 == 1) {
-                r *= r;
+        double r = 1;
+        // 在对 N 进行二进制拆分的同时计算答案
+        for (; n > 0; n >>= 1) {
+            // 如果 N 二进制表示的最低位为 1，那么需要计入贡献
+            if ((n & 1) == 1) {
+                r *= x;
             }
+            // 将贡献不断地平方
+            x *= x;
         }
         return r;
     }
