@@ -1,4 +1,5 @@
-import java.util.Stack;
+import java.util.Deque;
+import java.util.LinkedList;
 
 /**
  * Description:
@@ -10,12 +11,18 @@ import java.util.Stack;
 public class Solution2 {
 
     private double pow(double x, long n) {
-        Stack<long> stack = new Stack<long>();
-        //
+        // 用堆栈模拟递归调用
+        Deque<Long> stack = new LinkedList<>();
+        // 将 n 次幂除以 2 后依次入栈
         for (stack.push(n); stack.peek() > 1; stack.push(stack.peek() / 2)) ;
+        // r 用来存储返回结果
         double r = x;
+        // 让堆栈中的幂次依次出栈
         for (stack.pop(); !stack.isEmpty(); ) {
+            // 出栈一个元素 r 自乘一次
             r *= r;
+            // 如果要求得是奇数次幂, 即 x^n, n为奇数
+            // 需要再次自乘
             if (stack.pop() % 2 == 1) {
                 r *= r;
             }
