@@ -140,23 +140,23 @@ With your questions, comments or even if you just want to say Hi.
 * `#704`  [Binary Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/704-Binary-Search/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1482` [Minimum Number of Days to Make m Bouquets](https://github.com/ximingxing/LeetCode-notepad/tree/master/1482-Minimum-Number-of-Days-to-Make-m-Bouquets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/blob/master/Backtracking.md))
+#### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/blob/master/Backtracking.md)
 * `#51`   [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#79`   [Word Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/79-Word-Search/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#698`  [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Graph
 
-#### [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/blob/master/Greedy.md))
+#### [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/blob/master/Greedy.md)
 * `#781`  [Rabbits in Forest](https://github.com/ximingxing/LeetCode-notepad/tree/master/781-Rabbits-in-Forest/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1024` [Video Stitching](https://github.com/ximingxing/LeetCode-notepad/tree/master/1024-Video-Stitching/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1221` [Split a String in Balanced Strings](https://github.com/ximingxing/LeetCode-notepad/tree/master/1221-Split-a-String-in-Balanced-Strings/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1431` [Kids With the Greatest Number of Candies](https://github.com/ximingxing/LeetCode-notepad/tree/master/1431-Kids-With-the-Greatest-Number-of-Candies/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1403` [Minimum Subsequence in Non-Increasing Order](https://github.com/ximingxing/LeetCode-notepad/tree/master/1403-Minimum-Subsequence-in-Non-Increasing-Order/src) <img src="https://img.shields.io/badge/-easy-green">
 
-#### Bit manipulation]
+#### Bit manipulation
 
-#### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/DynamicProgramming.md))
+#### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/DynamicProgramming.md)
 * `#322`  [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1143` [Longest Common Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/1143-Longest-Common-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
