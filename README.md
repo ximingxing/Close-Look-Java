@@ -133,6 +133,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#752`   [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Binary search](https://github.com/ximingxing/LeetCode-notepad/blob/master/BinarySearch.md)
+* `#34`   [Find First and Last Position of Element in Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/34-Find-First-and-Last-Position-of-Element-in-Sorted-Array/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#69`   [Sqrt(x)](https://github.com/ximingxing/LeetCode-notepad/tree/master/69-Sqrt(x)/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#74`   [Search a 2D Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/74-Search-a-2D-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#153`  [Find Minimum in Rotated Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/153-Find-Minimum-in-Rotated-Sorted-Array/src) <img src="https://img.shields.io/badge/-medium-yellow">
