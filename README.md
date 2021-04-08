@@ -136,6 +136,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#69`   [Sqrt(x)](https://github.com/ximingxing/LeetCode-notepad/tree/master/69-Sqrt(x)/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#74`   [Search a 2D Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/74-Search-a-2D-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#153`  [Find Minimum in Rotated Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/153-Find-Minimum-in-Rotated-Sorted-Array/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#704`  [Binary Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/704-Binary-Search/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1482` [Minimum Number of Days to Make m Bouquets](https://github.com/ximingxing/LeetCode-notepad/tree/master/1482-Minimum-Number-of-Days-to-Make-m-Bouquets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/blob/master/Backtracking.md))
