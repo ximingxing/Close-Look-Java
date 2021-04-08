@@ -73,7 +73,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1004` [Max Consecutive Ones III](https://github.com/ximingxing/LeetCode-notepad/blob/master/1004-Max-Consecutive-Ones-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1234` [Replace the Substring for Balanced String](https://github.com/ximingxing/LeetCode-notepad/blob/master/1234-Replace-the-Substring-for-Balanced-String/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/blob/master/Linked_List.md)
+#### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/blob/master/Linkedlist.md)
 * `#25`   [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#61`   [Rotate List](https://github.com/ximingxing/LeetCode-notepad/tree/master/61-Rotate-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#92`   [Reverse Linked List II](https://github.com/ximingxing/LeetCode-notepad/tree/master/92-Reverse-Linked-List-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -109,7 +109,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1306`  [Jump Game III](https://github.com/ximingxing/LeetCode-notepad/tree/master/1306-Jump-Game-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1696`  [Jump Game VI](https://github.com/ximingxing/LeetCode-notepad/tree/master/1696-Jump-Game-VI/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [Binary Tree](https://github.com/ximingxing/LeetCode-notepad/blob/master/Binary_Tree.md)
+#### [Binary Tree](https://github.com/ximingxing/LeetCode-notepad/blob/master/BinaryTree.md)
 * `#98`    [Validate Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/98-Validate-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#105`   [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#114`   [Flatten Binary Tree to Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/114-Flatten-Binary-Tree-to-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -132,7 +132,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#111`   [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#752`   [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### Divide and conquer: Binary search
+#### [Binary search](https://github.com/ximingxing/LeetCode-notepad/blob/master/BinarySearch.md)
 * `#69`   [Sqrt(x)](https://github.com/ximingxing/LeetCode-notepad/tree/master/69-Sqrt(x)/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#74`   [Search a 2D Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/74-Search-a-2D-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1482` [Minimum Number of Days to Make m Bouquets](https://github.com/ximingxing/LeetCode-notepad/tree/master/1482-Minimum-Number-of-Days-to-Make-m-Bouquets/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -152,7 +152,7 @@ With your questions, comments or even if you just want to say Hi.
 
 #### Bit manipulation]
 
-#### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/Dynamic_Programming.md))
+#### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/DynamicProgramming.md))
 * `#322`  [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1143` [Longest Common Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/1143-Longest-Common-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
