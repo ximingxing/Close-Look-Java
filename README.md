@@ -68,6 +68,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#75`   [Sort Colors](https://github.com/ximingxing/LeetCode-notepad/tree/master/75-Sort-Colors/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#80`   [Remove Duplicates from Sorted Array II](https://github.com/ximingxing/LeetCode-notepad/tree/master/80-Remove-Duplicates-from-Sorted-Array-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#81`   [Search in Rotated Sorted Array II](https://github.com/ximingxing/LeetCode-notepad/tree/master/81-Search-in-Rotated-Sorted-Array-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#125`  [Valid Palindrome](https://github.com/ximingxing/LeetCode-notepad/tree/master/125-Valid-Palindrome/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#167`  [Two Sum II - Input array is sorted](https://github.com/ximingxing/LeetCode-notepad/tree/master/167-Two-Sum-II-Input-array-is-sorted/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#344`  [Reverse String](https://github.com/ximingxing/LeetCode-notepad/tree/master/344-Reverse-String/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#485`  [Max Consecutive Ones](https://github.com/ximingxing/LeetCode-notepad/blob/master/485-Max-Consecutive-Ones/src) <img src="https://img.shields.io/badge/-easy-green">
