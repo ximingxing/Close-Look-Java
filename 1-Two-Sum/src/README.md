@@ -1,4 +1,4 @@
-### 1551. Minimum Operations to Make Array Equal
+### 1. Two Sum
 
 > **<font color=LightGreen>Easy</font>**
 
