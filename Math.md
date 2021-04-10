@@ -11,9 +11,11 @@
 * 算法复杂度 : `O(log(max(x, y))) = O(log(x + y))`
 
 ```java
+class Euclidean{
     int gcd(int x, int y) {
         return y > 0 ? gcd(y, x % y) : x;
     }
+}
 ```
 
 题目：#914,
@@ -25,9 +27,11 @@
 **求解最小公倍数**: `p * n = lcm(p, n) * gcd(p, n)`
 
 ```java
-    private long lcm(long x, long y) {
+class LCM{
+    long lcm(long x, long y) {
         return (x * y) / gcd(x, y);
     }
+}
 ```
 
 题目: #1201,

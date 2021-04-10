@@ -46,6 +46,7 @@ With your questions, comments or even if you just want to say Hi.
 
 #### [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Math.md)
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#263`  [Ugly Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/263-Ugly-Number/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#914`  [X of a Kind in a Deck of Cards](https://github.com/ximingxing/LeetCode-notepad/tree/master/914-X-of-a-Kind-in-a-Deck-of-Cards/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1201` [Ugly Number III](https://github.com/ximingxing/LeetCode-notepad/tree/master/1201-Ugly-Number-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1227` [Airplane Seat Assignment Probability](https://github.com/ximingxing/LeetCode-notepad/tree/master/1227-Airplane-Seat-Assignment-Probability/src) <img src="https://img.shields.io/badge/-medium-yellow">
