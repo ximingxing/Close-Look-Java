@@ -66,6 +66,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#66`   [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#73`   [Set Matrix Zeroes](https://github.com/ximingxing/LeetCode-notepad/tree/master/73-Set-Matrix-Zeroes/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#75`   [Sort Colors](https://github.com/ximingxing/LeetCode-notepad/tree/master/75-Sort-Colors/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#76`   [Minimum Window Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/76-Minimum-Window-Substring/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#80`   [Remove Duplicates from Sorted Array II](https://github.com/ximingxing/LeetCode-notepad/tree/master/80-Remove-Duplicates-from-Sorted-Array-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#81`   [Search in Rotated Sorted Array II](https://github.com/ximingxing/LeetCode-notepad/tree/master/81-Search-in-Rotated-Sorted-Array-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#125`  [Valid Palindrome](https://github.com/ximingxing/LeetCode-notepad/tree/master/125-Valid-Palindrome/src) <img src="https://img.shields.io/badge/-easy-green">

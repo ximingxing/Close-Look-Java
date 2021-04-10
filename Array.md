@@ -106,7 +106,7 @@ public class Reverse{
 
 为什么滑动窗口可以降低复杂度? 单调性(窗口不会倒退, 而是从i不断前进, 将算法从O(n^2/3) -> O(2n)
 
-**模版:**
+**搜索实数的滑动窗口模版:**
 
 ```java
 class Solution {
@@ -135,6 +135,46 @@ class Solution {
 右指针是主动前移, 探索未知的新区域; 左指针是被迫移动, 负责寻找满足题意的区间**.
 
 题目: #1004, 1234, 80
+
+**搜索子串的滑动窗口模版:**
+
+```java
+class Solution{
+    void slidingWindow(String s, String t){
+        HashMap<Character, Integer> map = new HashMap<>();
+        char [] arr = s.toCharArray();
+        for (char c : arr){
+            map.put(key, map.getOrDefault(key, 0) + 1);
+        }
+        
+        int left = 0, right = 0;
+        int valid = 0;
+        while (right < s.length()){
+            // 将字符 c 加入窗口之中
+            char c = arr[right];
+            // 右移窗口
+            right++;
+            // TODO: 进行窗口内数据的一系列更新
+            ...
+            
+            // TODO: debug的位置
+            System.out.println("left: " + left + "right: " + right);
+            
+            while (window needs shrink){
+                // 字符 d 是移除窗口的元素
+                char d = arr[left];
+                // 左移窗口
+                left++;
+                // TODO: 进行窗口内数据的一些列更新
+                ...
+            }
+
+        }
+    }   
+}
+```
+
+题目: #76, 567, 438, 3
 
 ---
  
