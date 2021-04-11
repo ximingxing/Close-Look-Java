@@ -141,13 +141,17 @@ class Solution {
 ```java
 class Solution{
     void slidingWindow(String s, String t){
-        HashMap<Character, Integer> map = new HashMap<>();
-        char [] arr = s.toCharArray();
+        // 用于存储需要匹配的子串 t 每个字符出现的个数
+        HashMap<Character, Integer> need = new HashMap<>();
+        char [] arr = t.toCharArray();
         for (char c : arr){
             map.put(key, map.getOrDefault(key, 0) + 1);
         }
+        // 用于存储位于滑动窗口中 t 中字符出现的个数 
+        HashMap<Character, Integer> window = new HashMap<>();
         
         int left = 0, right = 0;
+        // 用于标记 t 中字符是否全部进入窗口
         int valid = 0;
         while (right < s.length()){
             // 将字符 c 加入窗口之中

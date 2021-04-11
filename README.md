@@ -60,6 +60,7 @@ With your questions, comments or even if you just want to say Hi.
 #### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array.md)
 * `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#26`   [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#27`   [Remove Element](https://github.com/ximingxing/LeetCode-notepad/tree/master/27-Remove-Element/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#35`   [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
