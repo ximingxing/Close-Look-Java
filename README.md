@@ -47,6 +47,7 @@ With your questions, comments or even if you just want to say Hi.
 #### [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Math.md)
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#263`  [Ugly Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/263-Ugly-Number/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#264`  [Ugly Number II](https://github.com/ximingxing/LeetCode-notepad/tree/master/264-Ugly-Number-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#914`  [X of a Kind in a Deck of Cards](https://github.com/ximingxing/LeetCode-notepad/tree/master/914-X-of-a-Kind-in-a-Deck-of-Cards/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1201` [Ugly Number III](https://github.com/ximingxing/LeetCode-notepad/tree/master/1201-Ugly-Number-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1227` [Airplane Seat Assignment Probability](https://github.com/ximingxing/LeetCode-notepad/tree/master/1227-Airplane-Seat-Assignment-Probability/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -134,7 +135,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#701`   [Insert into a Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/701-Insert-into-a-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#814`   [Binary Tree Pruning](https://github.com/ximingxing/LeetCode-notepad/tree/master/814-Binary-Tree-Pruning/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-### [BFS](https://github.com/ximingxing/LeetCode-notepad/blob/master/BFS.md)
+#### [BFS](https://github.com/ximingxing/LeetCode-notepad/blob/master/BFS.md)
 * `#111`   [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#752`   [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
