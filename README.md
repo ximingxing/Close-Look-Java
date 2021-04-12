@@ -168,7 +168,9 @@ With your questions, comments or even if you just want to say Hi.
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/DynamicProgramming.md)
 * `#72`   [Edit Distance](https://github.com/ximingxing/LeetCode-notepad/tree/master/72-Edit-Distance/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#300`  [Longest Increasing Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/300-Longest-Increasing-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#322`  [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#354`  [Russian Doll Envelopes](https://github.com/ximingxing/LeetCode-notepad/tree/master/354-Russian-Doll-Envelopes/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#1143` [Longest Common Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/1143-Longest-Common-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Others
