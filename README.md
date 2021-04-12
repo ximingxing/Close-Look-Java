@@ -56,6 +56,7 @@ With your questions, comments or even if you just want to say Hi.
 
 #### [Sort](https://github.com/ximingxing/LeetCode-notepad/blob/master/Sort.md)
 * `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#179`  [Largest Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/179-Largest-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array.md)
 * `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
