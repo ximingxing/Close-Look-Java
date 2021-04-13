@@ -4,11 +4,10 @@
 
 **递归算法的关键要明确函数的定义, 相信这个定义, 而不要跳进递归细节**.
 
-写二叉树的算法题, 都是基于递归框架的, 
-我们先要搞清楚 root 节点它自己要做什么,
-然后根据题目要求选择使用前序、中序、后续的递归框架.
+写二叉树的算法题, 都是基于递归框架的, 我们先要搞清楚`root`节点它自己要做什么,
+然后根据题目要求选择使用**前序、中序、后序**的递归框架.
 
-```java
+```
 /* 二叉树遍历框架 */
 void traverse(Node root) {
     // 前序遍历
@@ -35,7 +34,26 @@ void traverse(Node root) {
 1   3 6   9      6   9 1  3
 ```
 
-我们发现只要把二叉树上的每一个节点的左右子节点进行交换, 最后的结果就是完全翻转之后的二叉树.
+```java
+class Invert{
+    TreeNode invertTreeNode(TreeNode root) {
+        if (root == null) return null;
+        
+        /* 前序遍历 */
+        // 交换当前节点的左右子树
+        TreeNode temp = root.left;
+        root.right = root.left;
+        root.left = temp;
+
+        invertTreeNode(root.left);
+        invertTreeNode(root.right);
+        
+        return root;
+    } 
+}
+```
+
+**只要把二叉树上的每一个节点的左右子节点进行交换, 最后的结果就是完全翻转之后的二叉树**.
 
 题目: #226
 
@@ -53,6 +71,30 @@ void traverse(Node root) {
 2. 连接父节点相同的两个子节点(分别对root.left和root.right进行这一步)
 3. 连接跨越父节点的两个子节点
 
+```java
+class Connect {
+    void traverse(Node node1, Node node2) {
+        if (node1 == null || node2 == null) return;
+
+        /* 前序遍历 */
+        // 将传入的两个节点连接 
+        node1.next = node2;
+        
+        // 连接父节点相同的两个节点
+        traverse(node1.left, node1.right);
+        traverse(node2.left, node2.right);
+        // 连接父节点不同的两个节点
+        traverse(node1.right, node2.left);
+    }
+
+    Node connect(Node root) {
+        if (root == null) return null;       
+        traverse(root.left, root.right);
+        return root;
+    }   
+}
+```
+
 题目: #116
 
 ---
@@ -65,15 +107,42 @@ void traverse(Node root) {
 ```
      1               1             1         
    /   \            /  \            \
-  2     5     ->   2    5    ->      2    
+  2    `5`     ->   2  `5`    ->     2     
  / \     \          \    \            \
-3   4     6          3    6            3
+3   4    `6`          3  `6`           3
                       \                 \
                        4                 4
                                           \
                                            5
                                             \
                                              6
+```
+
+```java
+class Flatten{
+    void flatten(TreeNode root) {
+        if (root == null) return;
+        
+        /* 后序遍历 */
+        flatten(root.left);
+        flatten(root.right);
+        
+        // 1. 左右子树已经被展成链表
+        TreeNode left =  root.left;
+        TreeNode right =  root.right;
+        
+        // 2. 将左子树作为右子树
+        root.left = null;
+        root.right = left;
+        
+        // 3. 将原先的右子树接到当前右子树末端
+        TreeNode p = root;
+        while (p.right != null) {
+            p = p.right;
+        }
+        p.right = right;
+    }   
+}
 ```
 
 题目: #114
