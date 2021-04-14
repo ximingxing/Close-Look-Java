@@ -57,6 +57,7 @@ def backtrack(路径, 选择列表):
 
 ```java
 public class Solution{
+    // 存储全排列 
     List<List<Integer>> res = new LinkedList<>();
     
     /* 主函数，输入一组不重复的数字，返回它们的全排列 */

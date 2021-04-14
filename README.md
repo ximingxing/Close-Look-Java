@@ -137,7 +137,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#814`   [Binary Tree Pruning](https://github.com/ximingxing/LeetCode-notepad/tree/master/814-Binary-Tree-Pruning/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Trie
-
 * `#208`   [Implement Trie (Prefix Tree)](https://github.com/ximingxing/LeetCode-notepad/tree/master/208-Implement-Trie-(PrefixTree)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Graph
@@ -156,6 +155,7 @@ With your questions, comments or even if you just want to say Hi.
 * `#1482` [Minimum Number of Days to Make m Bouquets](https://github.com/ximingxing/LeetCode-notepad/tree/master/1482-Minimum-Number-of-Days-to-Make-m-Bouquets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/blob/master/Backtracking.md)
+* `#46`   [Permutations](https://github.com/ximingxing/LeetCode-notepad/tree/master/46-Permutations/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#51`   [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#79`   [Word Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/79-Word-Search/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#698`  [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
