@@ -137,6 +137,12 @@ With your questions, comments or even if you just want to say Hi.
 * `#701`   [Insert into a Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/701-Insert-into-a-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#814`   [Binary Tree Pruning](https://github.com/ximingxing/LeetCode-notepad/tree/master/814-Binary-Tree-Pruning/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
+#### Trie
+
+* `#208`   [Implement Trie (Prefix Tree)](https://github.com/ximingxing/LeetCode-notepad/tree/master/208-Implement-Trie-(PrefixTree)/src) <img src="https://img.shields.io/badge/-medium-yellow">
+
+#### Graph
+
 #### [BFS](https://github.com/ximingxing/LeetCode-notepad/blob/master/BFS.md)
 * `#111`   [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#752`   [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -154,8 +160,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#51`   [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#79`   [Word Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/79-Word-Search/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#698`  [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
-
-#### Graph
 
 #### [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/blob/master/Greedy.md)
 * `#781`  [Rabbits in Forest](https://github.com/ximingxing/LeetCode-notepad/tree/master/781-Rabbits-in-Forest/src) <img src="https://img.shields.io/badge/-medium-yellow">
