@@ -66,7 +66,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#27`   [Remove Element](https://github.com/ximingxing/LeetCode-notepad/tree/master/27-Remove-Element/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#35`   [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#42`   [Trapping Rain Water](https://github.com/ximingxing/LeetCode-notepad/tree/master/42-Trapping-Rain-Water/src) <img src="https://img.shields.io/badge/-hard-red">
-* `#53`   [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#66`   [Plus One](https://github.com/ximingxing/LeetCode-notepad/tree/master/66-Plus-One/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#73`   [Set Matrix Zeroes](https://github.com/ximingxing/LeetCode-notepad/tree/master/73-Set-Matrix-Zeroes/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#75`   [Sort Colors](https://github.com/ximingxing/LeetCode-notepad/tree/master/75-Sort-Colors/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -171,6 +170,7 @@ With your questions, comments or even if you just want to say Hi.
 #### Bit manipulation
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/DynamicProgramming.md)
+* `#53`   [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#72`   [Edit Distance](https://github.com/ximingxing/LeetCode-notepad/tree/master/72-Edit-Distance/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#300`  [Longest Increasing Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/300-Longest-Increasing-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#322`  [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
