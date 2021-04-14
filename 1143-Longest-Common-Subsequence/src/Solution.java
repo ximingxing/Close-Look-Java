@@ -29,6 +29,9 @@ public class Solution {
                     dp(s1, i + 1, s2, j),
                     // s2[i] 不在 lcs 中
                     dp(s1, i, s2, j + 1)
+                    // s1[i] 和 s2[i] 都不在 lcs 中
+                    // 但是这种情况下, 最长子串不可能比上述两种情况大;
+                    // 所以省略
             );
         }
 
