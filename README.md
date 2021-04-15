@@ -170,8 +170,10 @@ With your questions, comments or even if you just want to say Hi.
 #### Bit manipulation
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/blob/master/DynamicProgramming.md)
+
 * `#53`   [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#72`   [Edit Distance](https://github.com/ximingxing/LeetCode-notepad/tree/master/72-Edit-Distance/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#213`  [House Robber II](https://github.com/ximingxing/LeetCode-notepad/tree/master/213-House-Robber-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#300`  [Longest Increasing Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/300-Longest-Increasing-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#322`  [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#354`  [Russian Doll Envelopes](https://github.com/ximingxing/LeetCode-notepad/tree/master/354-Russian-Doll-Envelopes/src) <img src="https://img.shields.io/badge/-hard-red">
