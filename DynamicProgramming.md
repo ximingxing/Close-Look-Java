@@ -70,9 +70,11 @@ int coinChange(int[] coins, int amount)
 
 ---
 
-### 最长公共子序列
+### 最长公共子序列 -- Longest Common Subsequence(LCS)
 
-> 二维动态规划.
+```
+给你输入两个字符串 s1 和 s2, 请你找出他们俩的最长公共子序列, 返回这个子序列的长度.
+```
 
 **状态定义**: `dp[i][j]` 表示 `text1[0:i-1]` 和 `text2[0:j-1]` 的最长公共子序列.
 
