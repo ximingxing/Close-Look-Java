@@ -84,6 +84,9 @@ With your questions, comments or even if you just want to say Hi.
 * `#1004` [Max Consecutive Ones III](https://github.com/ximingxing/LeetCode-notepad/blob/master/1004-Max-Consecutive-Ones-III/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1234` [Replace the Substring for Balanced String](https://github.com/ximingxing/LeetCode-notepad/blob/master/1234-Replace-the-Substring-for-Balanced-String/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
+#### Matrix
+* `#54`   [Spiral Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/54-Spiral-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
+
 #### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/blob/master/Linkedlist.md)
 * `#25`   [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#61`   [Rotate List](https://github.com/ximingxing/LeetCode-notepad/tree/master/61-Rotate-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
