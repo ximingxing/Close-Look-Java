@@ -44,6 +44,10 @@ With your questions, comments or even if you just want to say Hi.
 
 <h2 align="center">Table of Contents</h2>
 
+<details>
+
+<summary><b>Expand Table of Contents</b></summary>
+
 #### [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Math.md)
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#263`  [Ugly Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/263-Ugly-Number/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -189,6 +193,8 @@ With your questions, comments or even if you just want to say Hi.
 * `#1143` [Longest Common Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/1143-Longest-Common-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Others
+
+</details>
 
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
 
