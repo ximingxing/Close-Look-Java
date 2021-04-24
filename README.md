@@ -44,8 +44,27 @@ With your questions, comments or even if you just want to say Hi.
 
 <h2 align="center">Table of Contents</h2>
 
-<details>
+- Array
+- Backtracking
+- Binary Indexed Tree
+- Binary Search
+- Bit Manipulation
+- Breadth First Search
+- Depth First Search
+- Dynamic Programming
+- Hash Table
+- Linked List
+- Math
+- Segment Tree
+- Sliding Window
+- Sort
+- Stack
+- String
+- Tree
+- Two Pointers
+- Union Find
 
+<details>
 <summary><b>Expand Table of Contents</b></summary>
 
 #### [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Math.md)
