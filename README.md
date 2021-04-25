@@ -64,7 +64,7 @@ With your questions, comments or even if you just want to say Hi.
 - Graph
 
 <details>
-<summary><h4>Expand Set of Questions</h4></summary>
+<summary><b><h4>Expand Set of Questions</h4></b></summary>
 
 #### Math
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
