@@ -1,40 +1,41 @@
 # 排序算法
 
-快速排序和归并排序是互补的:
+常用排序算法总结.
 
-**归并排序将数组分成两个子数组分别排序, 并将有序的子数组归并以将整个数组排序**;
+题目: #148
 
-**而快速排序将数组排序的方式则是当两个子数组都有序时整个数组也就自然有序了**.
-
-在第一种情况中, 递归调用发生在处理整个数组之前;
-
-在第二种情况中, 递归调用发生在处理整个数组之后.
-
-**在归并排序中, 一个数组被等分为两半; 在快速排序中, 切分(partition)的位置取决于数组的内容**.
+---
 
 ### 归并排序(Merge Sort)
 
-归并, 即将两个有序的数组归并成一个更大的有序数组.
+**归并**, 即将两个有序的数组归并成一个更大的有序数组.
 
 要将一个数组排序, 可以先(递归地)将它分成两半分别排序, 然后将结果归并起来.
 
-你将会看到, 归并排序最吸引人的性质是它能够保证将任意长度为 N 的数组排序所需时间和 NlogN 成正比;
-它的主要缺点则是它所需的额外空间和 N 成正比.
+- 时间复杂度: `O(NlogN)`;
+- 空间复杂度: `O(N)`.
 
 #### 原地归并的抽象方法
 
+`void merge(Comparable[] a, int lo, int mid, int hi)` 是两个不同的有序数组归并到第三个数组中的方法.
+
+具体来说, 将涉及的所有元素复制到一个辅助数组`aux`中, 再把归并的结果放回原数组中.
+
 ```java
-public class Merge {
-    public static void merge(Comparable[] a, int lo, int mid, int hi) { 
-        // 将a[lo..mid] 和 a[mid+1..hi] 归并
+class Merge {
+    /* 将a[lo..mid]和a[mid+1..hi]归并成一个有序的数组并将结果存放在a[lo..hi]中 */
+    void merge(Comparable[] a, int lo, int mid, int hi) { 
+        // 将 a[lo..mid] 和 a[mid+1..hi] 归并
         int i = lo, j = mid+1;
-
-        for (int k = lo; k <= hi; k++) // 将a[lo..hi]复制到aux[lo..hi] 
+        
+        // 将 a[lo..hi] 复制到 aux[lo..hi] 
+        for (int k = lo; k <= hi; k++) 
             aux[k] = a[k];
-
-        for (int k = lo; k <= hi; k++) // 归并回到a[lo..hi] 
+        
+        // 归并回到 a[lo..hi]
+        for (int k = lo; k <= hi; k++)  
             if (i > mid) a[k] = aux[j++]; 
-            else if (j > hi ) a[k] = aux[i++]; 
+            else if (j > hi) a[k] = aux[i++]; 
             else if (less(aux[j], aux[i])) a[k] = aux[j++]; 
             else a[k] = aux[i++];
     }
@@ -46,15 +47,15 @@ public class Merge {
 应用高效算法设计中**分治思想**的最典型的一个例子:
 
 ```java
-public class Merge{
-    private static Comparable[] aux; // 归并所需的辅助数组
+class Merge{
+    Comparable[] aux; // 归并所需的辅助数组
 
-    public static void sort(Comparable[] a){
+    void sort(Comparable[] a){
         aux = new Comparable[a.length]; // 一次性分配空间 
         sort(a, 0, a.length - 1);
     }
 
-    private static void sort(Comparable[] a, int lo, int hi) { // 将数组a[lo..hi]排序
+    void sort(Comparable[] a, int lo, int hi) { // 将数组a[lo..hi]排序
         if (hi <= lo) return;
         int mid = lo + (hi - lo) / 2;
         sort(a, lo, mid); // 将左半边排序
@@ -64,14 +65,16 @@ public class Merge{
 }
 ```
 
+---
+
 ### 快速排序(Quick Sort)
 
-快速排序引人注目的特点包 括它是原地排序(只需要一个很小的辅助栈), 
-且将长度为`N`的数组排序所需的时间和`NlgN`成正比.
+快速排序是一种分治的排序算法, 它将一个数组分成两个子数组, 将两部分独立地排序.
 
-快速排序是一种分治的排序算法. 
+快速排序将数组排序的方式是当两个子数组都有序时整个数组也就自然有序.
 
-它将一个数组分成两个子数组, 将两部分独立地排序.
+- 时间复杂度: `O(NlogN)`;
+- 空间复杂度: `O(logN)`.
 
 ```
 { E C A I E } K { L P U T M Q R X O S }
@@ -81,15 +84,18 @@ public class Merge{
 
 `split`切分元素左边不大于它, 右边不小于它.
 
+一次快排的过程就是将数组分割成两部分, 
+一部分比基准值大, 另一部分比基准值小, 然后再分治前一部分和后一部分.
+
 #### 快速排序框架
 
 ```java
-public class Quick{
-    public static void sort(Comparable[] a){
+class Quick{
+    void sort(Comparable[] a){
         sort(a, 0, a.length - 1);
     }
 
-    public static void sort(Comparable[] a, int lo, int hi){
+    void sort(Comparable[] a, int lo, int hi){
         // 递归出口
         if (hi <= lo) return;
         // 快速排序切分
@@ -102,7 +108,7 @@ public class Quick{
 }
 ```
 
-该方法的关键在于切分, 这个过程使得数组满足下面三个条件:
+该方法的关键在于**切分**, 这个过程使得数组满足下面三个条件:
 
 1. 对于某个`j`, `a[j]`已经排定;
 
@@ -128,8 +134,8 @@ public class Quick{
 当两个指针相遇时，我们只需要将切分元素 `a[lo]` 和左子数组最右侧的元素(`a[j]`)交换然后返 回 `j` 即可。
 
 ```java
-public class Quick{
-    private static int partition(Comparable[] a, int lo, int hi){
+class Quick{
+    int partition(Comparable[] a, int lo, int hi){
         // 左右扫描的指针
         int i = lo, j = hi;
         // 切分元素
@@ -181,8 +187,8 @@ if (hi <= lo + M) { Insertion.sort(a, lo, hi); return; }
 人们发现将取样大小设为`3`并用大小居中的元素切分的效果最好.
 
 ```java
-public class Quick3way{
-    private static void sort(Comparable[] a, int lo, int hi) {
+class Quick3way{
+    void sort(Comparable[] a, int lo, int hi) {
         if (hi <= lo) return;
         int lt = lo, i = lo+1, gt = hi;
         Comparable v = a[lo];
@@ -208,6 +214,24 @@ public class Quick3way{
 一个指针`gt`使得`a[gt+1..hi]`中的元素都大于`v`,
 一个指针`i`使得`a[lt..i-1]`中的元素都等于`v`,
 `a[i..gt]`中的元素都还未确定.
+
+---
+
+### 快速排序与归并排序的总结
+
+快速排序和归并排序是互补的:
+
+**归并排序将数组分成两个子数组分别排序, 并将有序的子数组归并以将整个数组排序**;
+
+**而快速排序将数组排序的方式则是当两个子数组都有序时整个数组也就自然有序了**.
+
+在归并排序中, 递归调用发生在处理整个数组之前;
+
+在快速排序中, 递归调用发生在处理整个数组之后.
+
+**在归并排序中, 一个数组被等分为两半; 在快速排序中, 切分(partition)的位置取决于数组的内容**.
+
+---
 
 ### 桶排序算法
 
