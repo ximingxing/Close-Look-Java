@@ -44,30 +44,29 @@ With your questions, comments or even if you just want to say Hi.
 
 <h2 align="center">Table of Contents</h2>
 
-- Array
-- Backtracking
-- Binary Indexed Tree
-- Binary Search
-- Bit Manipulation
+- [Sort](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/Sort.md)
+- Data Structures
+    - Linked List
+    - Stack
+    - Queue
+    - Hash Table
+- [String](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/String.md)
+- [Two Pointers](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/TwoPointers.md)
+- [Sliding Window](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/SlidingWindow.md)
+- [Binary search](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/BinarySearch.md)
 - Breadth First Search
 - Depth First Search
+- Backtracking
+- [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/blob/master/Greedy.md)
 - Dynamic Programming
-- Hash Table
-- Linked List
-- Math
-- Segment Tree
-- Sliding Window
-- Sort
-- Stack
-- String
-- Tree
-- Two Pointers
-- Union Find
+- [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/Math.md)
+- Bit Manipulation
+- Graph
 
 <details>
-<summary><b>Expand Table of Contents</b></summary>
+<summary><h4>Expand Set of Questions</h4></summary>
 
-#### [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Math.md)
+#### Math
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#263`  [Ugly Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/263-Ugly-Number/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#264`  [Ugly Number II](https://github.com/ximingxing/LeetCode-notepad/tree/master/264-Ugly-Number-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -77,11 +76,11 @@ With your questions, comments or even if you just want to say Hi.
 * `#1524` [Number of Sub-arrays With Odd Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1524-Number-of-Sub-arrays-With-Odd-Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [Sort](https://github.com/ximingxing/LeetCode-notepad/blob/master/Sort.md)
+#### Sort
 * `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#179`  [Largest Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/179-Largest-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [String](https://github.com/ximingxing/LeetCode-notepad/blob/master/String.md)
+#### String
 * `#28`   [Implement strStr()](https://github.com/ximingxing/LeetCode-notepad/tree/master/28-Implement-strStr()/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### [Array](https://github.com/ximingxing/LeetCode-notepad/blob/master/Array.md)
