@@ -59,7 +59,12 @@ With your questions, comments or even if you just want to say Hi.
 - Graph
 
 <details>
-<summary><b><h4>Expand Set of LeetCode Problems</h4></b></summary>
+<summary><b>Expand Set of LeetCode Problems</b></summary>
+
+#### Sort
+* `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#148`  [Sort List](https://github.com/ximingxing/LeetCode-notepad/tree/master/148-Sort-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#179`  [Largest Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/179-Largest-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Math
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -70,10 +75,6 @@ With your questions, comments or even if you just want to say Hi.
 * `#1227` [Airplane Seat Assignment Probability](https://github.com/ximingxing/LeetCode-notepad/tree/master/1227-Airplane-Seat-Assignment-Probability/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1524` [Number of Sub-arrays With Odd Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/1524-Number-of-Sub-arrays-With-Odd-Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/blob/master/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
-
-#### Sort
-* `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#179`  [Largest Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/179-Largest-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### String
 * `#28`   [Implement strStr()](https://github.com/ximingxing/LeetCode-notepad/tree/master/28-Implement-strStr()/src) <img src="https://img.shields.io/badge/-easy-green">
