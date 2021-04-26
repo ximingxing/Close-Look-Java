@@ -71,6 +71,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 <summary><b>Expand Set of LeetCode Problems</b></summary>
 
 #### Sort
+https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/88-Merge-Sorted-Array/src
 * `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#148`  [Sort List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/148-Sort-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#179`  [Largest Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/179-Largest-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -195,6 +196,8 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#698`  [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Greedy.md)
+* `#435`  [Non-overlapping Intervals](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/435-Non-overlapping-Intervals/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#452`  [Minimum Number of Arrows to Burst Balloons](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/452-Minimum-Number-of-Arrows-to-Burst-Balloons/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#781`  [Rabbits in Forest](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/781-Rabbits-in-Forest/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1024` [Video Stitching](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1024-Video-Stitching/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1221` [Split a String in Balanced Strings](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1221-Split-a-String-in-Balanced-Strings/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -232,11 +235,12 @@ All of the Java code was tested under version 8 ✅.
 
 - Git commit format:
 
-    `git commit -m "(new/fix/docs/add) #problem_id(necessary) description(unnecessary)"`
+    `git commit -m "feat/fix/docs(#problem_id): | Description:(unnecessary), Solution:(unnecessary)"`
     
     |  message   | explain  |
     |  ----  | ----  |
-    | new  | first commit |
-    | add  | new answer |
-    | fix  | fix bugs |
-    | docs  | update README.md |
+    | feat  | Commit a solution |
+    | fix   | A bug fix |
+    | perf  | A code change that improves performance |
+    | docs  | Documentation only changes |
+    | test  | Adding missing tests or correcting existing tests |
