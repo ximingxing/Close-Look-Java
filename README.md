@@ -4,6 +4,12 @@
     <a href="#leetcode">
         <img src="https://img.shields.io/badge/content-leetcode-blueviolet" alt="leetcode">
     </a>
+    <a href="#leetcode">
+        <img src="https://img.shields.io/badge/content-algorithm%20notes-ff69b4" alt="notes">
+    </a>
+    <a href="#leetcode">
+        <img src="https://img.shields.io/badge/content-Top%20Interview%20Questions-orange" alt="questions">
+    </a>
     <a href="http://www.apache.org/licenses/">
         <img src="https://img.shields.io/badge/license-Apache-blue" alt="GitHub">
     </a>
