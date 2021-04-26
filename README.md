@@ -27,11 +27,12 @@
 There are not only LeetCode solutions but also notes on various algorithm techniques.
 
 Everything in this project is based on the Java language, using features such as the Java language paradigm.
-This project is built on Maven to decouple the source code from the test code.
 
 - Search for a specific Code. Can't find one? Please report a new Code [here](https://github.com/ximingxing/LeetCode-notepad/issues).
 
 <h2 align="center">:clipboard: Getting Started</h2>
+
+Section `#Getting Started` contains one hundred popular interview problems, which is a good place to start.
 
 <details>
 <summary><b>Top Interview Questions</b></summary>
@@ -40,11 +41,7 @@ This project is built on Maven to decouple the source code from the test code.
 
 <h2 align="center">About</h2>
 
-Section `#Getting Started` contains one hundred popular interview problems, which is a good place to start. 
-Section `#Table of Contents` contains the summary of the algorithm notes and all the problems.
-All of the Java code was tested under version 8 ✅.
-
-<h2 align="center">Table of Contents</h2>
+**Summary of algorithm notes**:
 
 - [Sort](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/Sort.md)
 - [String](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/String.md)
@@ -59,6 +56,10 @@ All of the Java code was tested under version 8 ✅.
 - [Math](https://github.com/ximingxing/LeetCode-notepad/blob/master/Note/Math.md)
 - Bit Manipulation
 - Graph
+
+<h2 align="center">Table of Contents</h2>
+
+Section `#Table of Contents` contains the summary of the algorithm notes and all the problems.
 
 <details>
 <summary><b>Expand Set of LeetCode Problems</b></summary>
@@ -211,6 +212,8 @@ All of the Java code was tested under version 8 ✅.
 #### Others
 
 </details>
+
+All of the Java code was tested under version 8 ✅.
 
 <p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
 
