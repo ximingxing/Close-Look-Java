@@ -24,23 +24,25 @@
 <a href="https://ximingxing.github.io/">https://ximingxing.github.io/</a>
 </h6>
 
+There are not only LeetCode solutions but also notes on various algorithm techniques.
+
 Everything in this project is based on the Java language, using features such as the Java language paradigm.
 This project is built on Maven to decouple the source code from the test code.
-Has been completed test ✅ Java8 version.
-
-A series of data structures and algorithms implemented using the Java language.
-
-<h2 align="center">:clipboard: Getting Started</h2>
 
 - Search for a specific Code. Can't find one? Please report a new Code [here](https://github.com/ximingxing/LeetCode-notepad/issues).
 
+<h2 align="center">:clipboard: Getting Started</h2>
+
+<details>
+<summary><b>Top Interview Questions</b></summary>
+
+</details>
+
 <h2 align="center">About</h2>
 
-A series of data structures implemented using the Java language.
-
-Project language level is 8 , build by Maven.
-
-With your questions, comments or even if you just want to say Hi.
+Section `#Getting Started` contains one hundred popular interview problems, which is a good place to start. 
+Section `#Table of Contents` contains the summary of the algorithm notes and all the problems.
+All of the Java code was tested under version 8 ✅.
 
 <h2 align="center">Table of Contents</h2>
 
