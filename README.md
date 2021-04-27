@@ -44,6 +44,8 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 <summary><b>Top Interview Questions</b></summary>
 
 * `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#45`   [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`   [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -95,10 +97,13 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 #### String
 * `#28`   [Implement strStr()](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/28-Implement-strStr()/src) <img src="https://img.shields.io/badge/-easy-green">
 
-#### [Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Array.md)
+#### Two Pointers
 * `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
+
+#### Sliding Window
 * `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
+
+#### [Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Array.md)
 * `#26`   [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#27`   [Remove Element](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/27-Remove-Element/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#35`   [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -122,6 +127,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#54`   [Spiral Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/54-Spiral-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Linkedlist.md)
+* `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#25`   [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#61`   [Rotate List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/61-Rotate-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#92`   [Reverse Linked List II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/92-Reverse-Linked-List-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
