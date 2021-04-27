@@ -46,6 +46,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#4`    [Median of Two Sorted Arrays](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/4-Median-of-Two-Sorted-Arrays/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#45`   [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`   [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -59,6 +60,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 
 - [Sort](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Sort.md)
 - [Math](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Math.md)
+- Bit Manipulation
 - [String](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/String.md)
 - [Two Pointers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/TwoPointers.md)
 - [Sliding Window](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/SlidingWindow.md)
@@ -67,10 +69,9 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 - Depth First Search
 - Graph
 - Backtracking
-- [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Greedy.md)
+- [Greedy Algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Greedy.md)
 - Dynamic Programming
     - Buy and sell stocks
-- Bit Manipulation
 
 <h2 id="table_of_contents" align="center">Table of Contents</h2>
 
@@ -193,6 +194,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#752`   [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Binary search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BinarySearch.md)
+* `#4`    [Median of Two Sorted Arrays](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/4-Median-of-Two-Sorted-Arrays/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#34`   [Find First and Last Position of Element in Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/34-Find-First-and-Last-Position-of-Element-in-Sorted-Array/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#69`   [Sqrt(x)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/69-Sqrt(x)/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#74`   [Search a 2D Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/74-Search-a-2D-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
