@@ -43,12 +43,13 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 <details>
 <summary><b>Top Interview Questions</b></summary>
 
-* `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#4`    [Median of Two Sorted Arrays](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/4-Median-of-Two-Sorted-Arrays/src) <img src="https://img.shields.io/badge/-hard-red">
-* `#45`   [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
-* `#55`   [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#2`   [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#3`   [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#4`   [Median of Two Sorted Arrays](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/4-Median-of-Two-Sorted-Arrays/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#5`   [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 </details>
 
@@ -224,6 +225,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 #### Bit manipulation
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/DynamicProgramming.md)
+* `#5`   [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#53`   [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#72`   [Edit Distance](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/72-Edit-Distance/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#87`   [Scramble String](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/87-Scramble-String/src) <img src="https://img.shields.io/badge/-hard-red">
