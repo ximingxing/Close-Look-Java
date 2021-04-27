@@ -43,6 +43,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 <details>
 <summary><b>Top Interview Questions</b></summary>
 
+* `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#45`   [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`   [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -174,6 +175,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#700`   [Search in a Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/700-Search-in-a-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#701`   [Insert into a Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/701-Insert-into-a-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#814`   [Binary Tree Pruning](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/814-Binary-Tree-Pruning/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#938`   [Range Sum of BST](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/938-Range-Sum-of-BST/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Trie
 * `#208`   [Implement Trie (Prefix Tree)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/208-Implement-Trie-(PrefixTree)/src) <img src="https://img.shields.io/badge/-medium-yellow">
