@@ -36,34 +36,40 @@ Everything in this project is based on the Java language, using features such as
 
 - Search for a specific Code. Can't find one? Please report a new Code [here](https://github.com/ximingxing/LeetCode-notepad/issues).
 
-<h2 align="center">:clipboard: Getting Started</h2>
+<h2 id="get_start" align="center">:clipboard: Getting Started</h2>
 
 Section `#Getting Started` contains one hundred popular interview problems, which is a good place to start.
 
 <details>
 <summary><b>Top Interview Questions</b></summary>
 
+* `#45`   [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#55`   [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
+
 </details>
+
+<p align="right"><a href="#get_start"><sup>▴ Back to top</sup></a></p>
 
 <h2 align="center">About</h2>
 
 **Summary of algorithm notes**:
 
 - [Sort](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Sort.md)
+- [Math](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Math.md)
 - [String](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/String.md)
 - [Two Pointers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/TwoPointers.md)
 - [Sliding Window](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/SlidingWindow.md)
 - [Binary search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/BinarySearch.md)
 - Breadth First Search
 - Depth First Search
+- Graph
 - Backtracking
 - [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Greedy.md)
 - Dynamic Programming
-- [Math](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Math.md)
+    - Buy and sell stocks
 - Bit Manipulation
-- Graph
 
-<h2 align="center">Table of Contents</h2>
+<h2 id="table_of_contents" align="center">Table of Contents</h2>
 
 Section `#Table of Contents` contains the summary of the algorithm notes and all the problems.
 
@@ -71,7 +77,6 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 <summary><b>Expand Set of LeetCode Problems</b></summary>
 
 #### Sort
-https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/88-Merge-Sorted-Array/src
 * `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#148`  [Sort List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/148-Sort-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#179`  [Largest Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/179-Largest-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -196,6 +201,8 @@ https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/88-Merge-Sorted-
 * `#698`  [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Greedy.md)
+* `#45`   [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#55`   [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#435`  [Non-overlapping Intervals](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/435-Non-overlapping-Intervals/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#452`  [Minimum Number of Arrows to Burst Balloons](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/452-Minimum-Number-of-Arrows-to-Burst-Balloons/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#781`  [Rabbits in Forest](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/781-Rabbits-in-Forest/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -222,9 +229,9 @@ https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/88-Merge-Sorted-
 
 </details>
 
-All of the Java code was tested under version 8 ✅.
+- All the java code was tested under version 8 ✅.
 
-<p align="right"><a href="#title"><sup>▴ Back to top</sup></a></p>
+<p align="right"><a href="#table_of_contents"><sup>▴ Back to top</sup></a></p>
 
 <h2 align="center">Acknowledgment</h2>
 
