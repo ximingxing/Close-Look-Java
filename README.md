@@ -49,6 +49,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#4`   [Median of Two Sorted Arrays](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/4-Median-of-Two-Sorted-Arrays/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#5`   [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#7`   [Reverse Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/7-Reverse-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#8`   [String to Integer (atoi)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/8-String-to-Integer-(atoi)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -98,6 +99,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### String
+* `#8`    [String to Integer (atoi)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/8-String-to-Integer-(atoi)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#28`   [Implement strStr()](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/28-Implement-strStr()/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Two Pointers
@@ -227,7 +229,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#7`   [Reverse Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/7-Reverse-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/DynamicProgramming.md)
-* `#5`   [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#5`    [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#53`   [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#72`   [Edit Distance](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/72-Edit-Distance/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#87`   [Scramble String](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/87-Scramble-String/src) <img src="https://img.shields.io/badge/-hard-red">
@@ -238,8 +240,6 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#354`  [Russian Doll Envelopes](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/354-Russian-Doll-Envelopes/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#583`  [Delete Operation for Two Strings](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/583-Delete-Operation-for-Two-Strings/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1143` [Longest Common Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1143-Longest-Common-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
-
-#### Others
 
 </details>
 
