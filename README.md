@@ -48,6 +48,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#3`   [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#4`   [Median of Two Sorted Arrays](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/4-Median-of-Two-Sorted-Arrays/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#5`   [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#7`   [Reverse Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/7-Reverse-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -223,6 +224,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1403` [Minimum Subsequence in Non-Increasing Order](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1403-Minimum-Subsequence-in-Non-Increasing-Order/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Bit manipulation
+* `#7`   [Reverse Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/7-Reverse-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/DynamicProgramming.md)
 * `#5`   [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
