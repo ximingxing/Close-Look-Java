@@ -227,7 +227,8 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1403` [Minimum Subsequence in Non-Increasing Order](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1403-Minimum-Subsequence-in-Non-Increasing-Order/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Bit manipulation
-* `#7`   [Reverse Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/7-Reverse-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#7`    [Reverse Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/7-Reverse-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#1720` [Decode XORed Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1720-Decode-XORed-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/DynamicProgramming.md)
 * `#5`    [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
