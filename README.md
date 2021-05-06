@@ -195,6 +195,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 #### [BFS](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BFS.md)
 * `#111`   [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#690`   [Employee Importance](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/690-Employee-Importance/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#752`   [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Binary search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BinarySearch.md)
