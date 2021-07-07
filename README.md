@@ -26,8 +26,8 @@
     <a href="#speech_balloon-faq">FAQ</a> •
 </p>
 
-<h6 align="center">Made by ximing Xing • :milky_way: 
-<a href="https://ximingxing.github.io/">https://ximingxing.github.io/</a>
+<h6 align="center">Made by Xing XiMing • :milky_way: 
+<a href="https://ximingxing.github.io/">https://xingximing-xxm.github.io/</a>
 </h6>
 
 There are not only LeetCode solutions but also notes on various algorithm techniques.
@@ -52,6 +52,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#8`   [String to Integer (atoi)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/8-String-to-Integer-(atoi)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#9`   [Palindrome Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/9-Palindrome-Number/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#10`  [Regular Expression Matching](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/10-Regular-Expression-Matching/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#11`  [Container With Most Water](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/11-Container-With-Most-Water/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
