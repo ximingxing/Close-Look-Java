@@ -50,11 +50,10 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#5`   [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#7`   [Reverse Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/7-Reverse-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#8`   [String to Integer (atoi)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/8-String-to-Integer-(atoi)/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#9`   [Palindrome Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/9-Palindrome-Number/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#10`  [Regular Expression Matching](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/10-Regular-Expression-Matching/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#11`  [Container With Most Water](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/11-Container-With-Most-Water/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#12`  [Integer to Roman](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/12-Integer-to-Roman/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#13`  [Roman to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/13-Roman-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#14`  [Longest Common Prefix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/14-Longest-Common-Prefix/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -108,7 +107,8 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#28`   [Implement strStr()](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/28-Implement-strStr()/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Two Pointers
-* `#1`    [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#9`   [Palindrome Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/9-Palindrome-Number/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Sliding Window
 * `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -247,6 +247,11 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#354`  [Russian Doll Envelopes](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/354-Russian-Doll-Envelopes/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#583`  [Delete Operation for Two Strings](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/583-Delete-Operation-for-Two-Strings/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#1143` [Longest Common Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1143-Longest-Common-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
+
+#### Others
+
+* `#12`  [Integer to Roman](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/12-Integer-to-Roman/src) <img src="https://img.shields.io/badge/-medium-yellow">
+
 
 </details>
 
