@@ -54,6 +54,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#11`  [Container With Most Water](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/11-Container-With-Most-Water/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#13`  [Roman to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/13-Roman-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#14`  [Longest Common Prefix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/14-Longest-Common-Prefix/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#15`  [3Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/15-3Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -75,7 +76,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 - Breadth First Search
 - Depth First Search
 - Graph
-- Backtracking
+- [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Backtracking.md)
 - [Greedy Algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Greedy.md)
 - Dynamic Programming
     - Buy and sell stocks
@@ -104,6 +105,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 #### String
 * `#8`    [String to Integer (atoi)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/8-String-to-Integer-(atoi)/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#14`  [Longest Common Prefix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/14-Longest-Common-Prefix/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#28`   [Implement strStr()](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/28-Implement-strStr()/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Two Pointers
@@ -213,7 +215,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#704`  [Binary Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/704-Binary-Search/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1482` [Minimum Number of Days to Make m Bouquets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1482-Minimum-Number-of-Days-to-Make-m-Bouquets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Backtracking.md)
+#### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Backtracking.md)
 * `#17`   [Letter Combinations of a Phone Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/17-Letter-Combinations-of-a-Phone-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#46`   [Permutations](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/46-Permutations/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#51`   [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
@@ -249,8 +251,8 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1143` [Longest Common Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1143-Longest-Common-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Others
-
 * `#12`  [Integer to Roman](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/12-Integer-to-Roman/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#13`  [Roman to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/13-Roman-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 
 
 </details>
