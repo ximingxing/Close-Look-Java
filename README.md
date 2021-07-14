@@ -55,6 +55,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#13`  [Roman to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/13-Roman-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#14`  [Longest Common Prefix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/14-Longest-Common-Prefix/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#15`  [3Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/15-3Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">   
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -111,6 +112,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 #### Two Pointers
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#9`   [Palindrome Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/9-Palindrome-Number/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Sliding Window
 * `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
