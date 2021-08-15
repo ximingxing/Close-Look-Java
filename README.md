@@ -26,7 +26,7 @@
     <a href="#speech_balloon-faq">FAQ</a> •
 </p>
 
-<h6 align="center">Made by Xing XiMing • :milky_way: 
+<h6 align="center">Made by Xing XiMing • :milky_way:
 <a href="https://ximingxing.github.io/">https://xingximing-xxm.github.io/</a>
 </h6>
 
@@ -34,7 +34,8 @@ There are not only LeetCode solutions but also notes on various algorithm techni
 
 Everything in this project is based on the Java language, using features such as the Java language paradigm.
 
-- Search for a specific Code. Can't find one? Please report a new Code [here](https://github.com/ximingxing/LeetCode-notepad/issues).
+- Search for a specific Code. Can't find one? Please report a new
+  Code [here](https://github.com/ximingxing/LeetCode-notepad/issues).
 
 <h2 id="get_start" align="center">:clipboard: Getting Started</h2>
 
@@ -55,7 +56,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#13`  [Roman to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/13-Roman-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#14`  [Longest Common Prefix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/14-Longest-Common-Prefix/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#15`  [3Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/15-3Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">   
+* `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
@@ -80,6 +81,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 - [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Backtracking.md)
 - [Greedy Algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Greedy.md)
 - Dynamic Programming
+    - Knapsack problem
     - Buy and sell stocks
 
 <h2 id="table_of_contents" align="center">Table of Contents</h2>
@@ -90,11 +92,13 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 <summary><b>Expand Set of LeetCode Problems</b></summary>
 
 #### Sort
+
 * `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#148`  [Sort List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/148-Sort-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#179`  [Largest Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/179-Largest-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Math
+
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#263`  [Ugly Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/263-Ugly-Number/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#264`  [Ugly Number II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/264-Ugly-Number-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -105,19 +109,23 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1551` [Minimum Operations to Make Array Equal](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1551-Minimum-Operations-to-Make-Array-Equal/src/) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### String
+
 * `#8`    [String to Integer (atoi)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/8-String-to-Integer-(atoi)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#14`  [Longest Common Prefix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/14-Longest-Common-Prefix/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#28`   [Implement strStr()](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/28-Implement-strStr()/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Two Pointers
+
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#9`   [Palindrome Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/9-Palindrome-Number/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Sliding Window
+
 * `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Array.md)
+
 * `#26`   [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#27`   [Remove Element](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/27-Remove-Element/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#35`   [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -138,9 +146,11 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1234` [Replace the Substring for Balanced String](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1234-Replace-the-Substring-for-Balanced-String/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Matrix
+
 * `#54`   [Spiral Matrix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/54-Spiral-Matrix/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Linkedlist.md)
+
 * `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#25`   [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#61`   [Rotate List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/61-Rotate-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -157,6 +167,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1669` [Merge In Between Linked Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1669-Merge-In-Between-Linked-Lists/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Stack](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Stack.md)
+
 * `#20`   [Valid Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/20-Valid-Parentheses/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#50`   [Pow(x,n)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/50-Pow(x%2C%20n)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#84`   [Largest Rectangle in Histogram](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/84-Largest-Rectangle-in-Histogram/src) <img src="https://img.shields.io/badge/-hard-red">
@@ -166,6 +177,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1441` [Build an Array With Stack Operations](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1441-Build-an-Array-With-Stack-Operations/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### [Queue](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Queue.md)
+
 * `#102`   [Binary Tree Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/102-Binary-Tree-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#225`   [Implement Stack using Queues](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/225-Implement-Stack-using-Queues/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#232`   [Implement Queue using Stacks](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/232-Implement-Queue-using-Stacks/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -178,6 +190,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1696`  [Jump Game VI](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1696-Jump-Game-VI/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BinaryTree.md)
+
 * `#98`    [Validate Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/98-Validate-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#105`   [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#114`   [Flatten Binary Tree to Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/114-Flatten-Binary-Tree-to-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -198,16 +211,20 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#938`   [Range Sum of BST](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/938-Range-Sum-of-BST/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Trie
+
 * `#208`   [Implement Trie (Prefix Tree)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/208-Implement-Trie-(PrefixTree)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Graph
 
 #### [BFS](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BFS.md)
-* `#111`   [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#690`   [Employee Importance](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/690-Employee-Importance/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#752`   [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
+
+* `#111`  [Minimum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#690`  [Employee Importance](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/690-Employee-Importance/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#752`  [Open the Lock](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/752-Open-the-Lock/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#1345` [Jump Game IV](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1345-Jump-Game-IV/src) <img src="https://img.shields.io/badge/-hard-red">
 
 #### [Binary search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BinarySearch.md)
+
 * `#4`    [Median of Two Sorted Arrays](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/4-Median-of-Two-Sorted-Arrays/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#34`   [Find First and Last Position of Element in Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/34-Find-First-and-Last-Position-of-Element-in-Sorted-Array/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#69`   [Sqrt(x)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/69-Sqrt(x)/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -218,6 +235,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1482` [Minimum Number of Days to Make m Bouquets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1482-Minimum-Number-of-Days-to-Make-m-Bouquets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Backtracking.md)
+
 * `#17`   [Letter Combinations of a Phone Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/17-Letter-Combinations-of-a-Phone-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#46`   [Permutations](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/46-Permutations/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#51`   [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
@@ -225,6 +243,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#698`  [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Greedy.md)
+
 * `#45`   [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`   [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#435`  [Non-overlapping Intervals](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/435-Non-overlapping-Intervals/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -236,10 +255,12 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1403` [Minimum Subsequence in Non-Increasing Order](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1403-Minimum-Subsequence-in-Non-Increasing-Order/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### Bit manipulation
+
 * `#7`    [Reverse Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/7-Reverse-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#1720` [Decode XORed Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1720-Decode-XORed-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 
 #### [Dynamic programming](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/DynamicProgramming.md)
+
 * `#5`    [Longest Palindromic Substring](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/5-Longest-Palindromic-Substring/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#53`   [Maximum Subarray](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/53-Maximum-Subarray/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#72`   [Edit Distance](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/72-Edit-Distance/src) <img src="https://img.shields.io/badge/-hard-red">
@@ -253,9 +274,9 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#1143` [Longest Common Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1143-Longest-Common-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Others
+
 * `#12`  [Integer to Roman](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/12-Integer-to-Roman/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#13`  [Roman to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/13-Roman-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
-
 
 </details>
 
@@ -272,12 +293,12 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 - Git commit format:
 
-    `git commit -m "feat/fix/docs(#problem_id): | Description:(unnecessary), Solution:(unnecessary)"`
-    
-    |  message   | explain  |
-    |  ----  | ----  |
-    | feat  | Commit a solution |
-    | fix   | A bug fix |
-    | perf  | A code change that improves performance |
-    | docs  | Documentation only changes |
-    | test  | Adding missing tests or correcting existing tests |
+  `git commit -m "feat/fix/docs(#problem_id): | Description:(unnecessary), Solution:(unnecessary)"`
+
+  |  message   | explain  |
+          |  ----  | ----  |
+  | feat  | Commit a solution |
+  | fix   | A bug fix |
+  | perf  | A code change that improves performance |
+  | docs  | Documentation only changes |
+  | test  | Adding missing tests or correcting existing tests |
