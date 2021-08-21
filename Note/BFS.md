@@ -48,3 +48,19 @@ public class BFS {
 `visited`的主要作用是防止走回头路, 大部分时候都是必须的, 但是像一般的二叉树结构，没有子节点到父节点的指针, 不会走回头路就不需要`visited`.
 
 ---
+
+## 经典场景: 层序遍历
+
+LeetCode 102. Binary Tree Level Order Traversal 二叉树的层序遍历（Medium）
+
+```
+void dfs(Node root) {
+    if (root == null) {
+        return;
+    }
+    dfs(root.left);
+    dfs(root.right);
+}
+```
+
+## 经典场景: 最短路径
