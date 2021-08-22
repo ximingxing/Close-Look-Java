@@ -42,7 +42,7 @@ Everything in this project is based on the Java language, using features such as
 Section `#Getting Started` contains one hundred popular interview problems, which is a good place to start.
 
 <details>
-<summary><b>Top Interview Questions</b></summary>
+<summary><b>LeetCode's TOP interview questions</b></summary>
 
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#2`   [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -59,6 +59,8 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#101` [Symmetric Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/101-Symmetric-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#104` [Maximum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/104-Maximum-Depth-of-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 
 </details>
 
