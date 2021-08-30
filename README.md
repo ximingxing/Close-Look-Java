@@ -57,6 +57,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#14`  [Longest Common Prefix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/14-Longest-Common-Prefix/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#15`  [3Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/15-3Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#21`  [Merge Two Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/21-Merge-Two-Sorted-Lists/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#101` [Symmetric Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/101-Symmetric-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -154,6 +155,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 #### [LinkedList](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Linkedlist.md)
 
 * `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#21`   [Merge Two Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/21-Merge-Two-Sorted-Lists/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#25`   [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#61`   [Rotate List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/61-Rotate-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#92`   [Reverse Linked List II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/92-Reverse-Linked-List-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
