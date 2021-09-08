@@ -160,7 +160,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 * `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#21`   [Merge Two Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/21-Merge-Two-Sorted-Lists/src) <img src="https://img.shields.io/badge/-easy-green">
-* `#23`  [Merge k Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/23-Merge-k-Sorted-Lists/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#23`   [Merge k Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/23-Merge-k-Sorted-Lists/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#25`   [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#61`   [Rotate List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/61-Rotate-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#92`   [Reverse Linked List II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/92-Reverse-Linked-List-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -312,7 +312,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
   `git commit -m "feat/fix/docs(#problem_id): | Description:(unnecessary), Solution:(unnecessary)"`
 
   |  message   | explain  |
-            |  ----  | ----  |
+  |  ----  | ----  |
   | feat  | Commit a solution |
   | fix   | A bug fix |
   | perf  | A code change that improves performance |
