@@ -1,5 +1,20 @@
-package PACKAGE_NAME;/**
+/**
  * Description:
  * Created By xingximing.xxm
- */public class ListNode {
+ */
+public class ListNode  {
+    int val;
+    ListNode next;
+
+    public ListNode() {
+    }
+
+    public ListNode(int val) {
+        this.val = val;
+    }
+
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
 }

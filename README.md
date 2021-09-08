@@ -59,10 +59,13 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#21`  [Merge Two Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/21-Merge-Two-Sorted-Lists/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#22`  [Generate Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/22-Generate-Parentheses/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#23`  [Merge k Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/23-Merge-k-Sorted-Lists/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#101` [Symmetric Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/101-Symmetric-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#104` [Maximum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/104-Maximum-Depth-of-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#121` [Best Time to Buy and Sell Stock](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/121-Best-Time-to-Buy-and-Sell-Stock/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#122` [Best Time to Buy and Sell Stock II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/122-Best-Time-to-Buy-and-Sell-Stock-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 </details>
 
@@ -84,9 +87,9 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 - Graph
 - [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Backtracking.md)
 - [Greedy Algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Greedy.md)
-- Dynamic Programming
+- [Dynamic Programming](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/DynamicProgramming.md)
     - Knapsack problem
-    - Buy and sell stocks
+    - Best Time to Buy and Sell Stock
 
 <h2 id="table_of_contents" align="center">Table of Contents</h2>
 
@@ -157,6 +160,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 * `#2`    [Add Two Numbers](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/2-Add-Two-Numbers/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#21`   [Merge Two Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/21-Merge-Two-Sorted-Lists/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#23`  [Merge k Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/23-Merge-k-Sorted-Lists/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#25`   [Reverse Nodes in k-Group](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/25-Reverse-Nodes-in-k-Group/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#61`   [Rotate List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/61-Rotate-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#92`   [Reverse Linked List II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/92-Reverse-Linked-List-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -242,6 +246,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 #### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Backtracking.md)
 
 * `#17`   [Letter Combinations of a Phone Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/17-Letter-Combinations-of-a-Phone-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#22`  [Generate Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/22-Generate-Parentheses/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#46`   [Permutations](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/46-Permutations/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#51`   [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#79`   [Word Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/79-Word-Search/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -271,6 +276,12 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#72`   [Edit Distance](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/72-Edit-Distance/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#87`   [Scramble String](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/87-Scramble-String/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#91`   [Decode Ways](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/91-Decode-Ways/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#121`  [Best Time to Buy and Sell Stock](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/121-Best-Time-to-Buy-and-Sell-Stock/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#122`  [Best Time to Buy and Sell Stock II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/122-Best-Time-to-Buy-and-Sell-Stock-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#123`  [Best Time to Buy and Sell Stock III](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/123-Best-Time-to-Buy-and-Sell-Stock-III/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#188`  [Best Time to Buy and Sell Stock IV](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/188-Best-Time-to-Buy-and-Sell-Stock-IV/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#309`  [Best Time to Buy and Sell Stock with Cooldown](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/309-Best-Time-to-Buy-and-Sell-Stock-with-Cooldown/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#714`  [Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/714-Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#213`  [House Robber II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/213-House-Robber-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#300`  [Longest Increasing Subsequence](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/300-Longest-Increasing-Subsequence/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#322`  [Coin Change](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/322-Coin-Change/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -301,7 +312,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
   `git commit -m "feat/fix/docs(#problem_id): | Description:(unnecessary), Solution:(unnecessary)"`
 
   |  message   | explain  |
-          |  ----  | ----  |
+            |  ----  | ----  |
   | feat  | Commit a solution |
   | fix   | A bug fix |
   | perf  | A code change that improves performance |
