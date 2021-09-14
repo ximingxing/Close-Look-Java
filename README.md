@@ -221,9 +221,11 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 #### Trie
 
-* `#208`   [Implement Trie (Prefix Tree)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/208-Implement-Trie-(PrefixTree)/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#208`  [Implement Trie (Prefix Tree)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/208-Implement-Trie-(PrefixTree)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Graph
+
+* `#797`  [All Paths From Source to Target](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/797-All-Paths-From-Source-to-Target/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [BFS](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BFS.md)
 
