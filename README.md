@@ -84,7 +84,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 - [Binary search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/BinarySearch.md)
 - Breadth First Search
 - Depth First Search
-- Graph
+- [Graph](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Graph.md)
 - [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Backtracking.md)
 - [Greedy Algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Greedy.md)
 - [Dynamic Programming](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/DynamicProgramming.md)
@@ -226,6 +226,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 #### Graph
 
 * `#797`  [All Paths From Source to Target](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/797-All-Paths-From-Source-to-Target/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#207`  [Course Schedule](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/207-Course-Schedule/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [BFS](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BFS.md)
 

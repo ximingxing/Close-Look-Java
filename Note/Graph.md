@@ -4,7 +4,7 @@
 
 图的基本存储方式：
 
-1. 邻接表
+1. 邻接表 -- LeetCode中的常见的存储方式
 
 **做法**：我把每个节点`x`的邻居都存到一个列表里，然后把`x`和这个列表关联起来，这样就可以通过一个节点`x`找到它的所有相邻节点。
 **优势**：占用存储空间少。
@@ -36,11 +36,11 @@ class Traverse {
 
     void traverse(Graph graph, int s) {
         if (visited[s]) return;
-        
+
         // 经过节点s
         visited[s] = true;
         // 遍历节点s的邻居节点
-        for(Node node: graph.neighbors(s)) {
+        for (Node node : graph.neighbors(s)) {
             traverse(neighbors);
         }
         //离开节点s
@@ -51,16 +51,10 @@ class Traverse {
 
 ---
 
-### 循环不变量
+## 拓扑排序
 
-定义: 声明的变量在遍历的过程中保持定义不变.
+### 判断有向图是否存在环
 
-For example: **荷兰国旗问题**
-
-Solution: `[0, i)`均为`0`, `[i, j)`均为`1`, `[j, k]`未知, `[k+1, nums.length-1)`均为`2`.
-
-注意: 这个式子在循环的过程中定义不改变, 仅改变变量的取值.
-
-题目：#75
+题目：#207、210
 
 ---
