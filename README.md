@@ -62,6 +62,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#23`  [Merge k Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/23-Merge-k-Sorted-Lists/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#78`  [Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/78-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#101` [Symmetric Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/101-Symmetric-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#104` [Maximum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/104-Maximum-Depth-of-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#121` [Best Time to Buy and Sell Stock](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/121-Best-Time-to-Buy-and-Sell-Stock/src) <img src="https://img.shields.io/badge/-easy-green">
@@ -249,12 +250,13 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 #### [Backtracking](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Backtracking.md)
 
-* `#17`   [Letter Combinations of a Phone Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/17-Letter-Combinations-of-a-Phone-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#17`  [Letter Combinations of a Phone Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/17-Letter-Combinations-of-a-Phone-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#22`  [Generate Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/22-Generate-Parentheses/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#46`   [Permutations](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/46-Permutations/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#51`   [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
-* `#79`   [Word Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/79-Word-Search/src) <img src="https://img.shields.io/badge/-medium-yellow">
-* `#698`  [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#46`  [Permutations](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/46-Permutations/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#51`  [N-Queens](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/51-N-Queens/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#78`  [Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/78-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#79`  [Word Search](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/79-Word-Search/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#698` [Partition to K Equal Sum Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/698-Partition-to-K-Equal-Sum-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Greedy algorithm](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Greedy.md)
 
