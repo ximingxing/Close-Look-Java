@@ -225,8 +225,9 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 #### Graph
 
-* `#797`  [All Paths From Source to Target](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/797-All-Paths-From-Source-to-Target/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#207`  [Course Schedule](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/207-Course-Schedule/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#210`  [Course Schedule II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/210-Course-Schedule-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#797`  [All Paths From Source to Target](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/797-All-Paths-From-Source-to-Target/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [BFS](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BFS.md)
 
