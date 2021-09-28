@@ -64,6 +64,7 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#78`  [Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/78-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#101` [Symmetric Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/101-Symmetric-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#103` [Binary Tree Zigzag Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/103-Binary-Tree-Zigzag-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#104` [Maximum Depth of Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/104-Maximum-Depth-of-Binary-Tree/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#121` [Best Time to Buy and Sell Stock](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/121-Best-Time-to-Buy-and-Sell-Stock/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#122` [Best Time to Buy and Sell Stock II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/122-Best-Time-to-Buy-and-Sell-Stock-II/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -202,6 +203,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 #### [Binary Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/BinaryTree.md)
 
 * `#98`    [Validate Binary Search Tree](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/98-Validate-Binary-Search-Tree/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#103`   [Binary Tree Zigzag Level Order Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/103-Binary-Tree-Zigzag-Level-Order-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#105`   [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#114`   [Flatten Binary Tree to Linked List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/114-Flatten-Binary-Tree-to-Linked-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#116`   [Populating Next Right Pointers in Each Node](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/116-Populating-Next-Right-Pointers-in-Each-Node/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -224,7 +226,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 * `#208`  [Implement Trie (Prefix Tree)](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/208-Implement-Trie-(PrefixTree)/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
-#### Graph
+#### [Graph](https://github.com/ximingxing/LeetCode-notepad/tree/master/Note/Graph.md)
 
 * `#207`  [Course Schedule](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/207-Course-Schedule/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#210`  [Course Schedule II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/210-Course-Schedule-II/src) <img src="https://img.shields.io/badge/-medium-yellow">

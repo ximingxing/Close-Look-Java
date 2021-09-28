@@ -238,18 +238,20 @@ preorder = [3,9,20,15,7]
 1. 通过二叉树的后序遍历很容易知道以自己为根节点的树长什么样
 
 ```java
-String traverse(TreeNode root) {
-    // 对于空节点，可以用一个特殊字符表示
-    if (root == null) {
-        return "#";
+public class Search {
+    String traverse(TreeNode root) {
+        // 对于空节点，可以用一个特殊字符表示
+        if (root == null) {
+            return "#";
+        }
+        // 将左右子树序列化成字符串
+        String left = traverse(root.left);
+        String right = traverse(root.right);
+        /* 后序遍历代码位置 */
+        // 左右子树加上自己，就是以自己为根的二叉树序列化结果
+        String subTree = left + "," + right + "," + root.val;
+        return subTree;
     }
-    // 将左右子树序列化成字符串
-    String left = traverse(root.left);
-    String right = traverse(root.right);
-    /* 后序遍历代码位置 */
-    // 左右子树加上自己，就是以自己为根的二叉树序列化结果
-    String subTree = left + "," + right + "," + root.val;
-    return subTree;
 }
 ```
 
@@ -335,7 +337,6 @@ boolean isValidBST(TreeNode root) {
     return isValidBST(root.left)
         && isValidBST(root.right);
 }
-
 ```
 
 上述代码出现了错误, 考虑下面这种情况, 6比10小, 却出现在右子树中.
