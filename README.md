@@ -56,10 +56,13 @@ Section `#Getting Started` contains one hundred popular interview problems, whic
 * `#13`  [Roman to Integer](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/13-Roman-to-Integer/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#14`  [Longest Common Prefix](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/14-Longest-Common-Prefix/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#15`  [3Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/15-3Sum/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#17`  [Letter Combinations of a Phone Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/17-Letter-Combinations-of-a-Phone-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#20`   [Valid Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/20-Valid-Parentheses/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#21`  [Merge Two Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/21-Merge-Two-Sorted-Lists/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#22`  [Generate Parentheses](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/22-Generate-Parentheses/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#23`  [Merge k Sorted Lists](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/23-Merge-k-Sorted-Lists/src) <img src="https://img.shields.io/badge/-hard-red">
+* `#26`   [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#45`  [Jump Game II](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/45-Jump-Game-II/src) <img src="https://img.shields.io/badge/-hard-red">
 * `#55`  [Jump Game](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/55-Jump-Games/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#78`  [Subsets](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/78-Subsets/src) <img src="https://img.shields.io/badge/-medium-yellow">
@@ -128,6 +131,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 * `#1`   [Two Sum](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/1-Two-Sum/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#9`   [Palindrome Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/9-Palindrome-Number/src) <img src="https://img.shields.io/badge/-easy-green">
+* `#26`  [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#19`  [Remove Nth Node From End of List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/19-Remove-Nth-Node-From-End-of-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Sliding Window
@@ -136,7 +140,6 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 #### [Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Array.md)
 
-* `#26`   [Remove Duplicates from Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/26-Remove-Duplicates-from-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#27`   [Remove Element](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/27-Remove-Element/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#35`   [Search Insert Position](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/35-Search-Insert-Position/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#42`   [Trapping Rain Water](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/42-Trapping-Rain-Water/src) <img src="https://img.shields.io/badge/-hard-red">
