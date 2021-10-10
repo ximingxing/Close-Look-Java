@@ -105,6 +105,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 * `#88`   [Merge Sorted Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/88-Merge-Sorted-Array/src) <img src="https://img.shields.io/badge/-easy-green">
 * `#148`  [Sort List](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/148-Sort-List/src) <img src="https://img.shields.io/badge/-medium-yellow">
 * `#179`  [Largest Number](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/179-Largest-Number/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#215`  [Kth Largest Element in an Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/215-Kth-Largest-Element-in-an-Array/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### Math
 
@@ -131,7 +132,7 @@ Section `#Table of Contents` contains the summary of the algorithm notes and all
 
 #### Sliding Window
 
-* `#3`    [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
+* `#3`   [Longest Substring Without Repeating Characters](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/3-Longest-Substring-Without-Repeating-Characters/src) <img src="https://img.shields.io/badge/-medium-yellow">
 
 #### [Array](https://github.com/ximingxing/LeetCode-notepad/tree/master/Code/Array.md)
 
